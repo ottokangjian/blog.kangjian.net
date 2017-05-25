@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="http://kangjian.net/"/>
-  <updated>2017-05-23T16:45:16.000Z</updated>
+  <updated>2017-05-23T16:45:57.000Z</updated>
   <id>http://kangjian.net/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://kangjian.net//1703/"/>
     <id>http://kangjian.net//1703/</id>
     <published>2017-05-23T03:27:39.000Z</published>
-    <updated>2017-05-23T16:45:16.000Z</updated>
+    <updated>2017-05-23T16:45:57.000Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://kangjian.net/images/2017/05/2017-05-23-pullback-illust.jpg" alt=""><br>(Image By <a href="http://www.chartsecret.com/content/trading-pullback" title="ChartSecret.com" target="_blank" rel="external">ChartSecret.com</a>)</p>
 <p>Price Action 理论中，除了极少数的情况，入场基本都要在回撤的时候。所谓“顺大势，逆小势”、“突破回踩”，都是回撤入场。 </p>
@@ -64,15 +64,17 @@
     
       <category term="以交易为生" scheme="http://kangjian.net/tags/%E4%BB%A5%E4%BA%A4%E6%98%93%E4%B8%BA%E7%94%9F/"/>
     
+      <category term="技术分析" scheme="http://kangjian.net/tags/%E6%8A%80%E6%9C%AF%E5%88%86%E6%9E%90/"/>
+    
       <category term="回撤" scheme="http://kangjian.net/tags/%E5%9B%9E%E6%92%A4/"/>
+    
+      <category term="价值投资" scheme="http://kangjian.net/tags/%E4%BB%B7%E5%80%BC%E6%8A%95%E8%B5%84/"/>
     
       <category term="Pullback" scheme="http://kangjian.net/tags/Pullback/"/>
     
       <category term="Alexander Elder" scheme="http://kangjian.net/tags/Alexander-Elder/"/>
     
       <category term="价格" scheme="http://kangjian.net/tags/%E4%BB%B7%E6%A0%BC/"/>
-    
-      <category term="价值投资" scheme="http://kangjian.net/tags/%E4%BB%B7%E5%80%BC%E6%8A%95%E8%B5%84/"/>
     
   </entry>
   
@@ -604,9 +606,9 @@
     
       <category term="nginx" scheme="http://kangjian.net/tags/nginx/"/>
     
-      <category term="vps" scheme="http://kangjian.net/tags/vps/"/>
-    
       <category term="rewrite" scheme="http://kangjian.net/tags/rewrite/"/>
+    
+      <category term="vps" scheme="http://kangjian.net/tags/vps/"/>
     
       <category term="伪静态" scheme="http://kangjian.net/tags/%E4%BC%AA%E9%9D%99%E6%80%81/"/>
     
