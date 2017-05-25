@@ -1,0 +1,1 @@
+rsync -avu --progress --delete root@173.230.149.243:/data/wwwroot/kangjian.net/download/ /Users/jiankang/OneDrive/download.kangjian.net/

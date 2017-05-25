@@ -1,0 +1,938 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/blog/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/blog/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/blog/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="技术分析,交易员,计算机,量化交易," />
+
+
+
+
+
+  <link rel="alternate" href="/blog/atom.xml" title="康健的网络日志" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/blog/favicon.ico?v=5.1.0" />
+
+
+
+
+
+
+<meta name="description" content="(Photo By Daryn Bartlett) 交易员的交易系统与计算机的量化策略之间存在着根本的不同。一个成熟的主观交易系统应该由三个部分组成：量化依据、筛选标准和哲学基础。  量化依据。量化依据是指一个交易系统中具体信号的特征、入场点、出场点、头寸大小的计算方式。无论是高频交易还是主观交易系统，“量化”都是共同的特征。量化是对抗情绪最有力的防护网，是任何交易员上场前必须佩戴的护具。即使">
+<meta name="keywords" content="技术分析,交易员,计算机,量化交易">
+<meta property="og:type" content="article">
+<meta property="og:title" content="交易员的生存之道">
+<meta property="og:url" content="http://kangjian.net/1698/index.html">
+<meta property="og:site_name" content="康健的网络日志">
+<meta property="og:description" content="(Photo By Daryn Bartlett) 交易员的交易系统与计算机的量化策略之间存在着根本的不同。一个成熟的主观交易系统应该由三个部分组成：量化依据、筛选标准和哲学基础。  量化依据。量化依据是指一个交易系统中具体信号的特征、入场点、出场点、头寸大小的计算方式。无论是高频交易还是主观交易系统，“量化”都是共同的特征。量化是对抗情绪最有力的防护网，是任何交易员上场前必须佩戴的护具。即使">
+<meta property="og:image" content="http://kangjian.net/images/2016/12/szmit85cv84-daryn-bartlett-300x134.jpg">
+<meta property="og:updated_time" content="2017-05-08T05:40:53.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="交易员的生存之道">
+<meta name="twitter:description" content="(Photo By Daryn Bartlett) 交易员的交易系统与计算机的量化策略之间存在着根本的不同。一个成熟的主观交易系统应该由三个部分组成：量化依据、筛选标准和哲学基础。  量化依据。量化依据是指一个交易系统中具体信号的特征、入场点、出场点、头寸大小的计算方式。无论是高频交易还是主观交易系统，“量化”都是共同的特征。量化是对抗情绪最有力的防护网，是任何交易员上场前必须佩戴的护具。即使">
+<meta name="twitter:image" content="http://kangjian.net/images/2016/12/szmit85cv84-daryn-bartlett-300x134.jpg">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/blog/',
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://kangjian.net/1698/"/>
+
+
+
+
+
+  <title> 交易员的生存之道 | 康健的网络日志 </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-11710662-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/blog/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">康健的网络日志</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/blog/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/blog/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/blog/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/blog/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocapitalize="off" autocomplete="off" autocorrect="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://kangjian.net/blog/1698/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="康健">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="http://kangjian.net/images/avatar.jpeg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="康健的网络日志">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                交易员的生存之道
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-12-27T17:46:01+08:00">
+                2016-12-27
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/blog/categories/Trading/" itemprop="url" rel="index">
+                    <span itemprop="name">Trading</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/blog/1698/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="/1698/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p><img style="display:block; margin-left:auto; margin-right:auto;" src="http://kangjian.net/images/2016/12/szmit85cv84-daryn-bartlett-300x134.jpg" alt="交易员的生存之道" border="0" width="640" height="285"></p>
+<p> (Photo By <a href="https://unsplash.com/@darynmae" title="Daryn  Bartlett" target="_blank" rel="external">Daryn Bartlett</a>)</p>
+<p>交易员的交易系统与计算机的量化策略之间存在着根本的不同。一个成熟的主观交易系统应该由三个部分组成：<strong>量化依据、筛选标准和哲学基础</strong>。</p>
+<ul>
+<li><strong>量化依据。</strong>量化依据是指一个交易系统中具体信号的特征、入场点、出场点、头寸大小的计算方式。无论是高频交易还是主观交易系统，“量化”都是共同的特征。量化是对抗情绪最有力的防护网，是任何交易员上场前必须佩戴的护具。即使是主观分时图交易，“满仓、半仓、四分之一仓”这种笼统的表述事实上也是一种量化。系统要求满仓半仓开仓，就不能因为恐惧、犹豫而缩小头寸。</li>
+<li><strong>筛选标准。</strong>筛选标准是过滤掉无效信号的必备品。任何一个交易系统都需要筛选。有些标准，主观交易和机器交易共同使用。根据形态，可以判断趋势还是震荡；根据均线，可以判断顺势还是逆势；根据价格波动的时间跨度、点位幅度，可以判断是否已经超买超卖；根据影线长短、实体大小、趋势角度，可以识别价格运动的强弱——这些机器也可以做到，但有些标准，目前机器交易还很难涉足，这其中最典型的因素就是基本面。做交易，终极路径还是基本面和技术面的合二为一。基本面发现了大级别的供需失衡，技术分析予以验证，进而找出具体的买卖点，这是提升胜率和回报比的终南之道。</li>
+<li><strong>哲学基础。</strong>只要世界还是由人来主宰，市场就依然是由人构成的。即使是量化、高频交易，策略的背后也是制定策略的人。有人在，市场中就会有些不变的东西。交易员的交易系统必须在哲学层面找到落脚的依据，交易系统才能站稳，才能长期稳定盈利。没有哲学基础的交易系统，只是对历史数据优化后的“刻舟求剑”，注定不会长期有效。交易中的哲学基础往往植根于人性，一般都比较朴素。比如，市场做同一个事情尝试两次都失败了，价格反方向运动的概率就会比50%略有上升；比如，市场价格无论高低，总是在高波动性和低波动性之间运行；比如，马太效应，自我强化，反身性理论（趋势会延续，而延续本身又会强化趋势）；比如，否定之否定（失败的失败——突破失败，回撤，回撤失败，趋势延续——Pullback入场信号）；比如，未来无法预测（趋势跟踪技术，止盈不止损）。大道至简，凡是长期有效的交易系统，都是可以找到哲学基础的。这一点，据我所知，目前还没有机器可以理解，计算机的深度学习似乎也无法做到。</li>
+</ul>
+<p>三个部分中，前面一个半机器可以做到，甚至可以比人做得更好，后面一个半机器目前还无法实现。机器无法深度参与筛选标准中的基本面配合，这个好理解。为什么说量化策略很难涉足哲学基础呢？有些量化交易策略确实具备哲学基础，但每天执行这些策略的计算机并不理解它，掌握哲学基础的依然是计算机背后的人，而人又基本不会代替计算机下单，往往只在策略疑似失效时才会予以干预。而交易员的价值就在于对一个个信号进行取舍，进场或者放弃，加量还是减量。这个角度看，交易员依然是不可取代的，Trading这个手艺也将长期存在。 当然，这将将非常残酷。大量炒单、超短线的交易手法将逐渐被机器所取代，稳定盈利难度越来越大，大量手工机械交易员将被市场淘汰。交易员群体将面临一次剧烈的新陈代谢。低频交易、基本面交易将是人类交易员最后的高地。能够通过刻苦攀登登上高地的交易员，面对充斥着大量计算机交易员的市场，将会重新获得独特的竞争优势。 这个独特的优势就是：<strong>犯错。</strong>是的，人类会犯错，计算机不会。<strong>犯错是人类交易员最后的核心优势。</strong>《浪潮之巅》的作者吴军有一个观点，人类一些区别于动物的主要能力，比如语言、逻辑、感情，源自于进化过程中的基因复制“错误”。一种极小概率的错误可能是让某种能力变强，比如语言这个能力，就是在基因“抄书”的过程中抄错而产生的。猴子进化成人，就是不断犯错的过程。计算机最大的优点在于不会犯错。<strong>不会犯错，计算机永远不会进化成人，猴子也将永远是猴子。</strong> 人类交易员并不用灰心。未来是不可知的，是不可预测的，一切量化策略的系统回测都只是对过去的归纳，而不是对未来的把握。计算机的隐喻就是追求尽可能高的胜率、尽可能高的回报比，以及在此之上尽可能高的交易频率。人类交易员的高地则在于犯错，在于试错和自我纠正。我们永远不知道价格未来将如何运行，因此一切策略本质上都是猜测。<strong>我们可能对了，可能错了，我们真正的优势就在于承认错误，进而纠正错误——正确的时候正确下去，错误的时候纠正错误——这恰恰暗合了趋势交易中“截断亏损，让利润奔跑”的古谚。这也是人类交易员的核心优势。</strong> 关注的重点有两个：</p>
+<ul>
+<li>从基本面的供需失衡入手，重点关注大的供需失衡，大的资源错配。计算机策略很难有效涉足基本面的大机会，这是人类投研团队的强项。</li>
+<li>从长周期入手。日线以内的价格波动更多来自于情绪变化，很少反映供需失衡，这各领域也恰恰是计算机的优势。长周期对应供需，在世界彻底物联网化之前，还是人类独占的领地。</li>
+</ul>
+<p>恐惧来自于不确定。对未来的恐惧是人类进步永恒的主题。<strong>学会犯错，学会学习，学会纠错，交易员要相信，利润就在止损之中。</strong>记住这句古语： <strong>善败者不亡。</strong></p>
+
+      
+    </div>
+
+    <div>
+      
+        
+<div id="wechat_subscriber" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center">
+    <img id="wechat_subscriber_qcode" src="http://kangjian.net/images/qr.jpg" alt="康健 wechat" style="width: 200px; max-width: 100%;"/>
+    <div>发表是最好的记忆，专注于内容</div>
+</div>
+
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/blog/tags/技术分析/" rel="tag"># 技术分析</a>
+          
+            <a href="/blog/tags/交易员/" rel="tag"># 交易员</a>
+          
+            <a href="/blog/tags/计算机/" rel="tag"># 计算机</a>
+          
+            <a href="/blog/tags/量化交易/" rel="tag"># 量化交易</a>
+          
+        </div>
+      
+
+      
+        
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/blog/1670/" rel="next" title="CEO们最好的生产力工具是什么？">
+                <i class="fa fa-chevron-left"></i> CEO们最好的生产力工具是什么？
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/blog/1701/" rel="prev" title="两个标准，看看你是如何看待价格的？">
+                两个标准，看看你是如何看待价格的？ <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview sidebar-panel sidebar-panel-active">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="http://kangjian.net/images/avatar.jpeg"
+               alt="康健" />
+          <p class="site-author-name" itemprop="name">康健</p>
+           
+              <p class="site-description motion-element" itemprop="description"></p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/blog/archives">
+                <span class="site-state-item-count">216</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/blog/categories/index.html">
+                <span class="site-state-item-count">9</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/blog/tags/index.html">
+                <span class="site-state-item-count">668</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/blog/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2006 - 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">康健</span>
+</div>
+
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Pisces
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/blog/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/blog/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/blog/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/blog/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/blog/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/blog/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/blog/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/blog/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/blog/js/src/affix.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/blog/js/src/schemes/pisces.js?v=5.1.0"></script>
+
+
+
+  
+  <script type="text/javascript" src="/blog/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/blog/js/src/post-details.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/blog/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  
+
+    
+      <script id="dsq-count-scr" src="https://kangsblog.disqus.com/count.js" async></script>
+    
+
+    
+      <script type="text/javascript">
+        var disqus_config = function () {
+          this.page.url = 'http://kangjian.net/1698/';
+          this.page.identifier = '/1698/';
+          this.page.title = '交易员的生存之道';
+        };
+        var d = document, s = d.createElement('script');
+        s.src = 'https://kangsblog.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      </script>
+    
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length == 0) {
+      search_path = "search.xml";
+    }
+    var path = "/blog/" + search_path;
+    // monitor main search box;
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.popup').toggle();
+    }
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+      $.ajax({
+        url: path,
+        dataType: "xml",
+        async: true,
+        success: function( xmlResponse ) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = $( "entry", xmlResponse ).map(function() {
+            return {
+              title: $( "title", this ).text(),
+              content: $("content",this).text(),
+              url: $( "url" , this).text()
+            };
+          }).get();
+          var $input = document.getElementById(search_id);
+          var $resultContent = document.getElementById(content_id);
+          $input.addEventListener('input', function(){
+            var matchcounts = 0;
+            var str='<ul class=\"search-result-list\">';
+            var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+            $resultContent.innerHTML = "";
+            if (this.value.trim().length > 1) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var content_index = [];
+                var data_title = data.title.trim().toLowerCase();
+                var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
+                var data_url = decodeURIComponent(data.url);
+                var index_title = -1;
+                var index_content = -1;
+                var first_occur = -1;
+                // only match artiles with not empty titles and contents
+                if(data_title != '') {
+                  keywords.forEach(function(keyword, i) {
+                    index_title = data_title.indexOf(keyword);
+                    index_content = data_content.indexOf(keyword);
+                    if( index_title >= 0 || index_content >= 0 ){
+                      isMatch = true;
+                      if (i == 0) {
+                        first_occur = index_content;
+                      }
+                    }
+
+                  });
+                }
+                // show search results
+                if (isMatch) {
+                  matchcounts += 1;
+                  str += "<li><a href='"+ data_url +"' class='search-result-title'>"+ data_title +"</a>";
+                  var content = data.content.trim().replace(/<[^>]+>/g,"");
+                  if (first_occur >= 0) {
+                    // cut out 100 characters
+                    var start = first_occur - 20;
+                    var end = first_occur + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if(start == 0){
+                      end = 50;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    var match_content = content.substring(start, end);
+                    // highlight all keywords
+                    keywords.forEach(function(keyword){
+                      var regS = new RegExp(keyword, "gi");
+                      match_content = match_content.replace(regS, "<b class=\"search-keyword\">"+keyword+"</b>");
+                    });
+
+                    str += "<p class=\"search-result\">" + match_content +"...</p>"
+                  }
+                  str += "</li>";
+                }
+              })};
+            str += "</ul>";
+            if (matchcounts == 0) { str = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>' }
+            if (keywords == "") { str = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>' }
+            $resultContent.innerHTML = str;
+          });
+          proceedsearch();
+        }
+      });}
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched == false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(function(e){
+      $('.popup').hide();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    });
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
