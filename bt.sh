@@ -1,0 +1,1 @@
+rsync -avu --progress --delete root@173.230.149.243:/var/lib/transmission/Downloads/ /Users/jiankang/Downloads/bt.kangjian.net/
