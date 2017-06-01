@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="http://kangjian.net/"/>
-  <updated>2017-06-01T07:22:04.000Z</updated>
+  <updated>2017-06-01T07:26:10.000Z</updated>
   <id>http://kangjian.net/</id>
   
   <author>
@@ -20,9 +20,12 @@
     <link href="http://kangjian.net//1704/"/>
     <id>http://kangjian.net//1704/</id>
     <published>2017-06-01T07:18:39.000Z</published>
-    <updated>2017-06-01T07:22:04.000Z</updated>
+    <updated>2017-06-01T07:26:10.000Z</updated>
     
-    <content type="html"><![CDATA[<ul>
+    <content type="html"><![CDATA[<p>商品跌到了重要的位置。</p>
+<p>黑色比大盘弱，煤炭比黑色弱，焦煤和铁矿是弱中之弱。最近或许会有比较好的日线级别操作机会。</p>
+<p>这种时候，耐心比黄金还珍贵。</p>
+<ul>
 <li><p>文华商品指数<br><img src="http://kangjian.net/images/2017/06/2017-06-01-15-08-WHSP.png" alt=""></p>
 </li>
 <li><p>黑链指数<br><img src="http://kangjian.net/images/2017/06/2017-06-01-15-08-HLZS.png" alt=""></p>
@@ -37,19 +40,20 @@
     
     <summary type="html">
     
-      &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;文华商品指数&lt;br&gt;&lt;img src=&quot;http://kangjian.net/images/2017/06/2017-06-01-15-08-WHSP.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;黑链指数&lt;br&gt;&lt;img src=&quot;htt
+      &lt;p&gt;商品跌到了重要的位置。&lt;/p&gt;
+&lt;p&gt;黑色比大盘弱，煤炭比黑色弱，焦煤和铁矿是弱中之弱。最近或许会有比较好的日线级别操作机会。&lt;/p&gt;
+&lt;p&gt;这种时候，耐心比黄金还珍贵。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;文华商品指数&lt;br&gt;&lt;img src=&quot;http://kangjian
     
     </summary>
     
       <category term="Trading" scheme="http://kangjian.net/categories/Trading/"/>
     
     
-      <category term="交易" scheme="http://kangjian.net/tags/%E4%BA%A4%E6%98%93/"/>
-    
       <category term="Price Action" scheme="http://kangjian.net/tags/Price-Action/"/>
+    
+      <category term="交易" scheme="http://kangjian.net/tags/%E4%BA%A4%E6%98%93/"/>
     
       <category term="技术分析" scheme="http://kangjian.net/tags/%E6%8A%80%E6%9C%AF%E5%88%86%E6%9E%90/"/>
     
@@ -108,9 +112,9 @@
       <category term="Trading" scheme="http://kangjian.net/categories/Trading/"/>
     
     
-      <category term="交易" scheme="http://kangjian.net/tags/%E4%BA%A4%E6%98%93/"/>
-    
       <category term="Price Action" scheme="http://kangjian.net/tags/Price-Action/"/>
+    
+      <category term="交易" scheme="http://kangjian.net/tags/%E4%BA%A4%E6%98%93/"/>
     
       <category term="以交易为生" scheme="http://kangjian.net/tags/%E4%BB%A5%E4%BA%A4%E6%98%93%E4%B8%BA%E7%94%9F/"/>
     
@@ -403,11 +407,11 @@
     
       <category term="趋势线" scheme="http://kangjian.net/tags/%E8%B6%8B%E5%8A%BF%E7%BA%BF/"/>
     
-      <category term="均线" scheme="http://kangjian.net/tags/%E5%9D%87%E7%BA%BF/"/>
-    
       <category term="支撑位" scheme="http://kangjian.net/tags/%E6%94%AF%E6%92%91%E4%BD%8D/"/>
     
       <category term="阻力位" scheme="http://kangjian.net/tags/%E9%98%BB%E5%8A%9B%E4%BD%8D/"/>
+    
+      <category term="均线" scheme="http://kangjian.net/tags/%E5%9D%87%E7%BA%BF/"/>
     
   </entry>
   
@@ -596,9 +600,9 @@
       <category term="Trading" scheme="http://kangjian.net/categories/Trading/"/>
     
     
-      <category term="交易" scheme="http://kangjian.net/tags/%E4%BA%A4%E6%98%93/"/>
-    
       <category term="Price Action" scheme="http://kangjian.net/tags/Price-Action/"/>
+    
+      <category term="交易" scheme="http://kangjian.net/tags/%E4%BA%A4%E6%98%93/"/>
     
       <category term="Al Brooks" scheme="http://kangjian.net/tags/Al-Brooks/"/>
     
@@ -656,9 +660,9 @@
     
       <category term="nginx" scheme="http://kangjian.net/tags/nginx/"/>
     
-      <category term="vps" scheme="http://kangjian.net/tags/vps/"/>
-    
       <category term="rewrite" scheme="http://kangjian.net/tags/rewrite/"/>
+    
+      <category term="vps" scheme="http://kangjian.net/tags/vps/"/>
     
       <category term="伪静态" scheme="http://kangjian.net/tags/%E4%BC%AA%E9%9D%99%E6%80%81/"/>
     
@@ -713,9 +717,9 @@
     
       <category term="交易系统" scheme="http://kangjian.net/tags/%E4%BA%A4%E6%98%93%E7%B3%BB%E7%BB%9F/"/>
     
-      <category term="Al Brooks" scheme="http://kangjian.net/tags/Al-Brooks/"/>
-    
       <category term="入场" scheme="http://kangjian.net/tags/%E5%85%A5%E5%9C%BA/"/>
+    
+      <category term="Al Brooks" scheme="http://kangjian.net/tags/Al-Brooks/"/>
     
       <category term="期货" scheme="http://kangjian.net/tags/%E6%9C%9F%E8%B4%A7/"/>
     
@@ -767,9 +771,9 @@
     
       <category term="Al Brooks" scheme="http://kangjian.net/tags/Al-Brooks/"/>
     
-      <category term="交易者方程" scheme="http://kangjian.net/tags/%E4%BA%A4%E6%98%93%E8%80%85%E6%96%B9%E7%A8%8B/"/>
-    
       <category term="反转" scheme="http://kangjian.net/tags/%E5%8F%8D%E8%BD%AC/"/>
+    
+      <category term="交易者方程" scheme="http://kangjian.net/tags/%E4%BA%A4%E6%98%93%E8%80%85%E6%96%B9%E7%A8%8B/"/>
     
       <category term="尖峰" scheme="http://kangjian.net/tags/%E5%B0%96%E5%B3%B0/"/>
     
@@ -871,9 +875,9 @@
     
       <category term="交易" scheme="http://kangjian.net/tags/%E4%BA%A4%E6%98%93/"/>
     
-      <category term="Al Brooks" scheme="http://kangjian.net/tags/Al-Brooks/"/>
-    
       <category term="胜率" scheme="http://kangjian.net/tags/%E8%83%9C%E7%8E%87/"/>
+    
+      <category term="Al Brooks" scheme="http://kangjian.net/tags/Al-Brooks/"/>
     
       <category term="趋势线" scheme="http://kangjian.net/tags/%E8%B6%8B%E5%8A%BF%E7%BA%BF/"/>
     
@@ -881,13 +885,13 @@
     
       <category term="支撑位" scheme="http://kangjian.net/tags/%E6%94%AF%E6%92%91%E4%BD%8D/"/>
     
-      <category term="阻力位" scheme="http://kangjian.net/tags/%E9%98%BB%E5%8A%9B%E4%BD%8D/"/>
-    
       <category term="梁启超" scheme="http://kangjian.net/tags/%E6%A2%81%E5%90%AF%E8%B6%85/"/>
     
       <category term="考据" scheme="http://kangjian.net/tags/%E8%80%83%E6%8D%AE/"/>
     
       <category term="趋势通道线" scheme="http://kangjian.net/tags/%E8%B6%8B%E5%8A%BF%E9%80%9A%E9%81%93%E7%BA%BF/"/>
+    
+      <category term="阻力位" scheme="http://kangjian.net/tags/%E9%98%BB%E5%8A%9B%E4%BD%8D/"/>
     
   </entry>
   
