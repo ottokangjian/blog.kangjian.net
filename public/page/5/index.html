@@ -302,6 +302,166 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://kangjian.net/blog/1482/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="康健">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="http://kangjian.net/images/avatar.jpeg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="康健的网络日志">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/blog/1482/" itemprop="url">
+                  交易系统的历史回测应该注意什么
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-08-19T05:11:19+08:00">
+                2014-08-19
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/blog/categories/Trading/" itemprop="url" rel="index">
+                    <span itemprop="name">Trading</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/blog/1482/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="/1482/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><img style="margin-left:auto;margin-right:auto" src="http://kangjian.net/images/2014/08/111918634.jpg" alt="交易系统的历史回测应该注意什么" border="0" width="380" height="300"></p>
+<p>交易系统必须能通过历史回测才可以投入使用。无法通过历史回测的交易系统不可能在实际交易中获利。历史回测是交易系统投入实盘的必要前置环节。能通过历史回测的交易系统不一定是好用的交易系统，但不能通过历史回测，则一定不是好用的交易系统。</p>
+<p>一般地，回测交易系统，需要从稳健性（Robustness）分析的角度特别留意以下四点。</p>
+<h2 id="第一，历史回测的期间必须足够长。"><a href="#第一，历史回测的期间必须足够长。" class="headerlink" title="第一，历史回测的期间必须足够长。"></a>第一，历史回测的期间必须足够长。</h2><p>一般来讲，对于国内的股票、商品，应该回测5年以上的数据，对于新上市的品种，至少也要回测3年。对于上市较早的品种或国际市场的黄金、美元指数等商品，则应至少回测一个牛熊周期，一般应该在10年&#8211;15年以上。回测的期间足够长久，回测的成绩才足够可靠。对于不能满足这个要求的品种，则应在开仓时将R值适当加权处理，主动降低风险暴露。</p>
+<h2 id="第二，分析回测成绩，应予以“断代”处理。"><a href="#第二，分析回测成绩，应予以“断代”处理。" class="headerlink" title="第二，分析回测成绩，应予以“断代”处理。"></a>第二，分析回测成绩，应予以“断代”处理。</h2><p>一个稳定、可靠的交易系统，在一定期间范围内，成绩应该相对稳定。仅靠一两波大行情拉高整体回测成绩的，会使使用者高估系统的价值。例如，回测上证指数时，如果仅仅将2005年&#8211;2007年的大牛市纳入总成绩，而没有逐年的回测数据，很可能会因为一次牛市而高估了一个本来绩效一般的系统。我的经验是，按年予以断代，分析各年的回测绩效。完全平均的回测成绩是不可能的，一个优秀的系统应该满足两个条件：单一年度不出现巨大亏损；各年整体稳定盈利，偶尔出现超额获利。</p>
+<h2 id="第三，回测系统后应该防止“过度优化”，尽量减少参数变量，防止“参数孤岛”。"><a href="#第三，回测系统后应该防止“过度优化”，尽量减少参数变量，防止“参数孤岛”。" class="headerlink" title="第三，回测系统后应该防止“过度优化”，尽量减少参数变量，防止“参数孤岛”。"></a>第三，回测系统后应该防止“过度优化”，尽量减少参数变量，防止“参数孤岛”。</h2><p>过度优化（Curve Fitting，也可称为“曲线拟合”）是交易系统回测的最大敌人。一个交易系统应以简洁为上，少用参数变量。对于采取了变量参数的系统，最优参数附近的参数也应具备不错的绩效，形成“参数高原”。应防止过度优化后的“参数孤岛”。</p>
+<h2 id="第四，交易系统应经历多品种回测检验"><a href="#第四，交易系统应经历多品种回测检验" class="headerlink" title="第四，交易系统应经历多品种回测检验"></a>第四，交易系统应经历多品种回测检验</h2><p>一个可靠的交易系统应该具备普适性，不能仅仅适用于个别交易品种。只能用于一个品种的交易系统，往往是过度优化的产物。需要特别说明的是，不同品种间可以结合品种特性进行一些针对单一品种的微调。比如结合不同品种的ATR情况，根据日K线的振幅过滤一些非常态下的开仓信号等。这种根据具体品种采取的个性化调整不属于过度优化。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <link itemprop="mainEntityOfPage" href="http://kangjian.net/blog/1478/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1822,177 +1982,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://kangjian.net/blog/1411/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="康健">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="http://kangjian.net/images/avatar.jpeg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="康健的网络日志">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/blog/1411/" itemprop="url">
-                  “保持资产负债表高效”一般是什么意思？何为“高效”？
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-04-15T20:54:01+08:00">
-                2014-04-15
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/blog/categories/Banking/" itemprop="url" rel="index">
-                    <span itemprop="name">Banking</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/blog/1411/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count"
-                        data-disqus-identifier="/1411/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>本文为知乎问题“<a href="http://www.zhihu.com/question/23411001/answer/24503851" target="_blank">「保持资产负债表高效」一般是什么意思？何为「高效」？</a>”的回答。以下为正文。</p>
-<p>那就从嘉能可说起吧。</p>
-<p>几年前嘉能可刚刚进入中国的时候，在上海试探性的注册了一家公司，相当于嘉能可中国的BETA版，名字就不提了。进入中国的第二年，嘉能可中国将那家BETA版公司正式更名为嘉能可中国。有幸从BETA版时期开始为嘉能可在华企业核定授信，每一年都会跟踪分析一次。这几年里，去过企业在中国的总部，和管理人员聊过天，也研究过嘉能可中国和Glencore的财报，很欣赏这家企业。</p>
-<p>这是一家很令人感兴趣的企业。成立了N多年，一直不上市，常年以家族企业的形式控制大量资源和渠道，属于商品特别是金属领域的“隐形冠军”。以至于听说嘉能可在香港上市的时候甚至有过一些失望，有一个特立独行的企业未能免俗上市了。嘉能可自成立之初就看重回报股东。因此，问题中的“返还股东”一说就顺理成章了。嘉能可一直看重这个，而不是一间A股上市公司一样，用说辞来敷衍股东。</p>
-<p><strong>那么，什么是“保持资产负债表高效”呢？</strong></p>
-<p><strong>首先，我们应该看看，什么是资产负债表。</strong></p>
-<p>对于一个企业而言，资产负债表是企业资产负债结构的时点记录，反映的是企业在某一时刻的经济资源组成。（可以参见问题“<a href="http://kangjian.net/blog/1286/" target="_blank">健康的资产负债率在什么范围？</a>”）一间企业的资源中，有多少现金？有多少应收款？有多少机器设备？这些资源来自于股东？来自于拖欠供应商的货款？来自于银行？不同的企业资产负债表的质量不同，有些现金多，高富帅，有些应收款多，黄世仁，有些股东出资多，不借贷，啃老族，有些全靠贷款支持，小房奴。从资产负债表可以看出很多信息。渠道类企业一般负债水平整体较高、往来账款多、长期资产少，资源类企业一般固定资产、无形资产大，短期负债水平有限。大面上看就是这样，错不了。</p>
-<p>什么样的资产负债表，基本可以确定企业的类型和经营状况。在企业的类型一定的前提下，可以反映企业经营的情况。这有一点像体检，体检当天的报告可以反映人的身体构成。女人比男人脂肪含量略多，你的脂肪率高，你又是个男的，那么你肯定看起来比较胖；老人比起年轻人钙的比重略低，如果你只有35岁骨密度就出问题了，你肯定不注意运动，体质不好。阅读资产负债表也是这个过程，一家批发零售业的企业，银行借款占了资产的一半，财务成本肯定高于一般的同业；一家矿山企业，没有长期负债，矿山全部以短期贷款支持，错配产生的流动性风险也不小。</p>
-<p><strong>第二，什么又是“保持资产负债表高效”呢？</strong></p>
-<p>资产负债表不是越“安全”越好。看起来最“安全”的资产负债表不应该有负债，左边全是现金，右边全是权益——这样的企业肯定死不了，也活不好。（<a href="http://kangjian.net/blog/1286/" target="_blank">健康的资产负债率在什么范围？</a>”）好的企业应该勇于负债，不光是预收、应付这类无息的“好负债”要有，贷款、债券这类带息债务也要有。现金大牛苹果公司至今的评级只有AA，一直拿不到AAA，据说原因之一就是始终没有发行长期债券，负债结构不达标，说的就是这个意思。</p>
-<p>所谓“高效”，是指资产负债表对于经营绩效的支撑最大化。这其中主要应该关注两个维度。</p>
-<p><strong>其一，是资产对于净资产的“放大”是否充分。</strong>负债是权益的“放大器”，逻辑上是对于权益的认可。负债和权益组成资产，企业的经营规模很大程度上取决于资产对于权益的放大倍数。如果一个企业有实力，完全可以预收下家，应付上家，扎着上下两家的钱，用来做自己的生意，这是一种“放大”。也可以凭借自身资质，大量借用银行的贷款，以六七个点的价格获取现金周转，这也是一种放大。当企业的经营到达一定程度，没有这种“放大”，很难取得好的绩效。负债是企业必要的经营资源，企业经营离不开负债，企业的资产一般都对权益有所放大。</p>
-<p><strong>其二，是“放大”产生的负债成本是否过多侵蚀了利润。</strong>这里的成本不仅仅包括银行借款、债券的利息，还包括例如因为预收款产生的收入减价（想想街边的理发店办卡）、因应付款产生的折扣消减，采购成本提高等。理论上讲，一部分“放大”成本可以体现在损益表的财务费用，但实际上很多成本是看不见的。</p>
-<p>因此，关于“高效”，可以用逻辑梳理一下：</p>
-<p><strong>由于负债往往是有成本的，这部分成本侵蚀股东应得的利润；同时负债放大了经营规模，同时又有机会获取更多的利润。当增量的成本小于增量的利润时，我们就可以说，这个状态是“高效”的。</strong>（财务中的“财务杠杆”也是比较成本、收益两个变动值，大概就是这个意思）</p>
-<p>最后说几句股东回报。</p>
-<p>从财务的角度上，分红的过程就是资产负债表左上角货币资金科目和右下角未分配利润科目同时下降的过程。在算术意义上，回报股东会减少企业的存量现金，同时抬高资产负债水平。<strong>分红本身是不利于“保持资产负债表高效”的。</strong>可见，“高效”与“分红”之间，确实类似于“效率优先，兼顾公平”这类关系，是需要在“保持资产负债表高效”的前提下，“在适当时间以适当方式返还股东”的。</p>
-<p>这是一个好问题。它让我有机会回忆了为嘉能可熬夜的日子，也重新梳理了一下曾经零碎的思考。</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
   </section>
 
   
@@ -2042,7 +2031,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/blog/archives">
-                <span class="site-state-item-count">216</span>
+                <span class="site-state-item-count">217</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -2064,7 +2053,7 @@
             
             <div class="site-state-item site-state-tags">
               <a href="/blog/tags/index.html">
-                <span class="site-state-item-count">669</span>
+                <span class="site-state-item-count">673</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>

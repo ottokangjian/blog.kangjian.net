@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[商品到了关键点]]></title>
+    <url>%2Fblog%2F%2F1704%2F</url>
+    <content type="text"><![CDATA[文华商品指数 黑链指数 煤炭板块 焦煤指数 EOF.]]></content>
+      <categories>
+        <category>Trading</category>
+      </categories>
+      <tags>
+        <tag>交易</tag>
+        <tag>Price Action</tag>
+        <tag>技术分析</tag>
+        <tag>价格</tag>
+        <tag>文华商品指数</tag>
+        <tag>黑链指数</tag>
+        <tag>煤炭</tag>
+        <tag>焦煤</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[价值投资中的回撤入场]]></title>
     <url>%2Fblog%2F%2F1703%2F</url>
     <content type="text"><![CDATA[(Image By ChartSecret.com) Price Action 理论中，除了极少数的情况，入场基本都要在回撤的时候。所谓“顺大势，逆小势”、“突破回踩”，都是回撤入场。 对比一下 Elder 对基本面分析的解读： 当我认为未来某个事件会增加一只股票的价值，而目前价格又低于价值时，我才会考虑买入。在价值之下买入，在价值之上卖出并有清晰的逻辑，这样做才能让我在逆境时坚定信心。（《以交易为生2》，CH1） 这段话包含两个意思： 入场（做多）的主要原因是看涨。未来的价值会增加，所以现在准备做多。这是最基本的原因。 当前的价格要低于价值。把未来的走势遮住不看，现在的价格要低于现在的价值。这是第二个原因。 第一个比较好理解。未来看涨，任何一个价值投资者的基本范式都是这个。第二个比较容易被忽略。 “目前价格又低于价值时，我才会考虑买入”。价格低于价值，即价格被低估。在 Elder 眼中看来，即使是价值投资，也要重视买点。当下的价格被低估的时候，才是价值投资者的买点。很多时候，“价值投资”亏钱，往往是方向看对了，入场点没找好。高估时入场，长时间被套。事后一看，其实大方向是对的。 ——这就是价值投资的“回撤入场”： 方向顺大势：价值在未来看涨 入场逆小势：当下的价格被低估 当然，典型的回撤入场往往还要重视扳机点，没有扳机的枪不会响。基本面分析时，扳机点可能就是一个短期看衰时的利好新闻、一个回撤中的放量大阳线等等，这些都可以。价值投资毕竟周期更长，精度上的要求可以放松一些。 总结一下，价值投资回撤入场的关键：当下价值被低估。无低估，不做多。 EOF. 其他相关内容： 没扳机的枪是响不了的——入场要有信号的支持]]></content>
@@ -93,9 +111,9 @@
         <tag>Price Action</tag>
         <tag>趋势交易</tag>
         <tag>趋势线</tag>
+        <tag>均线</tag>
         <tag>支撑位</tag>
         <tag>阻力位</tag>
-        <tag>均线</tag>
       </tags>
   </entry>
   <entry>
@@ -142,8 +160,8 @@
         <tag>交易</tag>
         <tag>交易系统</tag>
         <tag>Al Brooks</tag>
-        <tag>期货</tag>
         <tag>入场</tag>
+        <tag>期货</tag>
         <tag>区间</tag>
         <tag>突破</tag>
       </tags>
@@ -157,8 +175,8 @@
       </categories>
       <tags>
         <tag>Al Brooks</tag>
-        <tag>反转</tag>
         <tag>交易者方程</tag>
+        <tag>反转</tag>
         <tag>尖峰</tag>
       </tags>
   </entry>
@@ -193,10 +211,10 @@
         <tag>趋势线</tag>
         <tag>交易者方程</tag>
         <tag>支撑位</tag>
+        <tag>阻力位</tag>
         <tag>梁启超</tag>
         <tag>考据</tag>
         <tag>趋势通道线</tag>
-        <tag>阻力位</tag>
       </tags>
   </entry>
   <entry>
@@ -333,8 +351,8 @@
         <category>Trading</category>
       </categories>
       <tags>
-        <tag>心态</tag>
         <tag>资金管理</tag>
+        <tag>心态</tag>
         <tag>不对称性</tag>
       </tags>
   </entry>
@@ -444,8 +462,8 @@
       <tags>
         <tag>授信</tag>
         <tag>iphone</tag>
-        <tag>分期付款</tag>
         <tag>分期</tag>
+        <tag>分期付款</tag>
         <tag>水货</tag>
         <tag>融资</tag>
         <tag>行货</tag>
@@ -493,8 +511,8 @@
         <category>Trading</category>
       </categories>
       <tags>
-        <tag>交易系统</tag>
         <tag>止损</tag>
+        <tag>交易系统</tag>
         <tag>Van Tharp</tag>
         <tag>livermore</tag>
         <tag>亏损</tag>
@@ -542,12 +560,12 @@
         <category>Trading</category>
       </categories>
       <tags>
-        <tag>交易系统</tag>
         <tag>资金管理</tag>
+        <tag>交易系统</tag>
         <tag>风险回报比</tag>
         <tag>MDD</tag>
-        <tag>风险暴露</tag>
         <tag>交易频率</tag>
+        <tag>风险暴露</tag>
       </tags>
   </entry>
   <entry>
@@ -613,16 +631,16 @@
       </categories>
       <tags>
         <tag>一致性</tag>
-        <tag>收益率</tag>
         <tag>资金管理</tag>
-        <tag>MAR</tag>
+        <tag>收益率</tag>
         <tag>MDD</tag>
+        <tag>风险暴露</tag>
+        <tag>MAR</tag>
         <tag>回撤</tag>
         <tag>巴菲特</tag>
         <tag>收益曲线</tag>
         <tag>海龟交易</tag>
         <tag>资金曲线</tag>
-        <tag>风险暴露</tag>
       </tags>
   </entry>
   <entry>
@@ -634,10 +652,10 @@
       </categories>
       <tags>
         <tag>知乎</tag>
+        <tag>资金管理</tag>
         <tag>心态</tag>
         <tag>交易系统</tag>
         <tag>收益率</tag>
-        <tag>资金管理</tag>
         <tag>交易圣经</tag>
         <tag>以交易为生</tag>
         <tag>恐惧</tag>
@@ -824,8 +842,8 @@
       </categories>
       <tags>
         <tag>债务</tag>
-        <tag>知乎</tag>
         <tag>财务分析</tag>
+        <tag>知乎</tag>
         <tag>嘉能可</tag>
         <tag>资产负债表</tag>
       </tags>
@@ -853,8 +871,8 @@
       <tags>
         <tag>fitness</tag>
         <tag>跑步</tag>
-        <tag>减脂</tag>
         <tag>体重</tag>
+        <tag>减脂</tag>
       </tags>
   </entry>
   <entry>
@@ -879,8 +897,8 @@
       </categories>
       <tags>
         <tag>fitness</tag>
-        <tag>减肥</tag>
         <tag>减脂</tag>
+        <tag>减肥</tag>
         <tag>脂肪</tag>
         <tag>重金属</tag>
       </tags>
@@ -893,13 +911,13 @@
         <category>Article</category>
       </categories>
       <tags>
-        <tag>财务分析</tag>
         <tag>EVA</tag>
         <tag>ROIC</tag>
         <tag>WACC</tag>
         <tag>利息</tag>
         <tag>加权平均资本成本</tag>
         <tag>经济增加值</tag>
+        <tag>财务分析</tag>
       </tags>
   </entry>
   <entry>
@@ -926,9 +944,9 @@
       </categories>
       <tags>
         <tag>债务</tag>
+        <tag>财务分析</tag>
         <tag>偿债能力</tag>
         <tag>知乎</tag>
-        <tag>财务分析</tag>
         <tag>财务安全</tag>
         <tag>资产负债率</tag>
       </tags>
@@ -1028,9 +1046,9 @@
         <tag>木心</tag>
         <tag>陈丹青</tag>
         <tag>苏格拉底</tag>
-        <tag>艺术</tag>
         <tag>知识</tag>
         <tag>日记</tag>
+        <tag>艺术</tag>
       </tags>
   </entry>
   <entry>
@@ -1092,13 +1110,13 @@
         <tag>文学回忆录</tag>
         <tag>木心</tag>
         <tag>陈丹青</tag>
+        <tag>艺术</tag>
         <tag>元曲</tag>
         <tag>唐诗</tag>
         <tag>宋词</tag>
         <tag>尼采</tag>
         <tag>演讲</tag>
         <tag>罗马</tag>
-        <tag>艺术</tag>
         <tag>讲课</tag>
         <tag>马克思</tag>
       </tags>
@@ -1154,10 +1172,10 @@
         <tag>文学回忆录</tag>
         <tag>木心</tag>
         <tag>陈丹青</tag>
-        <tag>美术</tag>
-        <tag>苏格拉底</tag>
         <tag>宗教</tag>
+        <tag>美术</tag>
         <tag>耶稣</tag>
+        <tag>苏格拉底</tag>
       </tags>
   </entry>
   <entry>
@@ -1192,13 +1210,13 @@
         <tag>文学回忆录</tag>
         <tag>木心</tag>
         <tag>陈丹青</tag>
+        <tag>美术</tag>
+        <tag>苏格拉底</tag>
         <tag>乔达摩</tag>
         <tag>司马迁</tag>
         <tag>希特勒</tag>
         <tag>李聃</tag>
-        <tag>美术</tag>
         <tag>老子</tag>
-        <tag>苏格拉底</tag>
       </tags>
   </entry>
   <entry>
@@ -1863,17 +1881,17 @@
         <tag>毕飞宇</tag>
         <tag>托克维尔</tag>
         <tag>旧制度与大革命</tag>
-        <tag>墓碑</tag>
-        <tag>杨继绳</tag>
         <tag>Amazon</tag>
         <tag>kindle</tag>
         <tag>Kindle DXG</tag>
         <tag>三井帝国在行动</tag>
         <tag>从理想主义到经验主义</tag>
         <tag>十九札</tag>
+        <tag>墓碑</tag>
         <tag>天朝的崩溃</tag>
         <tag>曾经德隆</tag>
         <tag>朱青生</tag>
+        <tag>杨继绳</tag>
         <tag>王世渝</tag>
         <tag>白益民</tag>
         <tag>茅海建</tag>
@@ -1891,8 +1909,8 @@
       </categories>
       <tags>
         <tag>墓碑</tag>
-        <tag>引洮工程</tag>
         <tag>杨继绳</tag>
+        <tag>引洮工程</tag>
         <tag>杨闻宇</tag>
         <tag>甘肃</tag>
       </tags>
@@ -2124,8 +2142,8 @@
         <category>Card</category>
       </categories>
       <tags>
-        <tag>国际贸易</tag>
         <tag>性越多越安全：颠覆传统的反常经济学</tag>
+        <tag>国际贸易</tag>
       </tags>
   </entry>
   <entry>
@@ -2136,8 +2154,8 @@
         <category>Card</category>
       </categories>
       <tags>
-        <tag>性越多越安全：颠覆传统的反常经济学</tag>
         <tag>产权</tag>
+        <tag>性越多越安全：颠覆传统的反常经济学</tag>
         <tag>私有化</tag>
       </tags>
   </entry>
@@ -2731,8 +2749,8 @@
         <category>Daily</category>
       </categories>
       <tags>
-        <tag>人民大学</tag>
         <tag>贴图</tag>
+        <tag>人民大学</tag>
         <tag>咖啡</tag>
       </tags>
   </entry>
@@ -2768,8 +2786,8 @@
         <category>Daily</category>
       </categories>
       <tags>
-        <tag>人民大学</tag>
         <tag>贴图</tag>
+        <tag>人民大学</tag>
       </tags>
   </entry>
   <entry>
@@ -2948,8 +2966,8 @@
         <category>Debating</category>
       </categories>
       <tags>
-        <tag>辩论</tag>
         <tag>贴图</tag>
+        <tag>辩论</tag>
         <tag>共青团</tag>
       </tags>
   </entry>
@@ -3092,8 +3110,8 @@
         <category>Daily</category>
       </categories>
       <tags>
-        <tag>人民大学</tag>
         <tag>贴图</tag>
+        <tag>人民大学</tag>
       </tags>
   </entry>
   <entry>
@@ -3151,8 +3169,8 @@
         <category>Daily</category>
       </categories>
       <tags>
-        <tag>法律史</tag>
         <tag>学习</tag>
+        <tag>法律史</tag>
         <tag>论文</tag>
       </tags>
   </entry>
@@ -3165,8 +3183,8 @@
       </categories>
       <tags>
         <tag>历史</tag>
-        <tag>法律</tag>
         <tag>法律史</tag>
+        <tag>法律</tag>
         <tag>笔记</tag>
       </tags>
   </entry>
@@ -3214,9 +3232,9 @@
         <category>Daily</category>
       </categories>
       <tags>
-        <tag>辩论</tag>
         <tag>CCTV</tag>
         <tag>贴图</tag>
+        <tag>辩论</tag>
         <tag>路一鸣</tag>
       </tags>
   </entry>
@@ -3240,9 +3258,9 @@
         <category>Article</category>
       </categories>
       <tags>
-        <tag>杨帆凯</tag>
         <tag>诗词</tag>
         <tag>辩论</tag>
+        <tag>杨帆凯</tag>
       </tags>
   </entry>
   <entry>
@@ -3253,8 +3271,8 @@
         <category>Article</category>
       </categories>
       <tags>
-        <tag>诗词</tag>
         <tag>历史</tag>
+        <tag>诗词</tag>
         <tag>陆机</tag>
       </tags>
   </entry>
