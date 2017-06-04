@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="http://kangjian.net/"/>
-  <updated>2017-06-01T07:57:38.000Z</updated>
+  <updated>2017-06-04T08:27:25.000Z</updated>
   <id>http://kangjian.net/</id>
   
   <author>
@@ -14,6 +14,94 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于”量、价、时、空“的一点思考</title>
+    <link href="http://kangjian.net//1705/"/>
+    <id>http://kangjian.net//1705/</id>
+    <published>2017-06-04T07:43:04.000Z</published>
+    <updated>2017-06-04T08:27:25.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://kangjian.net/images/2017/06/2017-06-04-16-23-27-LJSK.png" alt=""></p>
+<p>“量、价、时、空”是交易中最基础的四个要素。</p>
+<p>以这四个要素作为框架，很多常见的交易要素可以各归其位。如：</p>
+<ul>
+<li>量<ul>
+<li>放量、缩量、无量</li>
+<li>均量</li>
+<li>力度指数</li>
+</ul>
+</li>
+<li>价<ul>
+<li>Price Action理论</li>
+<li>均线</li>
+<li>支撑阻力位</li>
+<li>MACD、RSI、KDJ</li>
+<li>BOLL、通道理论</li>
+</ul>
+</li>
+<li>时<ul>
+<li>“横有多长，竖有多高”</li>
+<li>缠论</li>
+<li>均线</li>
+<li>波浪理论</li>
+</ul>
+</li>
+<li>空<ul>
+<li>盈亏比</li>
+<li>支撑阻力位</li>
+<li>缠论</li>
+<li>波浪理论</li>
+</ul>
+</li>
+</ul>
+<p>以上的划分并不周延，只是个大概的归类。从这个归类中，可以大致看出一半模型的局限所在。比如：</p>
+<ul>
+<li><strong>MACD、RSI、KDJ、BOLL等指标的“共振”</strong>——这些指标关注的点各自不同，但核心都是一个：价格。用价格形成指标，进而互相验证，难免循环论证。这也是 Price Action 理论强调少用指标的逻辑基础。</li>
+<li><strong>均线理论</strong>——以价格的均值为基础，考虑了时间因素。均线理论缺乏成交量、空间的因素，因而一般要结合“放量、缩量”操作，同时常用趋势跟踪技术主动弱化空间因素的权重。</li>
+<li><strong>Price Action</strong>——以价格形态为核心，“读取”、“倾听”市场的声音。PA理论大量应用于外汇市场，常常没有准确的“量”的因素。同时， Price Action 理论往往对时空因素采取相对模糊的应用，时空要素往往需要主观判断（时空方面，国内交易员曾有“大象吃苹果”等精彩的主观判断方法）。</li>
+<li><strong>缠论</strong>——缠论与 Price Action 的着力点恰恰是互补的关系。缠论的价格因素主要是以“分型、笔、线段”的形式呈现，对价格的小级别波动并不是十分关注。结合中枢、级别等理论、将时空因素纳入。</li>
+<li><strong>波浪理论</strong>——重在时空关系，价格因素在波浪理论中类似缠论，应用得比较粗糙。考虑时空因素过于主观，“千人千浪”。</li>
+</ul>
+<p>以上，可以看出，相对体系化的框架，如 Price Action、缠论、波浪理论，或多或少都要照顾到四个要素。而 MACD 等指标，由于在要素层级存在自身的局限，则很难构成交易系统的基础。均线理论应用于实战，往往也要结合K线形态（Price Action，“价”）、放量缩量相互验证，即使如此，在时空因素的把握上往往也要采取趋势跟踪策略主动“放弃”。</p>
+<p>“量、价、时、空”四者之间的有效结合、匹配，进而寻找共振，可以有效提高胜率。</p>
+<p>对交易员来讲，有必要从这四个角度重新审视自己的交易系统，是否在某些方面存在缺陷。简单设计一个打分卡：</p>
+<ul>
+<li>量：明确？涉及？空白？</li>
+<li>价：明确？涉及？空白？</li>
+<li>时：明确？涉及？空白？</li>
+<li>空：明确？涉及？空白？</li>
+</ul>
+<p>一个成熟稳定的交易系统，四个要素中最好不要出现“空白”（外汇交易中的“量”除外）。四个要素都是“明确”的时候，往往可以将交易系统程序化了。人类交易员的价值，恰恰在于对“涉及”这种状态的把握。四个要素全部是“涉及”，交易员往往会比较累，交易绩效对于身体、心理的状态要求也比较高。直觉上，有两个以上“明确”，一到两个“涉及”，似乎比较容易操作。当然，千人千面，每个人都有自己舒服的状态，不能一概而论。</p>
+<p>EOF</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://kangjian.net/images/2017/06/2017-06-04-16-23-27-LJSK.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;“量、价、时、空”是交易中最基础的四个要素。&lt;/p&gt;
+&lt;p&gt;以这四个要素作为框架，很多常见的交
+    
+    </summary>
+    
+      <category term="Trading" scheme="http://kangjian.net/categories/Trading/"/>
+    
+    
+      <category term="Price Action" scheme="http://kangjian.net/tags/Price-Action/"/>
+    
+      <category term="交易" scheme="http://kangjian.net/tags/%E4%BA%A4%E6%98%93/"/>
+    
+      <category term="技术分析" scheme="http://kangjian.net/tags/%E6%8A%80%E6%9C%AF%E5%88%86%E6%9E%90/"/>
+    
+      <category term="价格" scheme="http://kangjian.net/tags/%E4%BB%B7%E6%A0%BC/"/>
+    
+      <category term="成交量" scheme="http://kangjian.net/tags/%E6%88%90%E4%BA%A4%E9%87%8F/"/>
+    
+      <category term="缠论" scheme="http://kangjian.net/tags/%E7%BC%A0%E8%AE%BA/"/>
+    
+      <category term="量价时空" scheme="http://kangjian.net/tags/%E9%87%8F%E4%BB%B7%E6%97%B6%E7%A9%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>商品到了关键点</title>
@@ -405,11 +493,11 @@
     
       <category term="趋势线" scheme="http://kangjian.net/tags/%E8%B6%8B%E5%8A%BF%E7%BA%BF/"/>
     
+      <category term="均线" scheme="http://kangjian.net/tags/%E5%9D%87%E7%BA%BF/"/>
+    
       <category term="支撑位" scheme="http://kangjian.net/tags/%E6%94%AF%E6%92%91%E4%BD%8D/"/>
     
       <category term="阻力位" scheme="http://kangjian.net/tags/%E9%98%BB%E5%8A%9B%E4%BD%8D/"/>
-    
-      <category term="均线" scheme="http://kangjian.net/tags/%E5%9D%87%E7%BA%BF/"/>
     
   </entry>
   
@@ -879,17 +967,17 @@
     
       <category term="趋势线" scheme="http://kangjian.net/tags/%E8%B6%8B%E5%8A%BF%E7%BA%BF/"/>
     
-      <category term="交易者方程" scheme="http://kangjian.net/tags/%E4%BA%A4%E6%98%93%E8%80%85%E6%96%B9%E7%A8%8B/"/>
-    
       <category term="支撑位" scheme="http://kangjian.net/tags/%E6%94%AF%E6%92%91%E4%BD%8D/"/>
+    
+      <category term="阻力位" scheme="http://kangjian.net/tags/%E9%98%BB%E5%8A%9B%E4%BD%8D/"/>
+    
+      <category term="交易者方程" scheme="http://kangjian.net/tags/%E4%BA%A4%E6%98%93%E8%80%85%E6%96%B9%E7%A8%8B/"/>
     
       <category term="梁启超" scheme="http://kangjian.net/tags/%E6%A2%81%E5%90%AF%E8%B6%85/"/>
     
       <category term="考据" scheme="http://kangjian.net/tags/%E8%80%83%E6%8D%AE/"/>
     
       <category term="趋势通道线" scheme="http://kangjian.net/tags/%E8%B6%8B%E5%8A%BF%E9%80%9A%E9%81%93%E7%BA%BF/"/>
-    
-      <category term="阻力位" scheme="http://kangjian.net/tags/%E9%98%BB%E5%8A%9B%E4%BD%8D/"/>
     
   </entry>
   
@@ -1157,63 +1245,6 @@
       <category term="Quora" scheme="http://kangjian.net/tags/Quora/"/>
     
       <category term="精力管理" scheme="http://kangjian.net/tags/%E7%B2%BE%E5%8A%9B%E7%AE%A1%E7%90%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>错过了买卖点，还要不要入场？</title>
-    <link href="http://kangjian.net//1593/"/>
-    <id>http://kangjian.net//1593/</id>
-    <published>2015-08-04T10:01:56.000Z</published>
-    <updated>2017-05-22T07:37:35.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img style="margin-left:auto;margin-right:auto" src="http://kangjian.net/images/2015/08/a9768122b5.jpg" alt="A9768122b5" border="0" width="499" height="260"></p>
-<p>市场中重大突破常常在短时间内完成。如果没有预埋条件单，很可能会错过买卖点。A股市场尽管没有条件单，但如果没有在当天收盘前的几分钟进场，等到第二天跳空开盘，买点常常会错过。 </p>
-<p>这是一个很常见的现象，林林总总的原因可以大致划分两类：主观原因（包括疏忽、忘记、遗漏）和客观原因（系统、软件、服务器、网络）。 </p>
-<p><strong>无论原因是什么，买卖点错过了，就是错过了，不应该追单进场的。</strong></p>
-<p>以下谈四点想法，前两点是“为什么”，后两点是“（不）怎么办”。文字不长，不再区分。这段文字如果配图可能会更好理解。这里试着仅用文字把问题说清。 </p>
-<h2 id="首先，错过买卖点以后追单进场，会拉低交易系统的绩效。"><a href="#首先，错过买卖点以后追单进场，会拉低交易系统的绩效。" class="headerlink" title="首先，错过买卖点以后追单进场，会拉低交易系统的绩效。"></a>首先，错过买卖点以后追单进场，会拉低交易系统的绩效。</h2><p>从整体看，任何一个交易系统的绩效主要取决于开仓频率、胜率和盈亏比。单笔交易的买卖点不对，会直接拉低这一笔交易的盈亏比。追进去的单子，盈亏比往往已经不好了。举个例子： </p>
-<blockquote>
-<p>一笔交易，以预埋的入场点入场，10个点位止损，假设最终获利30点，盈亏比为3。如果错过了入场机会，超出了10个点位以后追单入场，则止损空间变为了20个点，同样的出场点出场，盈利空间变为20个点。这时候，这笔交易的盈亏比下降到了1。考虑到潜在胜率，交易价值骤降。</p>
-<p>不仅如此，这时开仓的规模也面临两难：要么保持原有建仓规模不变，由于止损空间放大，则实际的风险暴露变大；要么保持风险暴露金额不变，缩减建仓规模——两个选择，要么放大了风险敞口，要么在降低盈亏比的同时进一步缩小了潜在盈利。 </p>
-</blockquote>
-<p>评估或衡量交易系统的绩效，要用回测中的整体盈亏比、胜率和交易频率。历史回测不考虑操作风险。如果实践中出现了类似上述情形的话，则是人为对回测绩效进行硬性的折扣。这是得不偿失的。 </p>
-<p>反之，如果错过买卖点后不再追单入场，对交易系统的损害则没有这么大。任何一笔交易，平仓出场之前的实际回报是未知的，预期回报只能用历史回测的平均水平衡量。</p>
-<p>我们不会知道任何一笔没有实际开仓的交易究竟是不是赚钱。以上述例子的情形分析，错过了买卖点，不会拉低交易系统的盈亏比和胜率，损害的仅仅是交易频率。对于一个趋势交易者而言，手里如果运用着3-5个交易系统，每个交易系统每年开仓10次左右，同时跟踪5个市场，在5年的交易周期内大致开仓1000次左右，错过某一笔交易，仅仅是让1公里的“长长的坡”变成999米，对最终滚出来的雪球影响会小很多。 </p>
-<h2 id="其次，从交易者的操作心态上分析，追单进场往往会导致进退失据。"><a href="#其次，从交易者的操作心态上分析，追单进场往往会导致进退失据。" class="headerlink" title="其次，从交易者的操作心态上分析，追单进场往往会导致进退失据。"></a>其次，从交易者的操作心态上分析，追单进场往往会导致进退失据。</h2><p>正常交易，正常入场，则止损点是唯一的——要么根据均线，要么根据形态，要么是固定的回落比例。而追单进场后，实际入场点和原有的“唯一止损点”之间，多了一个“理论入场点”。这个中间点位的存在，会让交易者的操作进退失据。 </p>
-<p>如果入场后价格向不利方向变动，价格运行到“理论入场点”时，交易产生一定的浮亏，这时，交易者会想，“早知如此，就不追进去了”。之后，如果价格没能迅速脱离成本区（即迅速摆脱“实际入场点”），对比正确的入场点（会产生一定浮盈，至少可以减少大量浮亏），账面的浮亏又往往是没有必要的。 </p>
-<p>这时，这笔交易已经脱离了交易系统的保护。由于没有回测数据的支持，交易者的心态和手法多半将迅速退化，进退失据。 </p>
-<h2 id="第三，错过买卖点以后，价格如果重回挂单点，也不该进场。"><a href="#第三，错过买卖点以后，价格如果重回挂单点，也不该进场。" class="headerlink" title="第三，错过买卖点以后，价格如果重回挂单点，也不该进场。"></a>第三，错过买卖点以后，价格如果重回挂单点，也不该进场。</h2><p>同一个价格点位，预埋单子挂单进场和价格突破后回踩进场是完全不同的两个概念。一个小孩子长身体的时候身高突破一米七，和一个老年人由于骨质疏松等原因，身高回落到一米七，这完全是两个概念。乔治·索罗斯引申卡尔·波普尔的“证伪”理论，认为“被市场判断为错的”是交易中最可靠的判断标准。在突破交易中，一个单子挂好，预埋的点位一定是一个有意义的关键价格。在价格触发预埋单的时候，后市的发展没有人知道，价格有很大的概率会沿着突破的方向继续运行，直到产生新的价格推动因素。而价格完成突破后出现小级别的反转，导致价格重新回到挂单点，则挂单点的突破已经在一定程度上被证伪，原点位已经不再具备挂单时的初始意义。此时，不宜继续进场。 </p>
-<p>从技术的角度也很好理解，一个突破后的回踩，在小级别意义上往往是一个震荡区间的拓展。在挂单点的前方，回落会产生一个新的支撑阻力位。这种变化后，无论是趋势交易者还是震荡交易者，所面临的市场环境都已经变化了。突破点的前方不再是一马平川，此时入场，遇到假突破的概率会上升，潜在的胜率会下降。 </p>
-<h2 id="第四，大趋势要跟，但单笔买卖点不要追。"><a href="#第四，大趋势要跟，但单笔买卖点不要追。" class="headerlink" title="第四，大趋势要跟，但单笔买卖点不要追。"></a>第四，大趋势要跟，但单笔买卖点不要追。</h2><p>遇到大趋势，不应因为一城一地的得失就放弃。但即使是大趋势中，也不应在错过了具体买卖点后追单进场。</p>
-<p>趋势和震荡构成了全部的市场行情。趋势结束之前，没有人知道趋势会延续多久。 </p>
-<p>如果趋势即将结束，追进是没有价值的。“趋势的最后一段行情往往最肥美。”但这时候的追单胜率最低，回报最小，风险也最大，与其错过入场点之后贸然进场，不如再等等看，看看趋势是否会延续。 </p>
-<p>如果趋势还会延续，追进是没有必要的。大趋势不是一天走完的。无论是什么级别的交易，趋势形成后往往可以运行30-50根K线以上。真正地大型趋势甚至可能达到几百根K线。一个买卖点出现，错过了固然可惜，但也完全没有必要为了上车就去扒飞车。火车走走停停，总有到站减速的时候。错过了克罗1号买点，一定还会有3号买点。在真正的大趋势中，比尽早入场更重要的是头寸管理。当然，这不是今天的讨论内容。 </p>
-<p>因此，无论趋势是否延续，追进要么是没有价值的，要么是没有必要的。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img style=&quot;margin-left:auto;margin-right:auto&quot; src=&quot;http://kangjian.net/images/2015/08/a9768122b5.jpg&quot; alt=&quot;A9768122b5&quot; border=&quot;0&quot; width
-    
-    </summary>
-    
-      <category term="Trading" scheme="http://kangjian.net/categories/Trading/"/>
-    
-    
-      <category term="交易" scheme="http://kangjian.net/tags/%E4%BA%A4%E6%98%93/"/>
-    
-      <category term="心态" scheme="http://kangjian.net/tags/%E5%BF%83%E6%80%81/"/>
-    
-      <category term="交易系统" scheme="http://kangjian.net/tags/%E4%BA%A4%E6%98%93%E7%B3%BB%E7%BB%9F/"/>
-    
-      <category term="趋势交易" scheme="http://kangjian.net/tags/%E8%B6%8B%E5%8A%BF%E4%BA%A4%E6%98%93/"/>
-    
-      <category term="入场" scheme="http://kangjian.net/tags/%E5%85%A5%E5%9C%BA/"/>
-    
-      <category term="盈亏比" scheme="http://kangjian.net/tags/%E7%9B%88%E4%BA%8F%E6%AF%94/"/>
-    
-      <category term="胜率" scheme="http://kangjian.net/tags/%E8%83%9C%E7%8E%87/"/>
     
   </entry>
   

@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[关于”量、价、时、空“的一点思考]]></title>
+    <url>%2Fblog%2F%2F1705%2F</url>
+    <content type="text"><![CDATA[“量、价、时、空”是交易中最基础的四个要素。 以这四个要素作为框架，很多常见的交易要素可以各归其位。如： 量 放量、缩量、无量 均量 力度指数 价 Price Action理论 均线 支撑阻力位 MACD、RSI、KDJ BOLL、通道理论 时 “横有多长，竖有多高” 缠论 均线 波浪理论 空 盈亏比 支撑阻力位 缠论 波浪理论 以上的划分并不周延，只是个大概的归类。从这个归类中，可以大致看出一半模型的局限所在。比如： MACD、RSI、KDJ、BOLL等指标的“共振”——这些指标关注的点各自不同，但核心都是一个：价格。用价格形成指标，进而互相验证，难免循环论证。这也是 Price Action 理论强调少用指标的逻辑基础。 均线理论——以价格的均值为基础，考虑了时间因素。均线理论缺乏成交量、空间的因素，因而一般要结合“放量、缩量”操作，同时常用趋势跟踪技术主动弱化空间因素的权重。 Price Action——以价格形态为核心，“读取”、“倾听”市场的声音。PA理论大量应用于外汇市场，常常没有准确的“量”的因素。同时， Price Action 理论往往对时空因素采取相对模糊的应用，时空要素往往需要主观判断（时空方面，国内交易员曾有“大象吃苹果”等精彩的主观判断方法）。 缠论——缠论与 Price Action 的着力点恰恰是互补的关系。缠论的价格因素主要是以“分型、笔、线段”的形式呈现，对价格的小级别波动并不是十分关注。结合中枢、级别等理论、将时空因素纳入。 波浪理论——重在时空关系，价格因素在波浪理论中类似缠论，应用得比较粗糙。考虑时空因素过于主观，“千人千浪”。 以上，可以看出，相对体系化的框架，如 Price Action、缠论、波浪理论，或多或少都要照顾到四个要素。而 MACD 等指标，由于在要素层级存在自身的局限，则很难构成交易系统的基础。均线理论应用于实战，往往也要结合K线形态（Price Action，“价”）、放量缩量相互验证，即使如此，在时空因素的把握上往往也要采取趋势跟踪策略主动“放弃”。 “量、价、时、空”四者之间的有效结合、匹配，进而寻找共振，可以有效提高胜率。 对交易员来讲，有必要从这四个角度重新审视自己的交易系统，是否在某些方面存在缺陷。简单设计一个打分卡： 量：明确？涉及？空白？ 价：明确？涉及？空白？ 时：明确？涉及？空白？ 空：明确？涉及？空白？ 一个成熟稳定的交易系统，四个要素中最好不要出现“空白”（外汇交易中的“量”除外）。四个要素都是“明确”的时候，往往可以将交易系统程序化了。人类交易员的价值，恰恰在于对“涉及”这种状态的把握。四个要素全部是“涉及”，交易员往往会比较累，交易绩效对于身体、心理的状态要求也比较高。直觉上，有两个以上“明确”，一到两个“涉及”，似乎比较容易操作。当然，千人千面，每个人都有自己舒服的状态，不能一概而论。 EOF]]></content>
+      <categories>
+        <category>Trading</category>
+      </categories>
+      <tags>
+        <tag>Price Action</tag>
+        <tag>交易</tag>
+        <tag>技术分析</tag>
+        <tag>价格</tag>
+        <tag>成交量</tag>
+        <tag>缠论</tag>
+        <tag>量价时空</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[商品到了关键点]]></title>
     <url>%2Fblog%2F%2F1704%2F</url>
     <content type="text"><![CDATA[商品跌到了重要的位置。 这种时候，耐心比黄金还珍贵。 文华商品指数 黑链指数 煤炭板块 焦煤指数 EOF.]]></content>
@@ -111,9 +128,9 @@
         <tag>Price Action</tag>
         <tag>趋势交易</tag>
         <tag>趋势线</tag>
+        <tag>均线</tag>
         <tag>支撑位</tag>
         <tag>阻力位</tag>
-        <tag>均线</tag>
       </tags>
   </entry>
   <entry>
@@ -209,12 +226,12 @@
         <tag>Al Brooks</tag>
         <tag>胜率</tag>
         <tag>趋势线</tag>
-        <tag>交易者方程</tag>
         <tag>支撑位</tag>
+        <tag>阻力位</tag>
+        <tag>交易者方程</tag>
         <tag>梁启超</tag>
         <tag>考据</tag>
         <tag>趋势通道线</tag>
-        <tag>阻力位</tag>
       </tags>
   </entry>
   <entry>
@@ -462,8 +479,8 @@
       <tags>
         <tag>授信</tag>
         <tag>iphone</tag>
-        <tag>分期</tag>
         <tag>分期付款</tag>
+        <tag>分期</tag>
         <tag>水货</tag>
         <tag>融资</tag>
         <tag>行货</tag>
@@ -842,8 +859,8 @@
       </categories>
       <tags>
         <tag>债务</tag>
-        <tag>财务分析</tag>
         <tag>知乎</tag>
+        <tag>财务分析</tag>
         <tag>嘉能可</tag>
         <tag>资产负债表</tag>
       </tags>
@@ -911,13 +928,13 @@
         <category>Article</category>
       </categories>
       <tags>
+        <tag>财务分析</tag>
         <tag>EVA</tag>
         <tag>ROIC</tag>
         <tag>WACC</tag>
         <tag>利息</tag>
         <tag>加权平均资本成本</tag>
         <tag>经济增加值</tag>
-        <tag>财务分析</tag>
       </tags>
   </entry>
   <entry>
@@ -944,9 +961,9 @@
       </categories>
       <tags>
         <tag>债务</tag>
-        <tag>财务分析</tag>
         <tag>偿债能力</tag>
         <tag>知乎</tag>
+        <tag>财务分析</tag>
         <tag>财务安全</tag>
         <tag>资产负债率</tag>
       </tags>
@@ -1046,8 +1063,8 @@
         <tag>木心</tag>
         <tag>陈丹青</tag>
         <tag>苏格拉底</tag>
-        <tag>知识</tag>
         <tag>艺术</tag>
+        <tag>知识</tag>
         <tag>日记</tag>
       </tags>
   </entry>
@@ -2142,8 +2159,8 @@
         <category>Card</category>
       </categories>
       <tags>
-        <tag>国际贸易</tag>
         <tag>性越多越安全：颠覆传统的反常经济学</tag>
+        <tag>国际贸易</tag>
       </tags>
   </entry>
   <entry>
@@ -2154,8 +2171,8 @@
         <category>Card</category>
       </categories>
       <tags>
-        <tag>性越多越安全：颠覆传统的反常经济学</tag>
         <tag>产权</tag>
+        <tag>性越多越安全：颠覆传统的反常经济学</tag>
         <tag>私有化</tag>
       </tags>
   </entry>
@@ -2749,8 +2766,8 @@
         <category>Daily</category>
       </categories>
       <tags>
-        <tag>贴图</tag>
         <tag>人民大学</tag>
+        <tag>贴图</tag>
         <tag>咖啡</tag>
       </tags>
   </entry>
@@ -2786,8 +2803,8 @@
         <category>Daily</category>
       </categories>
       <tags>
-        <tag>贴图</tag>
         <tag>人民大学</tag>
+        <tag>贴图</tag>
       </tags>
   </entry>
   <entry>
@@ -2894,8 +2911,8 @@
         <category>Daily</category>
       </categories>
       <tags>
-        <tag>足球</tag>
         <tag>北京国安</tag>
+        <tag>足球</tag>
       </tags>
   </entry>
   <entry>
@@ -2906,9 +2923,9 @@
         <category>Article</category>
       </categories>
       <tags>
+        <tag>足球</tag>
         <tag>切尔西</tag>
         <tag>穆里尼奥</tag>
-        <tag>足球</tag>
       </tags>
   </entry>
   <entry>
@@ -3110,8 +3127,8 @@
         <category>Daily</category>
       </categories>
       <tags>
-        <tag>贴图</tag>
         <tag>人民大学</tag>
+        <tag>贴图</tag>
       </tags>
   </entry>
   <entry>
