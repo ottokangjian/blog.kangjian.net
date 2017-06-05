@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="http://kangjian.net/"/>
-  <updated>2017-06-04T08:34:07.000Z</updated>
+  <updated>2017-06-04T09:30:44.000Z</updated>
   <id>http://kangjian.net/</id>
   
   <author>
@@ -16,11 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>关于”量、价、时、空“的一点思考</title>
+    <title>关于“量、价、时、空”的一点思考</title>
     <link href="http://kangjian.net//1705/"/>
     <id>http://kangjian.net//1705/</id>
     <published>2017-06-04T07:43:04.000Z</published>
-    <updated>2017-06-04T08:34:07.000Z</updated>
+    <updated>2017-06-04T09:30:44.000Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://kangjian.net/images/2017/06/2017-06-04-16-23-27-LJSK.png" alt=""></p>
 <p>“量、价、时、空”是交易中最基础的四个要素。</p>
@@ -754,9 +754,9 @@
     
       <category term="nginx" scheme="http://kangjian.net/tags/nginx/"/>
     
-      <category term="rewrite" scheme="http://kangjian.net/tags/rewrite/"/>
-    
       <category term="vps" scheme="http://kangjian.net/tags/vps/"/>
+    
+      <category term="rewrite" scheme="http://kangjian.net/tags/rewrite/"/>
     
       <category term="伪静态" scheme="http://kangjian.net/tags/%E4%BC%AA%E9%9D%99%E6%80%81/"/>
     
@@ -811,9 +811,9 @@
     
       <category term="交易系统" scheme="http://kangjian.net/tags/%E4%BA%A4%E6%98%93%E7%B3%BB%E7%BB%9F/"/>
     
-      <category term="Al Brooks" scheme="http://kangjian.net/tags/Al-Brooks/"/>
-    
       <category term="入场" scheme="http://kangjian.net/tags/%E5%85%A5%E5%9C%BA/"/>
+    
+      <category term="Al Brooks" scheme="http://kangjian.net/tags/Al-Brooks/"/>
     
       <category term="期货" scheme="http://kangjian.net/tags/%E6%9C%9F%E8%B4%A7/"/>
     
@@ -969,9 +969,9 @@
     
       <category term="交易" scheme="http://kangjian.net/tags/%E4%BA%A4%E6%98%93/"/>
     
-      <category term="Al Brooks" scheme="http://kangjian.net/tags/Al-Brooks/"/>
-    
       <category term="胜率" scheme="http://kangjian.net/tags/%E8%83%9C%E7%8E%87/"/>
+    
+      <category term="Al Brooks" scheme="http://kangjian.net/tags/Al-Brooks/"/>
     
       <category term="趋势线" scheme="http://kangjian.net/tags/%E8%B6%8B%E5%8A%BF%E7%BA%BF/"/>
     
