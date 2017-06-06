@@ -177,8 +177,8 @@
         <tag>wordpress</tag>
         <tag>lnmp</tag>
         <tag>nginx</tag>
-        <tag>rewrite</tag>
         <tag>vps</tag>
+        <tag>rewrite</tag>
         <tag>伪静态</tag>
         <tag>Oneinstack</tag>
       </tags>
@@ -496,8 +496,8 @@
       <tags>
         <tag>授信</tag>
         <tag>iphone</tag>
-        <tag>分期付款</tag>
         <tag>分期</tag>
+        <tag>分期付款</tag>
         <tag>水货</tag>
         <tag>融资</tag>
         <tag>行货</tag>
@@ -1836,6 +1836,7 @@
         <category>IT</category>
       </categories>
       <tags>
+        <tag>DNS</tag>
         <tag>linode</tag>
         <tag>linux</tag>
         <tag>lnmp</tag>
@@ -1843,7 +1844,6 @@
         <tag>ubuntu</tag>
         <tag>vim</tag>
         <tag>vps</tag>
-        <tag>DNS</tag>
         <tag>www</tag>
         <tag>域名</tag>
         <tag>解析</tag>
@@ -1858,20 +1858,20 @@
       </categories>
       <tags>
         <tag>wordpress</tag>
-        <tag>ftp</tag>
         <tag>linode</tag>
         <tag>linux</tag>
         <tag>lnmp</tag>
+        <tag>nginx</tag>
+        <tag>ubuntu</tag>
+        <tag>vim</tag>
+        <tag>vps</tag>
+        <tag>ftp</tag>
         <tag>Lunarpages</tag>
         <tag>mysql</tag>
-        <tag>nginx</tag>
         <tag>php</tag>
         <tag>pureftpd</tag>
         <tag>rewrite</tag>
         <tag>ssh</tag>
-        <tag>ubuntu</tag>
-        <tag>vim</tag>
-        <tag>vps</tag>
         <tag>伪静态</tag>
         <tag>虚拟主机</tag>
       </tags>
