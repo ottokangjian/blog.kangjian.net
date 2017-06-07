@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="http://kangjian.net/"/>
-  <updated>2017-06-06T15:42:15.000Z</updated>
+  <updated>2017-06-07T13:23:20.000Z</updated>
   <id>http://kangjian.net/</id>
   
   <author>
@@ -20,9 +20,10 @@
     <link href="http://kangjian.net//1706/"/>
     <id>http://kangjian.net//1706/</id>
     <published>2017-06-06T13:49:38.000Z</published>
-    <updated>2017-06-06T15:42:15.000Z</updated>
+    <updated>2017-06-07T13:23:20.000Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="https://www.adactushousing.co.uk/images/upload/coverImage/tightrope.jpg" alt=""><br>(Photo By <a href="https://www.adactushousing.co.uk" target="_blank" rel="external">www.adactushousing.co.uk</a>)</p>
+    <content type="html"><![CDATA[<p><img src="http://kangjian.net/images/2017/06/2017-06-06-tightrope.jpg" alt=""></p>
+<p>(Photo By <a href="https://www.adactushousing.co.uk" target="_blank" rel="external">www.adactushousing.co.uk</a>)</p>
 <blockquote>
 <p>我真的很感激那些连续出现的小亏损。正是这些令人讨厌的小亏损，把那些比我更聪明的交易者挡在了获利的门外。 ——金融帝国</p>
 </blockquote>
@@ -51,7 +52,7 @@
 </ul>
 <p>可见：</p>
 <ul>
-<li><strong>所谓“稳定盈利”，就是持续地、可控地亏损。</strong>——没有持续的亏损作为门槛，交易的盈利就会被无限摊薄；没有可控的亏损，交易的盈利就会被无限会吐。</li>
+<li><strong>所谓“稳定盈利”，就是持续地、可控地亏损。</strong>——没有持续的亏损作为门槛，交易的盈利就会被无限摊薄；没有可控的亏损，交易的盈利就会被无限回吐。</li>
 <li><strong>所谓“持续进步”，就是持续地、可控的亏欠自己。</strong>——没有持续的亏欠，心神就会随波逐流，难以专注，无法提升；没有可控的亏欠，生活就会失去平衡，交易者也要走火入魔。</li>
 </ul>
 <p>盈亏同源，重点在亏。就像做贼，既要会吃肉，也要会挨打，重点在会挨打。<br>把握这个度很难。交易是一场修行，就像人生是一场修行。每位交易者都永远在路上。</p>
@@ -60,7 +61,8 @@
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;https://www.adactushousing.co.uk/images/upload/coverImage/tightrope.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;(Photo By &lt;a href=&quot;https://www.adactushousi
+      &lt;p&gt;&lt;img src=&quot;http://kangjian.net/images/2017/06/2017-06-06-tightrope.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;(Photo By &lt;a href=&quot;https://www.adactushousing.co.uk
     
     </summary>
     
@@ -88,9 +90,9 @@
     <link href="http://kangjian.net//1705/"/>
     <id>http://kangjian.net//1705/</id>
     <published>2017-06-04T07:43:04.000Z</published>
-    <updated>2017-06-06T15:41:58.000Z</updated>
+    <updated>2017-06-06T15:46:02.000Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="http://kangjian.net/images/2017-06-04-16-23-27-LJSK.png" alt=""></p>
+    <content type="html"><![CDATA[<p><img src="http://kangjian.net/images/2017/06/2017-06-04-16-23-27-LJSK.png" alt=""></p>
 <p>“量、价、时、空”是交易中最基础的四个要素。</p>
 <p>以这四个要素作为框架，很多常见的交易要素可以各归其位。如：</p>
 <ul>
@@ -154,9 +156,9 @@
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;http://kangjian.net/images/2017-06-04-16-23-27-LJSK.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;img src=&quot;http://kangjian.net/images/2017/06/2017-06-04-16-23-27-LJSK.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;“量、价、时、空”是交易中最基础的四个要素。&lt;/p&gt;
-&lt;p&gt;以这四个要素作为框架，很多常见的交易要素可以各归其
+&lt;p&gt;以这四个要素作为框架，很多常见的交
     
     </summary>
     
@@ -879,9 +881,9 @@
     
       <category term="交易系统" scheme="http://kangjian.net/tags/%E4%BA%A4%E6%98%93%E7%B3%BB%E7%BB%9F/"/>
     
-      <category term="Al Brooks" scheme="http://kangjian.net/tags/Al-Brooks/"/>
-    
       <category term="入场" scheme="http://kangjian.net/tags/%E5%85%A5%E5%9C%BA/"/>
+    
+      <category term="Al Brooks" scheme="http://kangjian.net/tags/Al-Brooks/"/>
     
       <category term="期货" scheme="http://kangjian.net/tags/%E6%9C%9F%E8%B4%A7/"/>
     
@@ -1037,9 +1039,9 @@
     
       <category term="交易" scheme="http://kangjian.net/tags/%E4%BA%A4%E6%98%93/"/>
     
-      <category term="Al Brooks" scheme="http://kangjian.net/tags/Al-Brooks/"/>
-    
       <category term="胜率" scheme="http://kangjian.net/tags/%E8%83%9C%E7%8E%87/"/>
+    
+      <category term="Al Brooks" scheme="http://kangjian.net/tags/Al-Brooks/"/>
     
       <category term="趋势线" scheme="http://kangjian.net/tags/%E8%B6%8B%E5%8A%BF%E7%BA%BF/"/>
     
