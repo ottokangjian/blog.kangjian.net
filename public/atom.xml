@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="http://kangjian.net/"/>
-  <updated>2017-06-07T13:23:20.000Z</updated>
+  <updated>2017-06-08T06:51:20.000Z</updated>
   <id>http://kangjian.net/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://kangjian.net//1706/"/>
     <id>http://kangjian.net//1706/</id>
     <published>2017-06-06T13:49:38.000Z</published>
-    <updated>2017-06-07T13:23:20.000Z</updated>
+    <updated>2017-06-08T06:51:20.000Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://kangjian.net/images/2017/06/2017-06-06-tightrope.jpg" alt=""></p>
 <p>(Photo By <a href="https://www.adactushousing.co.uk" target="_blank" rel="external">www.adactushousing.co.uk</a>)</p>
@@ -57,6 +57,12 @@
 </ul>
 <p>盈亏同源，重点在亏。就像做贼，既要会吃肉，也要会挨打，重点在会挨打。<br>把握这个度很难。交易是一场修行，就像人生是一场修行。每位交易者都永远在路上。</p>
 <p>EOF</p>
+<p>以下是早期关于“亏损”这个主题的链接：</p>
+<ul>
+<li><a href="http://kangjian.net/blog//1530/">精确地亏损，糊涂地盈利</a></li>
+<li><a href="http://kangjian.net/blog//1475/">永远永远不要被套</a></li>
+<li><a href="http://kangjian.net/blog//1478/">收益率不是交易的目标</a></li>
+</ul>
 ]]></content>
     
     <summary type="html">
@@ -69,9 +75,9 @@
       <category term="Trading" scheme="http://kangjian.net/categories/Trading/"/>
     
     
-      <category term="资金管理" scheme="http://kangjian.net/tags/%E8%B5%84%E9%87%91%E7%AE%A1%E7%90%86/"/>
-    
       <category term="交易系统" scheme="http://kangjian.net/tags/%E4%BA%A4%E6%98%93%E7%B3%BB%E7%BB%9F/"/>
+    
+      <category term="资金管理" scheme="http://kangjian.net/tags/%E8%B5%84%E9%87%91%E7%AE%A1%E7%90%86/"/>
     
       <category term="技术分析" scheme="http://kangjian.net/tags/%E6%8A%80%E6%9C%AF%E5%88%86%E6%9E%90/"/>
     
@@ -280,9 +286,9 @@
     
       <category term="交易" scheme="http://kangjian.net/tags/%E4%BA%A4%E6%98%93/"/>
     
-      <category term="以交易为生" scheme="http://kangjian.net/tags/%E4%BB%A5%E4%BA%A4%E6%98%93%E4%B8%BA%E7%94%9F/"/>
-    
       <category term="回撤" scheme="http://kangjian.net/tags/%E5%9B%9E%E6%92%A4/"/>
+    
+      <category term="以交易为生" scheme="http://kangjian.net/tags/%E4%BB%A5%E4%BA%A4%E6%98%93%E4%B8%BA%E7%94%9F/"/>
     
       <category term="技术分析" scheme="http://kangjian.net/tags/%E6%8A%80%E6%9C%AF%E5%88%86%E6%9E%90/"/>
     
@@ -881,9 +887,9 @@
     
       <category term="交易系统" scheme="http://kangjian.net/tags/%E4%BA%A4%E6%98%93%E7%B3%BB%E7%BB%9F/"/>
     
-      <category term="入场" scheme="http://kangjian.net/tags/%E5%85%A5%E5%9C%BA/"/>
-    
       <category term="Al Brooks" scheme="http://kangjian.net/tags/Al-Brooks/"/>
+    
+      <category term="入场" scheme="http://kangjian.net/tags/%E5%85%A5%E5%9C%BA/"/>
     
       <category term="期货" scheme="http://kangjian.net/tags/%E6%9C%9F%E8%B4%A7/"/>
     
@@ -1039,9 +1045,9 @@
     
       <category term="交易" scheme="http://kangjian.net/tags/%E4%BA%A4%E6%98%93/"/>
     
-      <category term="胜率" scheme="http://kangjian.net/tags/%E8%83%9C%E7%8E%87/"/>
-    
       <category term="Al Brooks" scheme="http://kangjian.net/tags/Al-Brooks/"/>
+    
+      <category term="胜率" scheme="http://kangjian.net/tags/%E8%83%9C%E7%8E%87/"/>
     
       <category term="趋势线" scheme="http://kangjian.net/tags/%E8%B6%8B%E5%8A%BF%E7%BA%BF/"/>
     
