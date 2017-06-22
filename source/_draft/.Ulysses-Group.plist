@@ -5,10 +5,25 @@
 	<key>resolutionData</key>
 	<dict>
 		<key>sheetClusters</key>
-		<dict/>
+		<dict>
+			<key>2017-06-22-1708.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>519811678.92797297</real>
+				<key>version</key>
+				<dict>
+					<key>245e1d992163fbdbb49fc706f5b1cc63256b3c86523826f0bf0427994b036e6f</key>
+					<integer>3</integer>
+				</dict>
+			</dict>
+		</dict>
 	</dict>
 	<key>sheetClusters</key>
-	<array/>
+	<array>
+		<array>
+			<string>2017-06-22-1708.md</string>
+		</array>
+	</array>
 	<key>storeFormatVersion</key>
 	<integer>1</integer>
 	<key>versioning</key>
@@ -16,7 +31,7 @@
 		<key>sheetClusters</key>
 		<dict>
 			<key>245e1d992163fbdbb49fc706f5b1cc63256b3c86523826f0bf0427994b036e6f</key>
-			<integer>1</integer>
+			<integer>3</integer>
 		</dict>
 	</dict>
 </dict>
