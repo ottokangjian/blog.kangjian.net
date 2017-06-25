@@ -302,6 +302,180 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://kangjian.net/blog/1491/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="康健">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="http://kangjian.net/images/avatar.jpeg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="康健的网络日志">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/blog/1491/" itemprop="url">
+                  如何在mac系统下载Slideshare的演示文稿
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-08-27T05:54:28+08:00">
+                2014-08-27
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/blog/categories/IT/" itemprop="url" rel="index">
+                    <span itemprop="name">IT</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/blog/1491/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="/1491/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>Slideshare上有很多有价值的资料。有些时候<code>save</code>按钮不能使用，也就无法保存演示文稿。采用下面的方法可以将这些文稿保存到本地。</p>
+<h2 id="下载Slideshare的演示文稿"><a href="#下载Slideshare的演示文稿" class="headerlink" title="下载Slideshare的演示文稿"></a>下载Slideshare的演示文稿</h2><p>首先你需要有一个自己的主机。用这段代码建立一个php文件。</p>
+<pre><code>&lt;?php
+$slideshowUrl=&quot;http://www.slideshare.net/coogle/ajax-and-php&quot;;
+$slideshowPageContent = file_get_contents($slideshowUrl);
+$pattern = &quot;~doc=([w-]+)~&quot;;
+preg_match($pattern,$slideshowPageContent,$matches);
+$xmlurl = &quot;http://s3.amazonaws.com/slideshare/{$matches[1]}.xml&quot;;
+$sxml = simplexml_load_file($xmlurl);
+foreach ($sxml-&gt;Slide as $slide)
+echo $slide[&apos;Src&apos;].&quot;&lt;br /&gt;&quot;;
+?&gt;
+</code></pre><p>将<code>http://www.slideshare.net/coogle/ajax-and-php</code>中的<code>coogle</code>和<code>ajax-and-php</code>替换成要下载的Slideshare页面中的对应文字即可。</p>
+<p>运行这个php文件，会得到类似这样的内容：</p>
+<pre><code>http://slideshare.s3.amazonaws.com/random-*****-phpapp02-slide-1.swf
+http://slideshare.s3.amazonaws.com/random-*****-phpapp02-slide-2.swf
+……
+</code></pre><p>下载这些文件即可。</p>
+<h2 id="将下载的swf文件转换成pdf后合并"><a href="#将下载的swf文件转换成pdf后合并" class="headerlink" title="将下载的swf文件转换成pdf后合并"></a>将下载的swf文件转换成pdf后合并</h2><p>如果是windows系统，可以利用这个软件（<a href="http://www.dariovolaric.nl/software/swf2jpg.exe" target="_blank" rel="external">via</a>，<a href="http://kangjian.net/download/swf2jpg.zip">local</a>）将swf转化成jpg。</p>
+<p>如果是mac系统，可以直接用safari或chrome打开这些swf，然后另存为pdf。再将pdf文件合并即可。也可以用浏览器打开后直接存进印象笔记。</p>
+<p>这时，下载的资料已经可以利用了。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <link itemprop="mainEntityOfPage" href="http://kangjian.net/blog/1503/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1887,177 +2061,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://kangjian.net/blog/1453/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="康健">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="http://kangjian.net/images/avatar.jpeg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="康健的网络日志">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/blog/1453/" itemprop="url">
-                  简单的就是最好的
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-08-07T06:18:42+08:00">
-                2014-08-07
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/blog/categories/Article/" itemprop="url" rel="index">
-                    <span itemprop="name">Article</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/blog/1453/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count"
-                        data-disqus-identifier="/1453/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h2 id="犀牛"><a href="#犀牛" class="headerlink" title="犀牛"></a>犀牛</h2><p>据说，战斗能力最强的动物不是黑熊，不是藏獒，不是狮子老虎，是犀牛。体重两吨左右，头上长角，浑身装甲连手枪子弹都打不透，熊狮虎豹这类猛兽在它面前简直不堪一击。有人给了犀牛一个恰如其分的描述——“在自然界中没有天敌”。</p>
-<p>现代犀牛一般身长2米，体重在3吨左右，最大的体长4米以上，体重6吨以上，同比最大体重的熊800公斤和老虎350公斤，还远远多出约7～17倍体重。犀牛跑起来不快，比起虎豹差很远；犀牛没有威武的熊掌，一巴掌能扇一个地动山摇；犀牛没有额头的王字纹，也不会争做山大王。</p>
-<p>进攻靠冲刺，几吨的体重跑起来，用额头的角撞；防守靠硬扛，自然界没有哪个物种能攻破犀牛皮的防守。</p>
-<p>简简单单，就这两招，犀牛不败。</p>
-<h2 id="大刀"><a href="#大刀" class="headerlink" title="大刀"></a>大刀</h2><p>据说，戚继光招兵，绝不要练剑的。他认为长剑华而不实，遇到日本刀吃亏。日本武士刀双手持握，刀锋长，耐砍又锋利，不用复杂步法，靠几个动作就横行战场。长剑遇到武士刀，空有花式，没有力量，只有被秒杀。</p>
-<p>还是据说，抗战时期对付日本武士刀效果最好的是冯玉祥大刀队。大刀队的刀号称“八锋刀”，又厚又重，招法简单就八下。大刀挥舞起来，日本刀完败。</p>
-<p>长剑不如倭刀，倭刀不如大刀。一力降十会，看谁更简单。</p>
-<h2 id="鲨鱼"><a href="#鲨鱼" class="headerlink" title="鲨鱼"></a>鲨鱼</h2><p>据说，NBA最近几十年最伟大的中锋是奥尼尔。2米16的身高，147公斤的体重，脂肪率15%。奥尼尔摸高记录3.7846米，NBA纪录保持者；卧推204公斤，NBA顶级水平。奥尼尔进攻时单打暴扣，雷霆万钧，防守时展开手臂，仿佛“一架波音747”（“小鱼”Fisher语）。凭借巨大的体重和力量，奥尼尔拿了4次总冠军，碎掉了3块篮板。</p>
-<p>穆托姆博说过：防守奥尼尔需要做好两件事：</p>
-<blockquote>
-<p>第一，就是站稳脚步不要被撞倒。</p>
-<p>第二，就是小心别被扣进的球砸中脑袋。</p>
-</blockquote>
-<p>一寸长，一寸强。球场如战场，很简单，拳头大的是哥哥。</p>
-<h2 id="没那么复杂"><a href="#没那么复杂" class="headerlink" title="没那么复杂"></a>没那么复杂</h2><p>晨光文具的董事长曾经对人说，“知道为什么我比你更成功一点吗？我从16岁开始卖笔，一支笔卖了20年。”</p>
-<p>哪有那么复杂？成功从来都是越简单越好。</p>
-<p>认准一个方向，复杂的事情简单做，简单的事情重复做。</p>
-<p>没那么复杂。</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
   </section>
 
   
@@ -2107,7 +2110,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/blog/archives">
-                <span class="site-state-item-count">221</span>
+                <span class="site-state-item-count">222</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -2129,7 +2132,7 @@
             
             <div class="site-state-item site-state-tags">
               <a href="/blog/tags/index.html">
-                <span class="site-state-item-count">680</span>
+                <span class="site-state-item-count">683</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
