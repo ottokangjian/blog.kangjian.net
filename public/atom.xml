@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="http://kangjian.net/"/>
-  <updated>2017-06-16T00:59:02.000Z</updated>
+  <updated>2017-06-22T09:48:32.000Z</updated>
   <id>http://kangjian.net/</id>
   
   <author>
@@ -14,6 +14,86 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>多赚点钱？——小心肥厚的左侧尾部</title>
+    <link href="http://kangjian.net//1708/"/>
+    <id>http://kangjian.net//1708/</id>
+    <published>2017-06-22T08:06:04.000Z</published>
+    <updated>2017-06-22T09:48:32.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://kangjian.net/images/2017/06/2017-06-22-zhifangtu.png" alt=""></p>
+<p><a href="https://www.zhihu.com/question/27429790/answer/187124693" target="_blank" rel="external">上面的图片是网上的一个朋友制作的</a>。如果略加统计，很多交易者的交易系统可能都是这个样子：整体还不错的胜率、正向的平均期望值，10%以内的高盈利“正向黑天鹅”交易。</p>
+<p><strong>最大的隐忧是，左侧的尾部太肥厚了。</strong></p>
+<p>说细一点。</p>
+<p>这个直方图的横坐标是金额，意思是单笔交易的盈利——越靠左侧亏损越大，越靠右侧盈利越多。纵坐标是频率，也就是每个回报水平的出现次数叠加——柱子越高，说明出现的次数越多。</p>
+<p>此类交易系统的问题主要有三个层次。</p>
+<ul>
+<li><strong>第一个层次：整体期望的盈利掩盖了肥厚的左侧尾部，隐藏的风险容易被多品种集中放大。</strong>如果合在一起看，这个系统整体期望是盈利的。但实际操作中，一旦应用于多个品种，回撤时间和回撤幅度都会出现上升。巨大的左侧肥尾高频率的连续出现，会使资金曲线出现集中回撤。如果交易者习惯于较重的仓位（比如，单笔风险敞口超过1%），连续三五次回撤就足以抵消很长时间的盈利积累。这是第一个层次，可以通过简单的统计计算算出来。</li>
+<li><strong>第二个层次：正向黑天鹅出现频率过低，整个系统缺乏“明星交易”，绩效天花板明显。</strong>图片右边有数字，这个系统的算数均值是4992元，标准差1.45万元，交易次数一共是51次。这个绩效的意思是什么？估算一下，就是95%的交易结果会落在【-2.4万元，3.4万元】这个区间之间。由于右侧的尾部过于单薄，使得整体期望根本没有远离0值。以0值为重点，左右比大概是5：7，优势太小，资金上台阶只能寄希望与运气。</li>
+<li><strong>第三个层次：肥厚的尾部叠加后，会严重影响交易系统的有效执行。</strong>从结果分析，左侧叠加了很多亏损2万元的交易，这个系统的最大止损可能就是2万元。51笔交易中，9笔直接止损2万元，意味着这9笔交易完全做错了，被打了初始止损。这种频率出现1R的亏损，对交易员执行交易系统会产生重大的影响，实际操盘中会频繁出现“如果……就好了”、“早知道……就……了”的想法。即使是做成交易程序交由电脑执行，review的时候也足以让程序的主人怀疑人生，有可能提前终止程序的执行。</li>
+</ul>
+<p>如何解决这个问题？一般可以从两个方面考虑。</p>
+<ul>
+<li><strong>胜率角度。</strong>传统的趋势交易理论认为，低胜率与高盈亏比相辅相成，胜率的要求可以放宽。实际上，一个较高的胜率不仅可以防止单边大幅回撤，也可以不断强化交易员的信心，进而保证系统的执行力度。这个案例里，胜率大概是63%，属于还不错的胜率，不用作为最大的改进点。</li>
+<li><strong>盈亏比的角度。</strong>这是问题的关键。这个案例中，提升盈亏比可以有两个快速见效的办法。<ul>
+<li><strong>大幅压缩左侧肥厚的尾部。</strong>通过减少大额的单笔亏损的次数和亏损幅度，可以迅速提升系统的期望值，右移绩效中枢。</li>
+<li><strong>想办法增加右侧尾部交易。</strong>这个案例中，右侧的大额盈利交易只有一笔，利润大概是4万元左右，两倍风险回报。如果可以让2R的交易出现频率保证在10%左右，系统的期望值将提升到大概8000元左右，0值左右的比值大概是接近1：2，绩效会提升很多。</li>
+</ul>
+</li>
+</ul>
+<p>脱离这个具体的案例，可以得出如下的启示：</p>
+<ul>
+<li><strong>第一，即使是趋势交易者，也不能放弃对于胜率的追求。</strong>过低的胜率（如，低于50%）不仅仅意味着对于大回报的依赖，也极端挑战交易者的心理状态，极端增加了心态管理的难度。开仓本身就是在冒险，开一个胜率很低的仓位，无疑是打开了交易中的 hard 模式，能把胜率提高一些，就不要以“开张吃三年”、“干就干大的”这样的借口麻痹自己。这些理由都对，但都是在说盈亏比。试错成本一样是成本。胜率，能高一些尽量还是要高一些。</li>
+<li><strong>第二，在高胜率的基础上，努力提升盈亏比，为正向黑天鹅的出现创造条件。</strong> Nassim Nicholas Taleb 曾说，“你可以通过最大限度地置身于正面的黑天鹅事件的影响下，来享受黑天鹅现象的好处。 ”、“在将正面黑天鹅事件的影响最大化的同时，保持对负面黑天鹅事件的警惕。 ”。交易要想赚大钱，还是要有正向黑天鹅参与。小富即安、屁胡搅局的做法注定只能产生A股散户，不能造就伟大的交易员。当然，各类刮头皮策略一样可以稳定盈利。只是刮头皮策略天生两个局限：一是流动性有限制，二是对胜率要求到了极致。对大部分交易员来说，难度太大了。</li>
+<li><strong>第三，高胜率和高盈亏比都做到了，必须要牺牲交易次数。</strong>胜率、盈亏比和交易次数是交易盈利计算公式的三个因子。普遍认为，三者不能同时提升。同时提升胜率和回报比难度已经极大，这时候的一个思路是主动减少交易次数。有一个简单的衡量标准，每220-250根 bar 中，最好的交易机会一般不超过5个。如果是日线，大概就是两三个月一次。如果交易员可以做到这个频率，同时提升胜率和盈亏比是可以做到的。</li>
+</ul>
+<p>一切的胜率、盈亏比和交易次数计算，最后都要乘以一个“执行程度”。好的胜率和盈亏比，除了提升纸面的绩效值，更重要的是可以不断强化交易者的信心，确保交易系统的准确执行。</p>
+<p>回到这个问题，再看看上面的图：</p>
+<ul>
+<li>如何提升胜率？——<strong>截短亏损。</strong></li>
+<li>如何提升盈亏比？——<strong>让利润奔跑。</strong></li>
+<li>如何减少系统外的交易？——<strong>复杂的事情简单做。</strong></li>
+<li>如何执行交易系统？——<strong>简单的事请重复做。</strong></li>
+</ul>
+<p>说到底，还是老生常谈两句话：</p>
+<ul>
+<li><strong>截短亏损，让利润奔跑。</strong></li>
+<li><strong>复杂的事情简单做，简单的事请重复做。</strong></li>
+</ul>
+<p>EOF</p>
+<p>关于交易系统，还有如下文字可以参考：</p>
+<ul>
+<li><a href="http://kangjian.net/blog/1706/">想盈利，该怎么亏？</a></li>
+<li><a href="http://kangjian.net/blog/1523/">交易越来越无聊，你就进步了</a></li>
+<li><a href="http://kangjian.net/blog/1503/">交易中的“有为法”和“无为法”</a></li>
+<li><a href="http://kangjian.net/blog/1489/">职业交易员是如何克服根据自己的偏见和喜好来进行交易的？</a></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://kangjian.net/images/2017/06/2017-06-22-zhifangtu.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.zhihu.com/question/27429790/an
+    
+    </summary>
+    
+      <category term="Trading" scheme="http://kangjian.net/categories/Trading/"/>
+    
+    
+      <category term="交易系统" scheme="http://kangjian.net/tags/%E4%BA%A4%E6%98%93%E7%B3%BB%E7%BB%9F/"/>
+    
+      <category term="亏损" scheme="http://kangjian.net/tags/%E4%BA%8F%E6%8D%9F/"/>
+    
+      <category term="Nassim Nicholas Taleb" scheme="http://kangjian.net/tags/Nassim-Nicholas-Taleb/"/>
+    
+      <category term="胜率" scheme="http://kangjian.net/tags/%E8%83%9C%E7%8E%87/"/>
+    
+      <category term="期货交易" scheme="http://kangjian.net/tags/%E6%9C%9F%E8%B4%A7%E4%BA%A4%E6%98%93/"/>
+    
+      <category term="黑天鹅" scheme="http://kangjian.net/tags/%E9%BB%91%E5%A4%A9%E9%B9%85/"/>
+    
+  </entry>
   
   <entry>
     <title>这也许是交易中最真实的东西</title>
@@ -330,11 +410,11 @@
     
       <category term="交易" scheme="http://kangjian.net/tags/%E4%BA%A4%E6%98%93/"/>
     
-      <category term="技术分析" scheme="http://kangjian.net/tags/%E6%8A%80%E6%9C%AF%E5%88%86%E6%9E%90/"/>
-    
       <category term="以交易为生" scheme="http://kangjian.net/tags/%E4%BB%A5%E4%BA%A4%E6%98%93%E4%B8%BA%E7%94%9F/"/>
     
       <category term="回撤" scheme="http://kangjian.net/tags/%E5%9B%9E%E6%92%A4/"/>
+    
+      <category term="技术分析" scheme="http://kangjian.net/tags/%E6%8A%80%E6%9C%AF%E5%88%86%E6%9E%90/"/>
     
       <category term="价值投资" scheme="http://kangjian.net/tags/%E4%BB%B7%E5%80%BC%E6%8A%95%E8%B5%84/"/>
     
@@ -1263,40 +1343,6 @@
       <category term="趋势交易法" scheme="http://kangjian.net/tags/%E8%B6%8B%E5%8A%BF%E4%BA%A4%E6%98%93%E6%B3%95/"/>
     
       <category term="鹿希武" scheme="http://kangjian.net/tags/%E9%B9%BF%E5%B8%8C%E6%AD%A6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>黑色暴涨，“看空不做空”？</title>
-    <link href="http://kangjian.net//1602/"/>
-    <id>http://kangjian.net//1602/</id>
-    <published>2016-03-08T03:10:35.000Z</published>
-    <updated>2017-05-08T18:14:58.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img style="margin-left:auto;margin-right:auto" src="http://kangjian.net/images/2016/03/2016-03-0811.07.04.png" alt="2016 03 0811 07 04" border="0" width="534" height="219"></p>
-<p>黑色系商品暴涨，“看空不做空”又频频出现。交易不应该这么复杂。“看空”是观点，“不做空”是做法，观点和做法不一致，事情就复杂了。交易要简单。理想化的交易应该只有“做”与“不做”——极少的时候做，大多数时候不做。</p>
-<p>交易的目的是赚钱，不是做天气预报，不是描述后市的走向。成功的交易员不需要有自己的观点，不需要“看空”还是“看多”。交易员在场内只做一件事情：识别供需的强弱。强弱以价格和成交量的形式呈现，强弱背后是供需。市场的趋势也好，盘整也好，支撑也好，阻力也好，突破也好，回撤也好，背后的本质都是供需关系。一个金融交易员，根本的工作是要理解市场中供需力量的变化，进而通过克服贪婪和恐惧，通过建仓、持仓、平仓、空仓去贴合供需变化。</p>
-<p>以这波黑色的暴涨为例。在线有在线的原因，空仓有空仓的理由。判断交易员的操作正确与否，唯一的标准就是交易员是否执行了交易系统。短线交易者可能看到一两个日线形态就开仓，中线交易可能还要等待周线级别信号才入场，长线交易可能还需要等待多几个周线级别的高低点确认趋势究竟是反转还是延续。不同的交易“门派”按照不同的“剑法”操练，是否执行了自家的招式才是关键。市场的钱是赚不完的，三千弱水只取一瓢饮，交易要简单，不要太复杂。</p>
-<p>交易员要有追求，但永远不要希望自己能预判到每一次上涨下跌——那是上帝的事情。上帝的归上帝，凯撒的归凯撒，交易员要做的是尽可能克服贪婪，克服恐惧，放过不属于自己的盈利，抓紧属于自己的盈利，赚该赚的钱，不赚不属于自己的钱。落实到微观，只有一个永恒的追求：减少回撤，避免亏损。仅此而已。盈利？那是上帝的礼物，是对约束的奖励，是对克己的回报，交易员不能提要求。</p>
-<p>做法就是观点，观点就是做法，交易员要知行合一。看空就要开仓做空，入场做空就是在看空。不做就是不确定，不确定就不做——交易员要实事求是。“看空不做空”这样的状态，值得每一个交易员反思。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img style=&quot;margin-left:auto;margin-right:auto&quot; src=&quot;http://kangjian.net/images/2016/03/2016-03-0811.07.04.png&quot; alt=&quot;2016 03 0811 07 04&quot; 
-    
-    </summary>
-    
-      <category term="Trading" scheme="http://kangjian.net/categories/Trading/"/>
-    
-    
-      <category term="交易" scheme="http://kangjian.net/tags/%E4%BA%A4%E6%98%93/"/>
-    
-      <category term="交易系统" scheme="http://kangjian.net/tags/%E4%BA%A4%E6%98%93%E7%B3%BB%E7%BB%9F/"/>
-    
-      <category term="交易员" scheme="http://kangjian.net/tags/%E4%BA%A4%E6%98%93%E5%91%98/"/>
-    
-      <category term="期货" scheme="http://kangjian.net/tags/%E6%9C%9F%E8%B4%A7/"/>
     
   </entry>
   
