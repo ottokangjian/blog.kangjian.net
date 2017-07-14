@@ -2216,6 +2216,30 @@
 					<integer>128</integer>
 				</dict>
 			</dict>
+			<key>2017-06-25-1709 - 2.md</key>
+			<dict>
+				<key>explicitUnassignment</key>
+				<true/>
+				<key>firstUnassignment</key>
+				<real>520312055.15817499</real>
+				<key>lastModification</key>
+				<real>520312055.15817499</real>
+				<key>version</key>
+				<dict>
+					<key>245e1d992163fbdbb49fc706f5b1cc63256b3c86523826f0bf0427994b036e6f</key>
+					<integer>132</integer>
+				</dict>
+			</dict>
+			<key>2017-06-25-1709.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>520312050.53152198</real>
+				<key>version</key>
+				<dict>
+					<key>245e1d992163fbdbb49fc706f5b1cc63256b3c86523826f0bf0427994b036e6f</key>
+					<integer>131</integer>
+				</dict>
+			</dict>
 		</dict>
 		<key>sheetOrder</key>
 		<real>515909837.14306003</real>
@@ -2885,6 +2909,12 @@
 		<array>
 			<string>2017-06-15-1707.md</string>
 		</array>
+		<array>
+			<string>2017-06-25-1709.md</string>
+		</array>
+		<array>
+			<string>2017-06-25-1709 - 2.md</string>
+		</array>
 	</array>
 	<key>sheetOrder</key>
 	<string>title,descending</string>
@@ -2895,7 +2925,7 @@
 		<key>sheetClusters</key>
 		<dict>
 			<key>245e1d992163fbdbb49fc706f5b1cc63256b3c86523826f0bf0427994b036e6f</key>
-			<integer>129</integer>
+			<integer>134</integer>
 		</dict>
 		<key>sheetOrder</key>
 		<dict>
