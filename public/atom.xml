@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="http://kangjian.net/"/>
-  <updated>2017-06-28T07:10:41.000Z</updated>
+  <updated>2017-08-24T05:06:20.000Z</updated>
   <id>http://kangjian.net/</id>
   
   <author>
@@ -14,6 +14,87 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>止损要有意义</title>
+    <link href="http://kangjian.net//1711/"/>
+    <id>http://kangjian.net//1711/</id>
+    <published>2017-08-24T01:44:18.000Z</published>
+    <updated>2017-08-24T05:06:20.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://kangjian.net/images/2017/08/2017-08-24-SL.jpg" alt=""></p>
+<p>这个月21日，单笔交易盈亏比创了新高，1份风险敞口，27.8倍的回报。有运气的因素，回顾计划到执行，也确实是一次自我的提升。这次交易之前，对交易系统的调整持续大概三个月，改变主要在止损策略。</p>
+<p>要感谢我的师父，一年多之前和我说了六个字：</p>
+<blockquote>
+<p>“止损要有意义。”</p>
+</blockquote>
+<p>六个字，一年多，潜移默化，润物无声。</p>
+<p>整理一下自己对这六个字的理解。</p>
+<p><strong>第一，开仓入场要有意义。</strong></p>
+<p>无论挂单止损还是主观止损，一个止损设置下去了，必然意味着一次入场。老子曾说：“兵者，不祥之器……不得已而用之”。交易也是一样，一次开仓入场，意味着一次风险暴露。不一定盈利，不一定亏损，但风险敞口一定暴露。止损只是给风险加一个限额，风险依然是风险。所以，要让止损有意义，前提是入场必须有意义。</p>
+<p>按照 Jason Williams 的说法，“大多数做交易的人其实都不是为了盈利。他们认为做交易是为了盈利，但实际上更多的是与其他东西有关。”交易者需要持续克服频繁交易的倾向。入场无意义，则止损无意义。瞄准了打，每一颗子弹消灭一个敌人。</p>
+<p>如何衡量入场是否有意义呢？</p>
+<p>要看是否符合自己的交易系统。以钓鱼为例，什么时候抬起鱼竿呢？鱼漂动了，手上也有反映了。每一个钓者都在等待这个时刻，没有这些反应，鱼竿就要一动不动。交易也是一样，只有符合交易系统的信号出现，才能抬起鱼竿，下单入场。这是第一步，是最基本的要求。至于交易系统的信号是否过于频繁，是否可以优化和省略，那是后面的事情。</p>
+<p>总之，<strong>止损要有意义的第一步，是入场要有意义。</strong></p>
+<p><strong>第二，止损点位要有意义。</strong></p>
+<p>设置止损点，我们有时会选择某一级别K线的关键价位，有时会选择均线、趋势线，有时会选择某一指标的某一值作为触发止损的扳机点。粗看来，只要止损点是明确的，止损的背后都是有理由的。</p>
+<p><strong>止损的理由不等于止损的意义。</strong></p>
+<p>很多时候，有理由的止损点是没有意义的。这里要明晰一个概念，什么叫止损的意义？止损的目的是，在市场的运行与我们的预期不一致的时候，及时地脱离市场，结束风险暴露的状态。有了这个目的，止损的意义就是是否有助于目的的实现，也即——是否不会迟钝，也不会过敏。</p>
+<p>有时，止损设置会迟钝。市场的走势已经告诉交易者，最初的理由不在了，最初的考虑不对了，但止损迟迟没有触发。在刚刚做到坚决执行交易系统的交易者中，这种情况很常见。“忍住，再等等”是这时心底最常出现的声音。可实际上，这时候的入场依据已经被证伪了。</p>
+<p>还有时候，止损设置会过敏。在某些波动较大的时段，过小的止损（常常体现为小级别的K线高低点、短期均线等）会被扫掉，头寸没了，价格继续按照预定方向运行。这时尽管交易者可以告诉自己，“止损错了也是对的”，但毕竟“方向”判断对了，“方向”的波动幅度没有判断对，依然不能算理想。</p>
+<p>止损的标准在迟钝与过敏两端游走，对交易者的伤害很大。意志不够刚硬的交易者，会在“忍住，再等等”和“错了也是对的”之间反复徘徊，最终，坚持的变成了随意的，自信的变成了怯懦的，这种波动最终会毁掉一个交易者。</p>
+<p><strong>坚持得太过辛苦，有时是方法错了</strong>。<strong>止损要有意义，第二步，点位选择一定要有意义。</strong></p>
+<p><strong>第三，止损幅度要有意义。</strong></p>
+<p>幅度和点位不同，点位的价值在于定性分析的对与错，幅度的价值在于定量分析的值不值。简单说，止损的幅度决定了盈亏比。</p>
+<p>一波行情，在职业的交易者看来，要么有个大致的考量（与一二三的目标位有关），要么完全不设预期，趋势跟踪。无论哪种路子，<strong>止损幅度都与盈亏比成反比</strong>。</p>
+<p><strong>盈亏比又与胜率的最低要求成反比</strong>。</p>
+<p>因此，<strong>止损幅度与胜率的最低要求成正比</strong>。</p>
+<p>——<strong>止损越小，命中率越不重要。止损越大，胜率要求就越高</strong>。</p>
+<p>以趋势跟踪策略为例。趋势跟踪策略的常见胜率是30%-50%。一般认为，超过50%的胜率，要么是过度优化，要么是短期数据不足以长期证明。而低于30%的胜率，又难以通过合理的盈亏比保证盈利。众所周知，趋势交易者不宜过度过滤入场信号，得不偿失。这时，入场时的止损幅度就很重要。如果能够成功的降低止损的幅度，往往意味着同样的风险暴露金额，可以建仓更大的头寸。事实上，这条路径确实是趋势交易者提高交易绩效的常用方法。</p>
+<p>千人千面，水无常形。止损的幅度没有一定之规，没有最优方案。大的原则基本可以明确，<strong>止损不宜过大，过大的止损伤害盈亏比，提高了对胜率的要求。</strong></p>
+<p><strong>第四，移动止损要有意义。</strong></p>
+<p>持仓出现浮盈，是持仓中的高光时刻。浮盈后如何移动初始止损，是持仓中的重要课题。</p>
+<p>持仓中移动止损要解决好两个关键问题。</p>
+<ul>
+<li>第一是<strong>盈亏平衡</strong>问题，是否要在特定条件满足后移动止损位置到盈亏平衡点？如果是，什么时候移动？如果不是，为什么不移动？</li>
+<li>第二是<strong>跟踪止盈</strong>问题，是否随着行情发展，动态确保最低盈利（即使主动止盈）？如果是，什么时候移动？如果不是，为什么不移动？</li>
+</ul>
+<p>是否做保本处理，是否跟踪止盈（顺向移动止损线），其结论并没有标准答案。但考虑这个问题则是交易者的必修课。做出何种策略，主要与几个因素有关：</p>
+<ul>
+<li>与交易系统的设计思路有关。如果是单纯追求大盈亏比的策略，例如A股“缺口不补”策略、原生“海龟”策略等，这方面的要求可能会松一点。如果是日内短线炒单策略，这方面的要求可定要很严格。</li>
+<li>与资金偏好要求有关。自有资金，承受波动足够大，无所谓，要求会宽一些。外部资金，净值公开，这方面的约束自然要严格一些。</li>
+<li>与交易者的自身特质有关。每个交易者都有自己的特质，是否动态调整止损要结合交易者的特质考虑。每个交易者要结合自己的性格特质选择符合自己的策略。</li>
+</ul>
+<p><strong>总结一下。</strong></p>
+<p>上面的四点里面：</p>
+<ul>
+<li>开仓入场有意义，防止过度交易、冲动交易。</li>
+<li>止损点位有意义，真正把止损变成必要的成本，而非单纯“停止损失”。</li>
+<li>止损幅度有意义，提升盈亏比，降低命中率的要求。</li>
+<li>移动止损有意义，防止不必要的亏损出现，及时锁定既得利润。</li>
+</ul>
+<p>四点处理得好一些，更好一些，交易的绩效一定会有所提升。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://kangjian.net/images/2017/08/2017-08-24-SL.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;这个月21日，单笔交易盈亏比创了新高，1份风险敞口，27.8倍的回报。有运气的因素，回顾计划到执行，也确实是一次自我
+    
+    </summary>
+    
+      <category term="Trading" scheme="http://kangjian.net/categories/Trading/"/>
+    
+    
+      <category term="交易" scheme="http://kangjian.net/tags/%E4%BA%A4%E6%98%93/"/>
+    
+      <category term="止损" scheme="http://kangjian.net/tags/%E6%AD%A2%E6%8D%9F/"/>
+    
+      <category term="心态控制" scheme="http://kangjian.net/tags/%E5%BF%83%E6%80%81%E6%8E%A7%E5%88%B6/"/>
+    
+      <category term="Jason Williams" scheme="http://kangjian.net/tags/Jason-Williams/"/>
+    
+  </entry>
   
   <entry>
     <title>历史上的横盘——铁矿石该怎么走？</title>
@@ -518,9 +599,9 @@
     
       <category term="交易" scheme="http://kangjian.net/tags/%E4%BA%A4%E6%98%93/"/>
     
-      <category term="以交易为生" scheme="http://kangjian.net/tags/%E4%BB%A5%E4%BA%A4%E6%98%93%E4%B8%BA%E7%94%9F/"/>
-    
       <category term="回撤" scheme="http://kangjian.net/tags/%E5%9B%9E%E6%92%A4/"/>
+    
+      <category term="以交易为生" scheme="http://kangjian.net/tags/%E4%BB%A5%E4%BA%A4%E6%98%93%E4%B8%BA%E7%94%9F/"/>
     
       <category term="技术分析" scheme="http://kangjian.net/tags/%E6%8A%80%E6%9C%AF%E5%88%86%E6%9E%90/"/>
     
@@ -1062,9 +1143,9 @@
     
       <category term="nginx" scheme="http://kangjian.net/tags/nginx/"/>
     
-      <category term="rewrite" scheme="http://kangjian.net/tags/rewrite/"/>
-    
       <category term="vps" scheme="http://kangjian.net/tags/vps/"/>
+    
+      <category term="rewrite" scheme="http://kangjian.net/tags/rewrite/"/>
     
       <category term="伪静态" scheme="http://kangjian.net/tags/%E4%BC%AA%E9%9D%99%E6%80%81/"/>
     
@@ -1294,54 +1375,6 @@
       <category term="趋势通道线" scheme="http://kangjian.net/tags/%E8%B6%8B%E5%8A%BF%E9%80%9A%E9%81%93%E7%BA%BF/"/>
     
       <category term="阻力位" scheme="http://kangjian.net/tags/%E9%98%BB%E5%8A%9B%E4%BD%8D/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>不要在较小时间框架上寻找反转</title>
-    <link href="http://kangjian.net//1630/"/>
-    <id>http://kangjian.net//1630/</id>
-    <published>2016-06-15T03:55:50.000Z</published>
-    <updated>2017-05-08T03:59:23.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img style="display:block; margin-left:auto; margin-right:auto;" src="http://kangjian.net/images/2016/06/209a3856.jpg_slt2.jpeg" alt="209a3856 jpg slt2" border="0" width="600" height="255"></p>
-<blockquote>
-<p>时间会改变风险，风险的本质由时间的范围来塑造：未来就是赌场。 ——《与天为敌：风险探索传奇》</p>
-</blockquote>
-<p>这几天观察工业品的价格变化。一轮暴涨之后一轮急跌，这几天出现了止跌的迹象。</p>
-<p>螺纹钢的价格变动最具有迷惑性。昨天的大阴线揭开了谜底。</p>
-<p><img style="display:block; margin-left:auto; margin-right:auto;" src="http://kangjian.net/images/2016/06/DraggedImage.png" alt="DraggedImage" border="0" width="435" height="593"></p>
-<p>铁矿石就清晰多了，还是弱。</p>
-<p><img style="display:block; margin-left:auto; margin-right:auto;" src="http://kangjian.net/images/2016/06/DraggedImage-1.png" alt="DraggedImage 1" border="0" width="517" height="596"></p>
-<p>橡胶前期持续多年的下跌力量更强，没什么像样的反弹。但七八个交易日前的日线反转组合像模像样，单看k线，也有些诱人。</p>
-<p><img style="display:block; margin-left:auto; margin-right:auto;" src="http://kangjian.net/images/2016/06/DraggedImage-2.png" alt="DraggedImage 2" border="0" width="490" height="600"></p>
-<p>盘面显示，很多人在参与这几天工业品的反转。后续如何运动我们不知道，但昨天的一根大阴线显示，价格向下运动的力量依然很强。</p>
-<p>正巧，今天读 Al Brooks，看到了一个类似的形态。</p>
-<p><img style="display:block; margin-left:auto; margin-right:auto;" src="http://kangjian.net/images/2016/06/DraggedImage-3.png" alt="DraggedImage 3" border="0" width="600" height="493"></p>
-<p>这副图表的标题是——“<strong>不要在较小时间框架图表上寻找反转</strong>”。</p>
-<p>为什么“不要在较小时间框架图表上寻找反转”？</p>
-<p>交易要做到“量、价、时、空”四个要素的统一。除了常见的价格和成交量，还要有时间和空间的配合。从时间上看，这一轮的下跌持续了一个多月的时间，所谓的“反转”、“反弹”，也就是几个交易日。几天对比几周，时间上不足以形成反转。从空间上看，这一轮的下跌幅度是这几天振幅的多倍，空间上完全不成比例。即使仅仅看价格，下跌的日线形态很强，力道十足。这几天的“反转”也要，“见底”也好，都是难以与之对抗的。因此，无论从什么角度看看，“反转”都没有凑齐成立的理由。</p>
-<p><strong>技术上，反转有很多必要的条件。在展开具体的技术分析前，稳定的时间框架是一个基本前提。</strong> Al Brooks 在书里反复强调，不能弄混不同的时间框架。交易员不能因为先验的立场就用更小的时间框架去寻找入场的理由。弄混了时间框架，找到的理由大多是本不存在的。附会出来的入场“依据”，其本质都是“打哪指哪”、“自说自话”，不具备现实价值。</p>
-<p>“时间能治愈一切。”在交易中，唯有时间能够消化、反转暴涨暴跌。一切反转，都需要反复的震荡、筑底、尝试、证伪。脱离了稳定、统一的时间框架，技术分析的可靠性无从谈起。毕竟，<strong>未来就是赌场 ——时间会改变风险，风险的本质由时间的范围来塑造。</strong></p>
-<p>Al Brooks 有一个经典的公式“<strong>大幅上涨+大幅下跌=大的混乱=交易区间</strong>”。区间的宿命是被突破。问题是，我们能不能等到下一个趋势来临之前，少流血，甚至不流血。——这是每一个趋势交易者的毕生功课。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img style=&quot;display:block; margin-left:auto; margin-right:auto;&quot; src=&quot;http://kangjian.net/images/2016/06/209a3856.jpg_slt2.jpeg&quot; alt=&quot;209
-    
-    </summary>
-    
-      <category term="Trading" scheme="http://kangjian.net/categories/Trading/"/>
-    
-    
-      <category term="交易" scheme="http://kangjian.net/tags/%E4%BA%A4%E6%98%93/"/>
-    
-      <category term="趋势交易" scheme="http://kangjian.net/tags/%E8%B6%8B%E5%8A%BF%E4%BA%A4%E6%98%93/"/>
-    
-      <category term="期货" scheme="http://kangjian.net/tags/%E6%9C%9F%E8%B4%A7/"/>
-    
-      <category term="反转" scheme="http://kangjian.net/tags/%E5%8F%8D%E8%BD%AC/"/>
     
   </entry>
   
