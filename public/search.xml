@@ -79,8 +79,8 @@
         <category>Trading</category>
       </categories>
       <tags>
-        <tag>资金管理</tag>
         <tag>交易系统</tag>
+        <tag>资金管理</tag>
         <tag>技术分析</tag>
         <tag>亏损</tag>
         <tag>盈利</tag>
@@ -134,8 +134,8 @@
         <tag>Price Action</tag>
         <tag>交易</tag>
         <tag>以交易为生</tag>
-        <tag>回撤</tag>
         <tag>技术分析</tag>
+        <tag>回撤</tag>
         <tag>价值投资</tag>
         <tag>Pullback</tag>
         <tag>Alexander Elder</tag>
@@ -280,8 +280,8 @@
       </categories>
       <tags>
         <tag>Al Brooks</tag>
-        <tag>反转</tag>
         <tag>交易者方程</tag>
+        <tag>反转</tag>
         <tag>尖峰</tag>
       </tags>
   </entry>
@@ -312,8 +312,8 @@
       <tags>
         <tag>交易</tag>
         <tag>Al Brooks</tag>
-        <tag>胜率</tag>
         <tag>趋势线</tag>
+        <tag>胜率</tag>
         <tag>交易者方程</tag>
         <tag>支撑位</tag>
         <tag>梁启超</tag>
@@ -567,8 +567,8 @@
       <tags>
         <tag>授信</tag>
         <tag>iphone</tag>
-        <tag>分期付款</tag>
         <tag>分期</tag>
+        <tag>分期付款</tag>
         <tag>水货</tag>
         <tag>融资</tag>
         <tag>行货</tag>
@@ -616,8 +616,8 @@
         <category>Trading</category>
       </categories>
       <tags>
-        <tag>止损</tag>
         <tag>交易系统</tag>
+        <tag>止损</tag>
         <tag>Van Tharp</tag>
         <tag>livermore</tag>
         <tag>亏损</tag>
@@ -665,12 +665,12 @@
         <category>Trading</category>
       </categories>
       <tags>
-        <tag>资金管理</tag>
         <tag>交易系统</tag>
+        <tag>资金管理</tag>
         <tag>风险回报比</tag>
         <tag>MDD</tag>
-        <tag>风险暴露</tag>
         <tag>交易频率</tag>
+        <tag>风险暴露</tag>
       </tags>
   </entry>
   <entry>
@@ -736,16 +736,16 @@
       </categories>
       <tags>
         <tag>一致性</tag>
-        <tag>资金管理</tag>
         <tag>收益率</tag>
-        <tag>MAR</tag>
+        <tag>资金管理</tag>
         <tag>MDD</tag>
+        <tag>风险暴露</tag>
+        <tag>MAR</tag>
         <tag>回撤</tag>
         <tag>巴菲特</tag>
         <tag>收益曲线</tag>
         <tag>海龟交易</tag>
         <tag>资金曲线</tag>
-        <tag>风险暴露</tag>
       </tags>
   </entry>
   <entry>
@@ -758,7 +758,6 @@
       <tags>
         <tag>知乎</tag>
         <tag>心态</tag>
-        <tag>资金管理</tag>
         <tag>交易系统</tag>
         <tag>收益率</tag>
         <tag>交易圣经</tag>
@@ -767,6 +766,7 @@
         <tag>投机智慧</tag>
         <tag>期货投资的命门</tag>
         <tag>贪婪</tag>
+        <tag>资金管理</tag>
         <tag>金融交易学</tag>
       </tags>
   </entry>
@@ -827,8 +827,8 @@
       <tags>
         <tag>交易</tag>
         <tag>一致性</tag>
-        <tag>止损</tag>
         <tag>资金管理</tag>
+        <tag>止损</tag>
       </tags>
   </entry>
   <entry>
@@ -975,8 +975,8 @@
       </categories>
       <tags>
         <tag>fitness</tag>
-        <tag>减脂</tag>
         <tag>跑步</tag>
+        <tag>减脂</tag>
         <tag>体重</tag>
       </tags>
   </entry>
@@ -1149,8 +1149,8 @@
         <tag>读书</tag>
         <tag>文学回忆录</tag>
         <tag>木心</tag>
-        <tag>陈丹青</tag>
         <tag>苏格拉底</tag>
+        <tag>陈丹青</tag>
         <tag>艺术</tag>
         <tag>知识</tag>
         <tag>日记</tag>
@@ -1167,13 +1167,13 @@
         <tag>文学回忆录</tag>
         <tag>木心</tag>
         <tag>陈丹青</tag>
-        <tag>哲学</tag>
-        <tag>诗歌</tag>
         <tag>上海</tag>
         <tag>俄国</tag>
         <tag>农民</tag>
+        <tag>哲学</tag>
         <tag>极权</tag>
         <tag>海涅</tag>
+        <tag>诗歌</tag>
         <tag>郭沫若</tag>
         <tag>革命</tag>
       </tags>
@@ -1237,11 +1237,11 @@
         <tag>文学回忆录</tag>
         <tag>木心</tag>
         <tag>陈丹青</tag>
-        <tag>儒家</tag>
         <tag>哲学</tag>
+        <tag>诗歌</tag>
+        <tag>儒家</tag>
         <tag>孔丘</tag>
         <tag>孔子</tag>
-        <tag>诗歌</tag>
         <tag>陶渊明</tag>
         <tag>陶潜</tag>
       </tags>
@@ -1276,9 +1276,9 @@
         <tag>希腊</tag>
         <tag>文学回忆录</tag>
         <tag>木心</tag>
-        <tag>陈丹青</tag>
         <tag>美术</tag>
         <tag>苏格拉底</tag>
+        <tag>陈丹青</tag>
         <tag>宗教</tag>
         <tag>耶稣</tag>
       </tags>
@@ -1294,8 +1294,8 @@
         <tag>希腊</tag>
         <tag>文学回忆录</tag>
         <tag>木心</tag>
-        <tag>陈丹青</tag>
         <tag>苏格拉底</tag>
+        <tag>陈丹青</tag>
         <tag>基督教</tag>
         <tag>新约</tag>
         <tag>旧约</tag>
@@ -1311,17 +1311,17 @@
       <tags>
         <tag>历史</tag>
         <tag>读书笔记</tag>
-        <tag>希腊</tag>
-        <tag>文学回忆录</tag>
-        <tag>木心</tag>
-        <tag>陈丹青</tag>
         <tag>乔达摩</tag>
         <tag>司马迁</tag>
         <tag>希特勒</tag>
+        <tag>希腊</tag>
+        <tag>文学回忆录</tag>
+        <tag>木心</tag>
         <tag>李聃</tag>
         <tag>美术</tag>
         <tag>老子</tag>
         <tag>苏格拉底</tag>
+        <tag>陈丹青</tag>
       </tags>
   </entry>
   <entry>
@@ -1334,14 +1334,14 @@
       <tags>
         <tag>诗词</tag>
         <tag>读书笔记</tag>
-        <tag>上帝</tag>
-        <tag>人类</tag>
         <tag>希腊</tag>
         <tag>文学回忆录</tag>
         <tag>木心</tag>
+        <tag>陈丹青</tag>
+        <tag>上帝</tag>
+        <tag>人类</tag>
         <tag>红楼梦</tag>
         <tag>荷马</tag>
-        <tag>陈丹青</tag>
       </tags>
   </entry>
   <entry>
@@ -1514,8 +1514,8 @@
       <tags>
         <tag>毛泽东</tag>
         <tag>大饥荒</tag>
-        <tag>大跃进</tag>
         <tag>农业中的力学问题</tag>
+        <tag>大跃进</tag>
         <tag>钱学森</tag>
       </tags>
   </entry>
@@ -1530,8 +1530,8 @@
         <tag>周恩来</tag>
         <tag>毛泽东</tag>
         <tag>大饥荒</tag>
-        <tag>人民日报</tag>
         <tag>大跃进</tag>
+        <tag>人民日报</tag>
         <tag>彭真</tag>
       </tags>
   </entry>
@@ -2658,8 +2658,8 @@
         <category>Daily</category>
       </categories>
       <tags>
-        <tag>歌词</tag>
         <tag>周杰伦</tag>
+        <tag>歌词</tag>
         <tag>蔡依林</tag>
       </tags>
   </entry>
@@ -2683,8 +2683,8 @@
       </categories>
       <tags>
         <tag>人民大学</tag>
-        <tag>奥运</tag>
         <tag>歌词</tag>
+        <tag>奥运</tag>
       </tags>
   </entry>
   <entry>
@@ -3274,8 +3274,8 @@
         <category>Daily</category>
       </categories>
       <tags>
-        <tag>法律史</tag>
         <tag>学习</tag>
+        <tag>法律史</tag>
         <tag>论文</tag>
       </tags>
   </entry>
@@ -3288,8 +3288,8 @@
       </categories>
       <tags>
         <tag>历史</tag>
-        <tag>法律</tag>
         <tag>法律史</tag>
+        <tag>法律</tag>
         <tag>笔记</tag>
       </tags>
   </entry>
@@ -3363,8 +3363,8 @@
         <category>Article</category>
       </categories>
       <tags>
-        <tag>诗词</tag>
         <tag>杨帆凯</tag>
+        <tag>诗词</tag>
         <tag>辩论</tag>
       </tags>
   </entry>
@@ -3376,8 +3376,8 @@
         <category>Article</category>
       </categories>
       <tags>
-        <tag>历史</tag>
         <tag>诗词</tag>
+        <tag>历史</tag>
         <tag>陆机</tag>
       </tags>
   </entry>
