@@ -6,7 +6,7 @@
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "ottokang, 交易, 康健, 期货, 读书, 读书笔记"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -61,7 +61,7 @@ menu_icons:
   tags: tags
   archives: archive
   sitemap: sitemap
-  commonweal: heartbeat
+  #commonweal: heartbeat
 
 
 

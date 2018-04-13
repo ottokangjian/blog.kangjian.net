@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[球不要踢得太小]]></title>
+    <url>%2Fblog%2F%2F1713%2F</url>
+    <content type="text"><![CDATA[周三例会，晔晔说了一句感慨，说到心里了。 我们的球踢得太小了。 做交易，还是要把握大的格局。这个原则与级别无关，再短的短线，也要主动向上跃迁一到两个级别，从大处看，找到大方向，再逐级推演，等待买卖点。 果断来自于直觉。直觉是最宝贵的资源，是交易员无数看盘、复盘、持仓的积累。产生直觉源自学习，输出直觉源自等待。做正确的交易、大幅盈利的交易，你得跃跃欲试，得“憋了好久”，得“就等这一下”，得“你咋才来涅”。没有这种感受，交易就没有直觉的支持。没有直觉的支持，交易即使盈利了，也无法形成自我正反馈激励，没有长久的积累价值。 人的直觉是有限的，超短线、日内交易为什么难？难就难在不断的输出输出输出。再强的电池，保持稳定持续的输出也很难。前面偶尔也体会过超短线，看5s图，以均线为依据，用 Price Action 的固定架构，做做3-pushes、做做楔形反转，做做衰竭，盘子不大，也能盈利。一天下来发觉了不对。一点一滴积累的利润，在收盘前的一次本不该入场的波段交易中赔掉了绝大部分。进进出出，“上班打卡”，疲于应付，根本感受不到本心中直觉的指引，相对大的机会到来，失去了直觉的保护，也就丧失了盈利的确定性。丢西瓜捡芝麻，攒钱毁于电信诈骗，就是这感觉。 对大多数交易者来说，还是应该争取把握大机会，粗粮细作，有大机会的时候再逐步降级，寻找准确的开仓平仓点位。大机会没到，看，不干。节约精力、时间是表，深层次的里是节约交易冲动和信心。一次次超短，赚一点亏一点，线性输出，交易冲动都没了，太费电。 从另一个方面说，专注大机会才是大块盈利的基础。 一是，正确率和回报比互损，二者同时优化的关键就在于级别错配。只有通过大机会一层层降级，持仓后再一层层升级，才有可能获取级别错配带来的超额利润。技术上这个操作不难，难在经历了超额利润后，交易员如何调整心态。这是另一个问题。 二是，利润是收入，止损是成本。只有交易次数足够低了，才有止损、再次入场的勇气。止损的成本就是子弹费用，波段利润就是猎物。一个交易员，心里清楚这波过去大象起码一周以后才有行情了，那捕捉这一波，开三枪还是开五枪没差别。如果每天都端着枪打野鸡，就要好好算算鸡肉和子弹哪个更值钱了，开枪的时候心里一算账，打猎肯定打不好。 总而言之一句话，晔晔说的对。球不要踢得太小，一是踢着累，二是踢不准，三是没必要。]]></content>
+      <categories>
+        <category>Trading</category>
+      </categories>
+      <tags>
+        <tag>止损</tag>
+        <tag>心态控制</tag>
+        <tag>区间套</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[开放是不可逆的]]></title>
     <url>%2Fblog%2F%2F1712%2F</url>
     <content type="text"><![CDATA[信息开放后，封锁就变得无从谈起。掩盖、删除可以改变结果，但无法改变结果的结果。 北京开会，VIP们的行程是保密的，但交通管制的预告几乎预播了车队的路线。 这个例子也是，半岛领主来访是保密的，但是很多公开信息都是无法掩饰的。 区块链、比特币就是这个道理，删除一个东西，删除本身也会留下痕迹。这个痕迹反而永恒地证明了删除这个动作曾经出现过。 除非退回蒙昧时期，否则再强的手段也无法完全掩盖信息了。 开放，不可逆。]]></content>
@@ -145,13 +158,13 @@
       <tags>
         <tag>Price Action</tag>
         <tag>交易</tag>
-        <tag>回撤</tag>
         <tag>以交易为生</tag>
+        <tag>回撤</tag>
         <tag>技术分析</tag>
+        <tag>价格</tag>
         <tag>价值投资</tag>
         <tag>Pullback</tag>
         <tag>Alexander Elder</tag>
-        <tag>价格</tag>
       </tags>
   </entry>
   <entry>
@@ -543,8 +556,8 @@
         <tag>茅海建</tag>
         <tag>顾准</tag>
         <tag>读书</tag>
-        <tag>读书卡片</tag>
         <tag>读书笔记</tag>
+        <tag>读书卡片</tag>
         <tag>木心</tag>
         <tag>DEVONthink</tag>
         <tag>atimelogger</tag>
@@ -629,8 +642,8 @@
       </categories>
       <tags>
         <tag>止损</tag>
-        <tag>交易系统</tag>
         <tag>Van Tharp</tag>
+        <tag>交易系统</tag>
         <tag>livermore</tag>
         <tag>亏损</tag>
         <tag>利润</tag>
@@ -791,9 +804,9 @@
       </categories>
       <tags>
         <tag>交易</tag>
-        <tag>交易系统</tag>
         <tag>SQN指数</tag>
         <tag>Van Tharp</tag>
+        <tag>交易系统</tag>
         <tag>圣杯</tag>
         <tag>标准差</tag>
         <tag>风险回报比</tag>
@@ -1095,9 +1108,9 @@
       </categories>
       <tags>
         <tag>知识管理</tag>
+        <tag>读书笔记</tag>
         <tag>filemaker</tag>
         <tag>读书卡片</tag>
-        <tag>读书笔记</tag>
         <tag>filemaker go</tag>
         <tag>DEVONthink</tag>
         <tag>PIM</tag>
@@ -1179,13 +1192,13 @@
         <tag>文学回忆录</tag>
         <tag>木心</tag>
         <tag>陈丹青</tag>
+        <tag>哲学</tag>
+        <tag>诗歌</tag>
         <tag>上海</tag>
         <tag>俄国</tag>
         <tag>农民</tag>
-        <tag>哲学</tag>
         <tag>极权</tag>
         <tag>海涅</tag>
-        <tag>诗歌</tag>
         <tag>郭沫若</tag>
         <tag>革命</tag>
       </tags>
@@ -1249,11 +1262,11 @@
         <tag>文学回忆录</tag>
         <tag>木心</tag>
         <tag>陈丹青</tag>
-        <tag>哲学</tag>
-        <tag>诗歌</tag>
         <tag>儒家</tag>
+        <tag>哲学</tag>
         <tag>孔丘</tag>
         <tag>孔子</tag>
+        <tag>诗歌</tag>
         <tag>陶渊明</tag>
         <tag>陶潜</tag>
       </tags>
@@ -1391,9 +1404,9 @@
         <tag>十九札</tag>
         <tag>朱青生</tag>
         <tag>茅海建</tag>
+        <tag>读书笔记</tag>
         <tag>filemaker</tag>
         <tag>读书卡片</tag>
-        <tag>读书笔记</tag>
         <tag>iphone</tag>
         <tag>filemaker go</tag>
         <tag>ipad</tag>
@@ -1834,9 +1847,9 @@
         <category>Debating</category>
       </categories>
       <tags>
-        <tag>辩论</tag>
         <tag>人民大学</tag>
         <tag>法学院</tag>
+        <tag>辩论</tag>
         <tag>陈怀望</tag>
         <tag>余磊</tag>
         <tag>俄勒冈辩论</tag>
@@ -1859,8 +1872,8 @@
         <tag>Amazon</tag>
         <tag>kindle</tag>
         <tag>Kindle DXG</tag>
-        <tag>读书</tag>
         <tag>哥本中分</tag>
+        <tag>读书</tag>
         <tag>读书笔记</tag>
       </tags>
   </entry>
@@ -1875,9 +1888,9 @@
         <tag>知识管理</tag>
         <tag>pdf</tag>
         <tag>kindle</tag>
+        <tag>读书</tag>
         <tag>filemaker</tag>
         <tag>徐子渔</tag>
-        <tag>读书</tag>
         <tag>读书卡片</tag>
         <tag>阅读</tag>
       </tags>
@@ -1994,10 +2007,10 @@
       </categories>
       <tags>
         <tag>笔记</tag>
-        <tag>推拿</tag>
-        <tag>毕飞宇</tag>
         <tag>托克维尔</tag>
         <tag>旧制度与大革命</tag>
+        <tag>推拿</tag>
+        <tag>毕飞宇</tag>
         <tag>Amazon</tag>
         <tag>kindle</tag>
         <tag>Kindle DXG</tag>
@@ -2259,8 +2272,8 @@
         <category>Card</category>
       </categories>
       <tags>
-        <tag>性越多越安全：颠覆传统的反常经济学</tag>
         <tag>国际贸易</tag>
+        <tag>性越多越安全：颠覆传统的反常经济学</tag>
       </tags>
   </entry>
   <entry>
@@ -2271,8 +2284,8 @@
         <category>Card</category>
       </categories>
       <tags>
-        <tag>产权</tag>
         <tag>性越多越安全：颠覆传统的反常经济学</tag>
+        <tag>产权</tag>
         <tag>私有化</tag>
       </tags>
   </entry>
@@ -2670,8 +2683,8 @@
         <category>Daily</category>
       </categories>
       <tags>
-        <tag>周杰伦</tag>
         <tag>歌词</tag>
+        <tag>周杰伦</tag>
         <tag>蔡依林</tag>
       </tags>
   </entry>
@@ -2695,8 +2708,8 @@
       </categories>
       <tags>
         <tag>人民大学</tag>
-        <tag>歌词</tag>
         <tag>奥运</tag>
+        <tag>歌词</tag>
       </tags>
   </entry>
   <entry>
@@ -2804,9 +2817,9 @@
         <category>Daily</category>
       </categories>
       <tags>
-        <tag>软件</tag>
         <tag>Evernote</tag>
         <tag>知识管理</tag>
+        <tag>软件</tag>
       </tags>
   </entry>
   <entry>
@@ -2829,9 +2842,9 @@
         <category>Daily</category>
       </categories>
       <tags>
-        <tag>软件</tag>
         <tag>Evernote</tag>
         <tag>知识管理</tag>
+        <tag>软件</tag>
       </tags>
   </entry>
   <entry>
@@ -2927,8 +2940,8 @@
         <category>Paste</category>
       </categories>
       <tags>
-        <tag>诗词</tag>
         <tag>人民大学</tag>
+        <tag>诗词</tag>
       </tags>
   </entry>
   <entry>
@@ -2951,8 +2964,8 @@
         <category>Debating</category>
       </categories>
       <tags>
-        <tag>辩论</tag>
         <tag>人民大学</tag>
+        <tag>辩论</tag>
         <tag>二人制辩论赛</tag>
       </tags>
   </entry>
@@ -2999,8 +3012,8 @@
         <category>Debating</category>
       </categories>
       <tags>
-        <tag>辩论</tag>
         <tag>人民大学</tag>
+        <tag>辩论</tag>
       </tags>
   </entry>
   <entry>
@@ -3071,8 +3084,8 @@
         <category>Debating</category>
       </categories>
       <tags>
-        <tag>辩论</tag>
         <tag>人民大学</tag>
+        <tag>辩论</tag>
       </tags>
   </entry>
   <entry>
@@ -3083,8 +3096,8 @@
         <category>Debating</category>
       </categories>
       <tags>
-        <tag>辩论</tag>
         <tag>贴图</tag>
+        <tag>辩论</tag>
         <tag>共青团</tag>
       </tags>
   </entry>
@@ -3155,8 +3168,8 @@
         <category>Debating</category>
       </categories>
       <tags>
-        <tag>辩论</tag>
         <tag>人民大学</tag>
+        <tag>辩论</tag>
         <tag>共青团</tag>
       </tags>
   </entry>
@@ -3215,8 +3228,8 @@
         <category>Debating</category>
       </categories>
       <tags>
-        <tag>辩论</tag>
         <tag>人民大学</tag>
+        <tag>辩论</tag>
       </tags>
   </entry>
   <entry>
@@ -3286,8 +3299,8 @@
         <category>Daily</category>
       </categories>
       <tags>
-        <tag>学习</tag>
         <tag>法律史</tag>
+        <tag>学习</tag>
         <tag>论文</tag>
       </tags>
   </entry>
@@ -3300,8 +3313,8 @@
       </categories>
       <tags>
         <tag>历史</tag>
-        <tag>法律史</tag>
         <tag>法律</tag>
+        <tag>法律史</tag>
         <tag>笔记</tag>
       </tags>
   </entry>
@@ -3349,9 +3362,9 @@
         <category>Daily</category>
       </categories>
       <tags>
-        <tag>辩论</tag>
         <tag>CCTV</tag>
         <tag>贴图</tag>
+        <tag>辩论</tag>
         <tag>路一鸣</tag>
       </tags>
   </entry>
@@ -3375,9 +3388,9 @@
         <category>Article</category>
       </categories>
       <tags>
-        <tag>杨帆凯</tag>
         <tag>诗词</tag>
         <tag>辩论</tag>
+        <tag>杨帆凯</tag>
       </tags>
   </entry>
   <entry>
@@ -3388,8 +3401,8 @@
         <category>Article</category>
       </categories>
       <tags>
-        <tag>诗词</tag>
         <tag>历史</tag>
+        <tag>诗词</tag>
         <tag>陆机</tag>
       </tags>
   </entry>
