@@ -476,7 +476,7 @@ baidusitemap:
 use_motion: true
 
 # Fancybox
-fancybox: true
+fancybox: false
 
 # Canvas-nest
 canvas_nest: false

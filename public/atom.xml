@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="http://kangjian.net/"/>
-  <updated>2018-04-13T02:12:56.762Z</updated>
+  <updated>2018-04-13T08:14:08.533Z</updated>
   <id>http://kangjian.net/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://kangjian.net//1713/"/>
     <id>http://kangjian.net//1713/</id>
     <published>2018-04-13T01:22:06.000Z</published>
-    <updated>2018-04-13T02:12:56.762Z</updated>
+    <updated>2018-04-13T08:14:08.533Z</updated>
     
     <content type="html"><![CDATA[<p>周三例会，晔晔说了一句感慨，说到心里了。</p>
 <blockquote>
@@ -32,7 +32,7 @@
 <p>对大多数交易者来说，还是应该争取把握大机会，粗粮细作，有大机会的时候再逐步降级，寻找准确的开仓平仓点位。大机会没到，看，不干。节约精力、时间是表，深层次的里是节约交易冲动和信心。一次次超短，赚一点亏一点，线性输出，交易冲动都没了，太费电。</p>
 <p>从另一个方面说，专注大机会才是大块盈利的基础。</p>
 <p>一是，正确率和回报比互损，二者同时优化的关键就在于级别错配。只有通过大机会一层层降级，持仓后再一层层升级，才有可能获取级别错配带来的超额利润。技术上这个操作不难，难在经历了超额利润后，交易员如何调整心态。这是另一个问题。</p>
-<p>二是，利润是收入，止损是成本。只有交易次数足够低了，才有止损、再次入场的勇气。止损的成本就是子弹费用，波段利润就是猎物。一个交易员，心里清楚这波过去大象起码一周以后才有行情了，那捕捉这一波，开三枪还是开五枪没差别。如果每天都端着枪打野鸡，就要好好算算鸡肉和子弹哪个更值钱了，开枪的时候心里一算账，打猎肯定打不好。</p>
+<p>二是，利润是收入，止损是成本。只有交易次数足够低了，才有止损、再次入场的勇气。止损的成本就是子弹费用，波段利润就是猎物。一个交易员，如果心里清楚：“这波大象过去，起码再等一周才有行情了”，那捕捉这一波行情究竟是开了三枪还是开五枪没差别。如果每天都端着枪打野鸡，就要好好算算鸡肉和子弹哪个更值钱了，开枪的时候心里揣着账本打算盘，打猎肯定打不好。</p>
 <p>总而言之一句话，晔晔说的对。球不要踢得太小，一是踢着累，二是踢不准，三是没必要。</p>
 ]]></content>
     
@@ -470,9 +470,9 @@
       <category term="Trading" scheme="http://kangjian.net/categories/Trading/"/>
     
     
-      <category term="资金管理" scheme="http://kangjian.net/tags/%E8%B5%84%E9%87%91%E7%AE%A1%E7%90%86/"/>
-    
       <category term="交易系统" scheme="http://kangjian.net/tags/%E4%BA%A4%E6%98%93%E7%B3%BB%E7%BB%9F/"/>
+    
+      <category term="资金管理" scheme="http://kangjian.net/tags/%E8%B5%84%E9%87%91%E7%AE%A1%E7%90%86/"/>
     
       <category term="技术分析" scheme="http://kangjian.net/tags/%E6%8A%80%E6%9C%AF%E5%88%86%E6%9E%90/"/>
     
@@ -566,9 +566,9 @@
       <category term="Trading" scheme="http://kangjian.net/categories/Trading/"/>
     
     
-      <category term="Price Action" scheme="http://kangjian.net/tags/Price-Action/"/>
-    
       <category term="交易" scheme="http://kangjian.net/tags/%E4%BA%A4%E6%98%93/"/>
+    
+      <category term="Price Action" scheme="http://kangjian.net/tags/Price-Action/"/>
     
       <category term="技术分析" scheme="http://kangjian.net/tags/%E6%8A%80%E6%9C%AF%E5%88%86%E6%9E%90/"/>
     
@@ -616,9 +616,9 @@
       <category term="Trading" scheme="http://kangjian.net/categories/Trading/"/>
     
     
-      <category term="Price Action" scheme="http://kangjian.net/tags/Price-Action/"/>
-    
       <category term="交易" scheme="http://kangjian.net/tags/%E4%BA%A4%E6%98%93/"/>
+    
+      <category term="Price Action" scheme="http://kangjian.net/tags/Price-Action/"/>
     
       <category term="技术分析" scheme="http://kangjian.net/tags/%E6%8A%80%E6%9C%AF%E5%88%86%E6%9E%90/"/>
     
@@ -677,23 +677,23 @@
       <category term="Trading" scheme="http://kangjian.net/categories/Trading/"/>
     
     
-      <category term="Price Action" scheme="http://kangjian.net/tags/Price-Action/"/>
-    
       <category term="交易" scheme="http://kangjian.net/tags/%E4%BA%A4%E6%98%93/"/>
     
-      <category term="以交易为生" scheme="http://kangjian.net/tags/%E4%BB%A5%E4%BA%A4%E6%98%93%E4%B8%BA%E7%94%9F/"/>
+      <category term="Price Action" scheme="http://kangjian.net/tags/Price-Action/"/>
     
       <category term="回撤" scheme="http://kangjian.net/tags/%E5%9B%9E%E6%92%A4/"/>
     
       <category term="技术分析" scheme="http://kangjian.net/tags/%E6%8A%80%E6%9C%AF%E5%88%86%E6%9E%90/"/>
     
-      <category term="价格" scheme="http://kangjian.net/tags/%E4%BB%B7%E6%A0%BC/"/>
+      <category term="以交易为生" scheme="http://kangjian.net/tags/%E4%BB%A5%E4%BA%A4%E6%98%93%E4%B8%BA%E7%94%9F/"/>
     
       <category term="价值投资" scheme="http://kangjian.net/tags/%E4%BB%B7%E5%80%BC%E6%8A%95%E8%B5%84/"/>
     
       <category term="Pullback" scheme="http://kangjian.net/tags/Pullback/"/>
     
       <category term="Alexander Elder" scheme="http://kangjian.net/tags/Alexander-Elder/"/>
+    
+      <category term="价格" scheme="http://kangjian.net/tags/%E4%BB%B7%E6%A0%BC/"/>
     
   </entry>
   
@@ -1165,9 +1165,9 @@
       <category term="Trading" scheme="http://kangjian.net/categories/Trading/"/>
     
     
-      <category term="Price Action" scheme="http://kangjian.net/tags/Price-Action/"/>
-    
       <category term="交易" scheme="http://kangjian.net/tags/%E4%BA%A4%E6%98%93/"/>
+    
+      <category term="Price Action" scheme="http://kangjian.net/tags/Price-Action/"/>
     
       <category term="Al Brooks" scheme="http://kangjian.net/tags/Al-Brooks/"/>
     
