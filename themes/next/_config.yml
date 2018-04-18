@@ -473,10 +473,10 @@ baidusitemap:
 #! ---------------------------------------------------------------
 
 # Motion
-use_motion: true
+use_motion: false
 
 # Fancybox
-fancybox: false
+fancybox: true
 
 # Canvas-nest
 canvas_nest: false

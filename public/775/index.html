@@ -2,10 +2,8 @@
 
 
 
-  
 
-
-<html class="theme-next pisces use-motion" lang="zh-Hans">
+<html class="theme-next pisces" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -29,6 +27,10 @@
 
 
 
+
+  
+  
+  <link href="/blog/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
 
 
 
@@ -67,7 +69,7 @@
 <link href="/blog/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="wordpress,linode,linux,lnmp,nginx,ubuntu,vim,vps,ftp,Lunarpages,mysql,php,pureftpd,rewrite,ssh,伪静态,虚拟主机," />
+  <meta name="keywords" content="wordpress,ftp,linode,linux,lnmp,Lunarpages,mysql,nginx,php,pureftpd,rewrite,ssh,ubuntu,vim,vps,伪静态,虚拟主机," />
 
 
 
@@ -86,7 +88,7 @@
 
 
 <meta name="description" content="Lunarpages实在是过慢了。服务行业就是这样，低价格一定是低品质。500ms以上的ping值无论如何不具有实用价值。于是挑战一下，从零开始试用了一下Linode的VPS。门户博客就像宾馆，拎包入住；虚拟主机就像毛坯房，尽管作何用很自由，但毕竟格局已定，条条框框就在那里，简单装修即可；VPS则彻底是地皮一块——裸机一台，需要自己选择系统究竟是CentOS还是Ubuntu，再通过SSH远程操作，">
-<meta name="keywords" content="wordpress,linode,linux,lnmp,nginx,ubuntu,vim,vps,ftp,Lunarpages,mysql,php,pureftpd,rewrite,ssh,伪静态,虚拟主机">
+<meta name="keywords" content="wordpress,ftp,linode,linux,lnmp,Lunarpages,mysql,nginx,php,pureftpd,rewrite,ssh,ubuntu,vim,vps,伪静态,虚拟主机">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Linode VPS 设置LNMP (Linux + Nginx + Mysql + PHP) + WordPress伪静态笔记">
 <meta property="og:url" content="http://kangjian.net/775/index.html">
@@ -105,8 +107,8 @@
     root: '/blog/',
     scheme: 'Pisces',
     sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
-    fancybox: false,
-    motion: true,
+    fancybox: true,
+    motion: false,
     duoshuo: {
       userId: '0',
       author: '博主'
@@ -515,25 +517,19 @@
           
             <a href="/blog/tags/wordpress/" rel="tag"># wordpress</a>
           
+            <a href="/blog/tags/ftp/" rel="tag"># ftp</a>
+          
             <a href="/blog/tags/linode/" rel="tag"># linode</a>
           
             <a href="/blog/tags/linux/" rel="tag"># linux</a>
           
             <a href="/blog/tags/lnmp/" rel="tag"># lnmp</a>
           
-            <a href="/blog/tags/nginx/" rel="tag"># nginx</a>
-          
-            <a href="/blog/tags/ubuntu/" rel="tag"># ubuntu</a>
-          
-            <a href="/blog/tags/vim/" rel="tag"># vim</a>
-          
-            <a href="/blog/tags/vps/" rel="tag"># vps</a>
-          
-            <a href="/blog/tags/ftp/" rel="tag"># ftp</a>
-          
             <a href="/blog/tags/Lunarpages/" rel="tag"># Lunarpages</a>
           
             <a href="/blog/tags/mysql/" rel="tag"># mysql</a>
+          
+            <a href="/blog/tags/nginx/" rel="tag"># nginx</a>
           
             <a href="/blog/tags/php/" rel="tag"># php</a>
           
@@ -542,6 +538,12 @@
             <a href="/blog/tags/rewrite/" rel="tag"># rewrite</a>
           
             <a href="/blog/tags/ssh/" rel="tag"># ssh</a>
+          
+            <a href="/blog/tags/ubuntu/" rel="tag"># ubuntu</a>
+          
+            <a href="/blog/tags/vim/" rel="tag"># vim</a>
+          
+            <a href="/blog/tags/vps/" rel="tag"># vps</a>
           
             <a href="/blog/tags/伪静态/" rel="tag"># 伪静态</a>
           
@@ -649,7 +651,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/blog/archives">
-                <span class="site-state-item-count">226</span>
+                <span class="site-state-item-count">227</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -787,6 +789,8 @@
 
 
 
+  
+
 
 
 
@@ -806,6 +810,9 @@
 
   
   <script type="text/javascript" src="/blog/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/blog/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
 
 
   
