@@ -1,0 +1,988 @@
+<!doctype html>
+
+
+
+
+<html class="theme-next pisces" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/blog/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/blog/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/blog/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="交易,交易系统,SQN指数,Van Tharp,圣杯,标准差,风险回报比," />
+
+
+
+
+
+  <link rel="alternate" href="/blog/atom.xml" title="康健的网络日志" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/blog/favicon.ico?v=5.1.0" />
+
+
+
+
+
+
+<meta name="description" content="Van Tharp曾经提出一个非常重要的概念，即SQN指数。这是一个用来衡量交易系统好坏程度的指数。 SQN指数是什么SQN指数的计算公式是：  SQN=root(n) * expectancy/stdev(R) SQN=交易次数N的平方根 * 交易系统的期望值 / 期望值的标准差  其中： &amp;#8211; root(n) – 交易次数的平方根 &amp;#8211; expectancy – 交易系统的">
+<meta name="keywords" content="交易,交易系统,SQN指数,Van Tharp,圣杯,标准差,风险回报比">
+<meta property="og:type" content="article">
+<meta property="og:title" content="做交易，你应该知道什么是SQN指数">
+<meta property="og:url" content="http://kangjian.net/1484/index.html">
+<meta property="og:site_name" content="康健的网络日志">
+<meta property="og:description" content="Van Tharp曾经提出一个非常重要的概念，即SQN指数。这是一个用来衡量交易系统好坏程度的指数。 SQN指数是什么SQN指数的计算公式是：  SQN=root(n) * expectancy/stdev(R) SQN=交易次数N的平方根 * 交易系统的期望值 / 期望值的标准差  其中： &amp;#8211; root(n) – 交易次数的平方根 &amp;#8211; expectancy – 交易系统的">
+<meta property="og:updated_time" content="2017-05-08T18:14:48.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="做交易，你应该知道什么是SQN指数">
+<meta name="twitter:description" content="Van Tharp曾经提出一个非常重要的概念，即SQN指数。这是一个用来衡量交易系统好坏程度的指数。 SQN指数是什么SQN指数的计算公式是：  SQN=root(n) * expectancy/stdev(R) SQN=交易次数N的平方根 * 交易系统的期望值 / 期望值的标准差  其中： &amp;#8211; root(n) – 交易次数的平方根 &amp;#8211; expectancy – 交易系统的">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/blog/',
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
+    fancybox: true,
+    motion: false,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://kangjian.net/1484/"/>
+
+
+
+
+
+  <title> 做交易，你应该知道什么是SQN指数 | 康健的网络日志 </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-11710662-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/blog/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">康健的网络日志</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/blog/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/blog/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/blog/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/blog/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocapitalize="off" autocomplete="off" autocorrect="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://kangjian.net/blog/1484/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="康健">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="http://kangjian.net/images/avatar.jpeg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="康健的网络日志">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                做交易，你应该知道什么是SQN指数
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-08-20T05:52:57+08:00">
+                2014-08-20
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/blog/categories/Trading/" itemprop="url" rel="index">
+                    <span itemprop="name">Trading</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/blog/1484/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="/1484/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>Van Tharp曾经提出一个非常重要的概念，即SQN指数。这是一个用来衡量交易系统好坏程度的指数。</p>
+<h2 id="SQN指数是什么"><a href="#SQN指数是什么" class="headerlink" title="SQN指数是什么"></a>SQN指数是什么</h2><p>SQN指数的计算公式是：</p>
+<blockquote>
+<p>SQN=root(n) * expectancy/stdev(R)</p>
+<p>SQN=交易次数N的平方根 * 交易系统的期望值 / 期望值的标准差</p>
+</blockquote>
+<p>其中：</p>
+<p>&#8211; root(n) – 交易次数的平方根</p>
+<p>&#8211; expectancy – 交易系统的期望值，以倍数（风险回报比）表示</p>
+<p>&#8211; stdev(R) – 期望值的标准差</p>
+<p>显然，SQN指数具有如下意义：</p>
+<ul>
+<li><p>交易次数越多，获利机会越大。</p>
+</li>
+<li><p>风险回报比越大越好。</p>
+</li>
+<li><p>风险回报比的标准差越小，交易结果越规律，回撤越小。</p>
+</li>
+</ul>
+<h2 id="SQN指数的含义"><a href="#SQN指数的含义" class="headerlink" title="SQN指数的含义"></a>SQN指数的含义</h2><p>很显然，如果你要优化SQN指数，需要做的事请包括：使交易次数和平均风险回报比的乘积尽可能大；使公式中的标准差尽可能小。</p>
+<table><br>  <caption id="sqnn100">SQN指数的含义 (n=100时)</caption> <col style="text-align:center"> <col style="text-align:center"> <tr><br>    <th style="text-align:center"><br>      SQN 值<br>    </th><br><br>    <th style="text-align:center"><br>      交易系统的质量<br>    </th><br>  </tr><br><br>  <tr><br>    <td style="text-align:center"><br>      1.6&#8211;1.9<br>    </td><br><br>    <td style="text-align:center"><br>      Poor but tradable 不怎么样，可以凑合用<br>    </td><br>  </tr><br><br>  <tr><br>    <td style="text-align:center"><br>      2.0&#8211;2.4<br>    </td><br><br>    <td style="text-align:center"><br>      Average 普通<br>    </td><br>  </tr><br><br>  <tr><br>    <td style="text-align:center"><br>      2.5&#8211;2.9<br>    </td><br><br>    <td style="text-align:center"><br>      Good 好<br>    </td><br>  </tr><br><br>  <tr><br>    <td style="text-align:center"><br>      3.0&#8211;5.0<br>    </td><br><br>    <td style="text-align:center"><br>      Excellent 杰出<br>    </td><br>  </tr><br><br>  <tr><br>    <td style="text-align:center"><br>      5.0&#8211;6.9<br>    </td><br><br>    <td style="text-align:center"><br>      Superb 一流<br>    </td><br>  </tr><br><br>  <tr><br>    <td style="text-align:center"><br>      7.0-<br>    </td><br><br>    <td style="text-align:center"><br>      Holy Grail 圣杯<br>    </td><br>  </tr><br></table>
+
+<h2 id="SQN指数的局限与修正"><a href="#SQN指数的局限与修正" class="headerlink" title="SQN指数的局限与修正"></a>SQN指数的局限与修正</h2><p>在这里，我们应该关注的是风险回报比均值和其标准差之间的比值。交易次数的平方根在这里不是最重要的因素，你可以很轻松的通过增减交易次数、在你的投资组合里增加更多的交易品种来改变它。</p>
+<p>举个例子：我们拥有一个风险回报比为0.80R、标准差2.5的交易系统，我们在一年内用这个系统进行了100笔交易，这个系统的SQN指数是：</p>
+<blockquote>
+<p>SQN = root(100) * 0.80 / 2.5 = 10 * 0.80 / 2.5 = 3.20 </p>
+</blockquote>
+<p>显然，这是一个杰出的交易系统。</p>
+<p>现在假设一年内你进行了200笔交易，现在SQN指数变成了14.14*0.80/2.5=4.52。交易的成绩变得更好了。</p>
+<p>再假设你一年内只进行了25笔交易，SQN指数立刻下降到了1.60。</p>
+<p>可见，交易次数的多寡会使SQN指数出现很显著的波动。对此，Van Tharp给出的方法是，按照交易次数计算其平方根，但超过100笔交易，交易次数以100计算。</p>
+<p>这里给出另一个修正的思路。</p>
+<p>请注意，在上面的三种情况里，风险回报比和标准差的比值始终固定在0.32这个值上。</p>
+<p>因此，我们可以去掉交易次数的变量，将SQN指数进一步修正一下：</p>
+<table><br>  <caption id="sqn">SQN指数的含义 (剔除交易次数影响时)</caption> <col style="text-align:center"> <col style="text-align:center"> <tr><br>    <th style="text-align:center"><br>      风险回报比与标准差的比值<br>    </th><br><br>    <th style="text-align:center"><br>      交易系统的质量<br>    </th><br>  </tr><br><br>  <tr><br>    <td style="text-align:center"><br>      0.16&#8211;0.19<br>    </td><br><br>    <td style="text-align:center"><br>      Poor but tradable 不怎么样，可以凑合用<br>    </td><br>  </tr><br><br>  <tr><br>    <td style="text-align:center"><br>      0.20&#8211;0.24<br>    </td><br><br>    <td style="text-align:center"><br>      Average 普通<br>    </td><br>  </tr><br><br>  <tr><br>    <td style="text-align:center"><br>      0.25&#8211;0.29<br>    </td><br><br>    <td style="text-align:center"><br>      Good 好<br>    </td><br>  </tr><br><br>  <tr><br>    <td style="text-align:center"><br>      0.30&#8211;0.50<br>    </td><br><br>    <td style="text-align:center"><br>      Excellent 杰出<br>    </td><br>  </tr><br><br>  <tr><br>    <td style="text-align:center"><br>      0.50&#8211;0.69<br>    </td><br><br>    <td style="text-align:center"><br>      Superb 一流<br>    </td><br>  </tr><br><br>  <tr><br>    <td style="text-align:center"><br>      0.70-<br>    </td><br><br>    <td style="text-align:center"><br>      Holy Grail 圣杯<br>    </td><br>  </tr><br></table>
+
+<h2 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h2><p>SQN指数很重要。越高的SQN指数意味着交易系统越好。使用SQN指数越高的系统，控制好仓位，我们也就越容易实现我们的交易目标。至于是否优化——剔除交易次数变量，还是以100次为上限——全看你的兴趣了，都行。</p>
+
+      
+    </div>
+
+    <div>
+      
+        
+<div id="wechat_subscriber" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center">
+    <img id="wechat_subscriber_qcode" src="http://kangjian.net/images/qr.jpg" alt="康健 wechat" style="width: 200px; max-width: 100%;"/>
+    <div>发表是最好的记忆，专注于内容</div>
+</div>
+
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/blog/tags/交易/" rel="tag"># 交易</a>
+          
+            <a href="/blog/tags/交易系统/" rel="tag"># 交易系统</a>
+          
+            <a href="/blog/tags/SQN指数/" rel="tag"># SQN指数</a>
+          
+            <a href="/blog/tags/Van-Tharp/" rel="tag"># Van Tharp</a>
+          
+            <a href="/blog/tags/圣杯/" rel="tag"># 圣杯</a>
+          
+            <a href="/blog/tags/标准差/" rel="tag"># 标准差</a>
+          
+            <a href="/blog/tags/风险回报比/" rel="tag"># 风险回报比</a>
+          
+        </div>
+      
+
+      
+        
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/blog/1482/" rel="next" title="交易系统的历史回测应该注意什么">
+                <i class="fa fa-chevron-left"></i> 交易系统的历史回测应该注意什么
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/blog/1489/" rel="prev" title="职业交易员是如何克服根据自己的偏见和喜好来进行交易的？">
+                职业交易员是如何克服根据自己的偏见和喜好来进行交易的？ <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="http://kangjian.net/images/avatar.jpeg"
+               alt="康健" />
+          <p class="site-author-name" itemprop="name">康健</p>
+           
+              <p class="site-description motion-element" itemprop="description"></p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/blog/archives">
+                <span class="site-state-item-count">228</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/blog/categories/index.html">
+                <span class="site-state-item-count">9</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/blog/tags/index.html">
+                <span class="site-state-item-count">689</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/blog/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#SQN指数是什么"><span class="nav-number">1.</span> <span class="nav-text">SQN指数是什么</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#SQN指数的含义"><span class="nav-number">2.</span> <span class="nav-text">SQN指数的含义</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#SQN指数的局限与修正"><span class="nav-number">3.</span> <span class="nav-text">SQN指数的局限与修正</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#小结"><span class="nav-number">4.</span> <span class="nav-text">小结</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2006 - 
+  <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">康健</span>
+</div>
+
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Pisces
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/blog/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/blog/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/blog/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/blog/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/blog/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/blog/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/blog/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/blog/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/blog/js/src/affix.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/blog/js/src/schemes/pisces.js?v=5.1.0"></script>
+
+
+
+  
+  <script type="text/javascript" src="/blog/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/blog/js/src/post-details.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/blog/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  
+
+    
+      <script id="dsq-count-scr" src="https://kangsblog.disqus.com/count.js" async></script>
+    
+
+    
+      <script type="text/javascript">
+        var disqus_config = function () {
+          this.page.url = 'http://kangjian.net/1484/';
+          this.page.identifier = '/1484/';
+          this.page.title = '做交易，你应该知道什么是SQN指数';
+        };
+        var d = document, s = d.createElement('script');
+        s.src = 'https://kangsblog.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      </script>
+    
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length == 0) {
+      search_path = "search.xml";
+    }
+    var path = "/blog/" + search_path;
+    // monitor main search box;
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.popup').toggle();
+    }
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+      $.ajax({
+        url: path,
+        dataType: "xml",
+        async: true,
+        success: function( xmlResponse ) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = $( "entry", xmlResponse ).map(function() {
+            return {
+              title: $( "title", this ).text(),
+              content: $("content",this).text(),
+              url: $( "url" , this).text()
+            };
+          }).get();
+          var $input = document.getElementById(search_id);
+          var $resultContent = document.getElementById(content_id);
+          $input.addEventListener('input', function(){
+            var matchcounts = 0;
+            var str='<ul class=\"search-result-list\">';
+            var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+            $resultContent.innerHTML = "";
+            if (this.value.trim().length > 1) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var content_index = [];
+                var data_title = data.title.trim().toLowerCase();
+                var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
+                var data_url = decodeURIComponent(data.url);
+                var index_title = -1;
+                var index_content = -1;
+                var first_occur = -1;
+                // only match artiles with not empty titles and contents
+                if(data_title != '') {
+                  keywords.forEach(function(keyword, i) {
+                    index_title = data_title.indexOf(keyword);
+                    index_content = data_content.indexOf(keyword);
+                    if( index_title >= 0 || index_content >= 0 ){
+                      isMatch = true;
+                      if (i == 0) {
+                        first_occur = index_content;
+                      }
+                    }
+
+                  });
+                }
+                // show search results
+                if (isMatch) {
+                  matchcounts += 1;
+                  str += "<li><a href='"+ data_url +"' class='search-result-title'>"+ data_title +"</a>";
+                  var content = data.content.trim().replace(/<[^>]+>/g,"");
+                  if (first_occur >= 0) {
+                    // cut out 100 characters
+                    var start = first_occur - 20;
+                    var end = first_occur + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if(start == 0){
+                      end = 50;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    var match_content = content.substring(start, end);
+                    // highlight all keywords
+                    keywords.forEach(function(keyword){
+                      var regS = new RegExp(keyword, "gi");
+                      match_content = match_content.replace(regS, "<b class=\"search-keyword\">"+keyword+"</b>");
+                    });
+
+                    str += "<p class=\"search-result\">" + match_content +"...</p>"
+                  }
+                  str += "</li>";
+                }
+              })};
+            str += "</ul>";
+            if (matchcounts == 0) { str = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>' }
+            if (keywords == "") { str = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>' }
+            $resultContent.innerHTML = str;
+          });
+          proceedsearch();
+        }
+      });}
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched == false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(function(e){
+      $('.popup').hide();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    });
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
