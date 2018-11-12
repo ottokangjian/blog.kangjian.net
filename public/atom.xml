@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="http://kangjian.net/"/>
-  <updated>2018-04-22T11:47:26.257Z</updated>
+  <updated>2018-11-12T05:29:36.633Z</updated>
   <id>http://kangjian.net/</id>
   
   <author>
@@ -14,6 +14,49 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>知乎：惊为人天的一句话</title>
+    <link href="http://kangjian.net//1715/"/>
+    <id>http://kangjian.net//1715/</id>
+    <published>2018-11-11T22:22:19.000Z</published>
+    <updated>2018-11-12T05:29:36.633Z</updated>
+    
+    <content type="html"><![CDATA[<p>原题目见 <a href="https://www.zhihu.com/question/301642998" target="_blank" rel="external">链接</a></p>
+<p>过滤掉问题中的“定、状、补”，这是个很好的问题。</p>
+<p>把书读厚，再读薄，最后读成一张纸、一句话，那就是读书的最好状态了。</p>
+<p>说几句。</p>
+<p>网上的讨论，似乎提到分笔、线段、中枢的更多。在我看来，缠论最可贵的地方在于对现今的“技术分析”概念的扬弃和升华：<strong>缠论通过“分类”，将逻辑学“排中律”引入了价格行为分析，从而确立了逻辑层面的确定性。进而，建立“确定性”的交易系统成为可能，并将传统的“技术分析”手段统统归为了“概率系统”的范畴。</strong></p>
+<p>所谓“<strong>不测而测</strong>”，本质上就是通过周延的分类方法，不遗漏，不重叠，将未来各种可能的走势一字排开。这个分类的过程，就是“不测”；后面的演绎，就是“而测”。</p>
+<p>分类中的每一种可能都有可能随时被证伪，但分类一旦做完，后续的走势演进必然在分类树中沿分支下行。在其他分支不断被证伪的过程中，确定性的窗口会偶发性的打开。一旦确定性的窗口打开，入场机会也就到来了。<br>从这个角度审视，传统意义上所谓“波段交易”、“趋势交易”，都可以在这个体系能找到合适的映射。通过缠论重新解构西方交易理论中的方法，可以过滤出这些“概率系统”中的确定性部分，同时，也可以用传统交易概念再次审视缠论，相互验证，互相启发。</p>
+<p>这个过程无关“预测”。</p>
+<p>“不测而测”的预测，不是猜，不是赌——准确的说，这个“预测”不是“表达”，而是“操作”。当完全分类衍生了短暂的确定性窗口，入场操作就是预测。这是基于确定性的预测，没有对错之分——这种“预测”就是事实本身，“预测”不可能偏离事实，“预测”也就不可能错误。</p>
+<p>具体的交易场景不宜在这个回答展开。引用一句原文做结尾，也算回答上面的问题：</p>
+<blockquote>
+<p>给出分段函数，就是给出最精确的预测，所有的预测都是当下给出的，这才是真正的预测。这种预测，不需要任何概率化的无聊玩意，也没有所谓预测成功的忽悠或兴奋。</p>
+</blockquote>
+<p>——这即是我的理解中，整个 108 课里最为提纲挈领的一句话。</p>
+<h2 id="ChangeLog"><a href="#ChangeLog" class="headerlink" title="ChangeLog"></a>ChangeLog</h2><p>2018-11-12 初稿</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;原题目见 &lt;a href=&quot;https://www.zhihu.com/question/301642998&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;链接&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;过滤掉问题中的“定、状、补”，这是个很好的问题。&lt;/p&gt;
+&lt;p&gt;把书读厚
+    
+    </summary>
+    
+      <category term="Trading" scheme="http://kangjian.net/categories/Trading/"/>
+    
+    
+      <category term="知乎" scheme="http://kangjian.net/tags/%E7%9F%A5%E4%B9%8E/"/>
+    
+      <category term="缠论" scheme="http://kangjian.net/tags/%E7%BC%A0%E8%AE%BA/"/>
+    
+      <category term="确定性" scheme="http://kangjian.net/tags/%E7%A1%AE%E5%AE%9A%E6%80%A7/"/>
+    
+  </entry>
   
   <entry>
     <title>从“及时、准确、标准”说起</title>
@@ -557,9 +600,9 @@
       <category term="Trading" scheme="http://kangjian.net/categories/Trading/"/>
     
     
-      <category term="资金管理" scheme="http://kangjian.net/tags/%E8%B5%84%E9%87%91%E7%AE%A1%E7%90%86/"/>
-    
       <category term="交易系统" scheme="http://kangjian.net/tags/%E4%BA%A4%E6%98%93%E7%B3%BB%E7%BB%9F/"/>
+    
+      <category term="资金管理" scheme="http://kangjian.net/tags/%E8%B5%84%E9%87%91%E7%AE%A1%E7%90%86/"/>
     
       <category term="技术分析" scheme="http://kangjian.net/tags/%E6%8A%80%E6%9C%AF%E5%88%86%E6%9E%90/"/>
     
@@ -1312,72 +1355,13 @@
     
       <category term="nginx" scheme="http://kangjian.net/tags/nginx/"/>
     
-      <category term="rewrite" scheme="http://kangjian.net/tags/rewrite/"/>
-    
       <category term="vps" scheme="http://kangjian.net/tags/vps/"/>
+    
+      <category term="rewrite" scheme="http://kangjian.net/tags/rewrite/"/>
     
       <category term="伪静态" scheme="http://kangjian.net/tags/%E4%BC%AA%E9%9D%99%E6%80%81/"/>
     
       <category term="Oneinstack" scheme="http://kangjian.net/tags/Oneinstack/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>没扳机的枪是响不了的——入场要有信号的支持</title>
-    <link href="http://kangjian.net//1653/"/>
-    <id>http://kangjian.net//1653/</id>
-    <published>2016-07-06T21:40:45.000Z</published>
-    <updated>2017-05-08T04:05:27.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img style="display:block; margin-left:auto; margin-right:auto;" src="http://kangjian.net/images/2016/07/Trigger-Control.jpg" alt="Trigger Control" border="0" width="550" height="366"></p>
-<ul>
-<li><strong>主要内容</strong> <ul>
-<li>日线交易要有日线级别K线信号的支持。</li>
-<li>即使是回撤入场，也要在入场信号出现之后。</li>
-</ul>
-</li>
-</ul>
-<p>下图中大部分时间中，市场是一个盘整的区间。区间中，只有底部才有进场可能性。由于这个区间太窄了，空间不够，所以区间突破前，任何进场都不是明智的选择。</p>
-<p><img style="display:block; margin-left:auto; margin-right:auto;" src="http://kangjian.net/images/2016/07/20160623.png" alt="20160623" border="0" width="600" height="333"></p>
-<p>区间终究是要被突破的。一个狭长的区间，往往意味着一次有力的突破。棒19开始的尖峰呈现出了很强的力量，几根K显得阳线实体互不重叠，直接突破了前期狭窄的盘整区间。毫无疑问，这次突破是有效的。随后的回踩也是很理想的Pullback形态，力量不强，斜率不大，回踩放缓。一切都顺风顺水，价格在回踩测试棒9的前高。</p>
-<p>这个时候，也许会有交易者会按耐不住，难免开始手痒、心急，着急入场，于是被套。价格没有获得任何有效的支撑，直接去测试区间底部了。</p>
-<p>事后用上帝视角看，做多当然是错误的。固然，没有任何交易架构拥有100%的胜率，但很多亏损都是可以避免的。上面就是一例。开仓入场要依靠入场信号。具体的入场信号之于交易者，如同发令枪之于运动员。一个运动员，如果不等发令枪响，总是抢跑，不说犯规与否，单是一次次的体力消耗也能在枪响之前就让运动员气力全无。交易也是一样，不等信号直接入场，账户里的资金就会像运动员体内的爆发力，提前无谓消耗，待到有效的信号出现，早已没劲了。</p>
-<p>这个图中，尽管盘整-突破-回踩几个大的架构都有，但最后的扳机不存在。回踩中，从日线看没有任何明确的入场信号。如果把回踩看作一个微型的下降趋势，那么趋势线完全没有被突破。棒22的前一棒很关键。如果这一棒不收阴线，而是形成一个下影线较长的Pinbar，K线振幅适中，收盘价又能回到前一棒的阳线实体内，参考之前大的架构，将行程一个非常理想的入场机会。但是，在这个案例中，这个入场信号不存在。棒23的大阴线宣告了做多计划的彻底破产。</p>
-<p>这把枪再好看，没有扳机，也注定响不了。端着没有板机的枪打猎，流血是唯一的结果。</p>
-<p>总结两句话：</p>
-<ul>
-<li>日线交易要有日线级别K线信号的支持。</li>
-<li>即使是回撤入场，也要在入场信号出现之后。</li>
-</ul>
-<p>读到这里再看一遍图，会不会有了些新的发现？</p>
-<p><img style="display:block; margin-left:auto; margin-right:auto;" src="http://kangjian.net/images/2016/07/20160623.png" alt="20160623" border="0" width="600" height="333"></p>
-<blockquote>
-<p>文后再说几句。根据Al Brooks的分析，这里还有另一层分析。棒14开始，价格从区间的底部向上形成了三推。棒20前一棒是一个拥有上影线的阳线。上影线很长的K线出现在三推形态中，交易者们会预期后面一棒会再次测试影线顶点。三推中，价格达到影线顶点，顺势刮头皮者会平多，逆势刮头皮者会开空，空方力量会增强，回踩即将展开。——日内五分钟线的交易里及时做出这些分析，需要多年的经验积累和高度集中的注意力。</p>
-</blockquote>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img style=&quot;display:block; margin-left:auto; margin-right:auto;&quot; src=&quot;http://kangjian.net/images/2016/07/Trigger-Control.jpg&quot; alt=&quot;Trigge
-    
-    </summary>
-    
-      <category term="Trading" scheme="http://kangjian.net/categories/Trading/"/>
-    
-    
-      <category term="交易" scheme="http://kangjian.net/tags/%E4%BA%A4%E6%98%93/"/>
-    
-      <category term="交易系统" scheme="http://kangjian.net/tags/%E4%BA%A4%E6%98%93%E7%B3%BB%E7%BB%9F/"/>
-    
-      <category term="入场" scheme="http://kangjian.net/tags/%E5%85%A5%E5%9C%BA/"/>
-    
-      <category term="Al Brooks" scheme="http://kangjian.net/tags/Al-Brooks/"/>
-    
-      <category term="期货" scheme="http://kangjian.net/tags/%E6%9C%9F%E8%B4%A7/"/>
-    
-      <category term="区间" scheme="http://kangjian.net/tags/%E5%8C%BA%E9%97%B4/"/>
-    
-      <category term="突破" scheme="http://kangjian.net/tags/%E7%AA%81%E7%A0%B4/"/>
     
   </entry>
   
