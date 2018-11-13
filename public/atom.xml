@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="http://kangjian.net/"/>
-  <updated>2018-11-12T05:29:36.633Z</updated>
+  <updated>2018-11-13T07:01:14.490Z</updated>
   <id>http://kangjian.net/</id>
   
   <author>
@@ -16,11 +16,55 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>知乎：30分钟级别3买失败原因探究？</title>
+    <link href="http://kangjian.net//1716/"/>
+    <id>http://kangjian.net//1716/</id>
+    <published>2018-11-12T21:58:25.000Z</published>
+    <updated>2018-11-13T07:01:14.490Z</updated>
+    
+    <content type="html"><![CDATA[<p>原题目见 <a href="https://www.zhihu.com/question/298323161/answer/509976749" target="_blank" rel="external">链接</a></p>
+<p>看走势图：</p>
+<p><img src="http://kangjian.net/images/2018/2018-11-13-600101-3f.png" alt=""></p>
+<p>600101，3F图，低点 6.60 向上分为 5 段走势，没有出现连续三段重叠。这意味着：</p>
+<ul>
+<li><p><strong>15F 级别没有中枢；</strong></p>
+</li>
+<li><p><strong>中枢级别小于 15F 级别——如果开 30s 图，或许会看到 3F 级别的中枢。</strong></p>
+</li>
+</ul>
+<p>打开 15F 图，可以看到6月末以来的低点 6.45 之后的走势包涵一个六段中枢，ZG=7.23， ZD=6.86。如图：</p>
+<p><img src="http://kangjian.net/images/2018/2018-11-13-600101-15f.png" alt=""></p>
+<p>高点 8.59 下来，在 7.5 的位置直接向下跳空缺口跌回 ZG ，这个 1H 级别中枢的三买构筑失败。这里没有任何小级别背驰，没有可操作的买点。</p>
+<p>这个走势只有一个很差很勉强的买入机会：价格跌破 6.86 后，按照同级别分解的角度，有一个围绕上面所说的中枢的盘整背驰。</p>
+<p>之所以说这个机会很差，是因为（1）同级别分解只适用于作为“辅助线”，不宜作为单独的操作依据；（2）DD=6.45，6.6 这个位置高于 DD，盘整背离本身并不具备操作空间。</p>
+<p>以上算是对这段走势的一个描述。</p>
+<p>以上内容只是现象，深层次的问题并不在这里，而在于“<strong>可以看作</strong>”四个字（“可以看作本级别中枢”）。</p>
+<p>这里不宜不多说了，只说这些吧。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;原题目见 &lt;a href=&quot;https://www.zhihu.com/question/298323161/answer/509976749&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;链接&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;看走势图：&lt;/p&gt;
+&lt;p&gt;&lt;img s
+    
+    </summary>
+    
+      <category term="Trading" scheme="http://kangjian.net/categories/Trading/"/>
+    
+    
+      <category term="缠论" scheme="http://kangjian.net/tags/%E7%BC%A0%E8%AE%BA/"/>
+    
+      <category term="中枢" scheme="http://kangjian.net/tags/%E4%B8%AD%E6%9E%A2/"/>
+    
+  </entry>
+  
+  <entry>
     <title>知乎：惊为人天的一句话</title>
     <link href="http://kangjian.net//1715/"/>
     <id>http://kangjian.net//1715/</id>
     <published>2018-11-11T22:22:19.000Z</published>
-    <updated>2018-11-12T05:29:36.633Z</updated>
+    <updated>2018-11-13T06:12:13.287Z</updated>
     
     <content type="html"><![CDATA[<p>原题目见 <a href="https://www.zhihu.com/question/301642998" target="_blank" rel="external">链接</a></p>
 <p>过滤掉问题中的“定、状、补”，这是个很好的问题。</p>
@@ -36,7 +80,19 @@
 <p>给出分段函数，就是给出最精确的预测，所有的预测都是当下给出的，这才是真正的预测。这种预测，不需要任何概率化的无聊玩意，也没有所谓预测成功的忽悠或兴奋。</p>
 </blockquote>
 <p>——这即是我的理解中，整个 108 课里最为提纲挈领的一句话。</p>
-<h2 id="ChangeLog"><a href="#ChangeLog" class="headerlink" title="ChangeLog"></a>ChangeLog</h2><p>2018-11-12 初稿</p>
+<p>++++</p>
+<p>关于这个问题，Price Action 的理论也有介绍。 Al Brooks 就曾在书中写道：</p>
+<blockquote>
+<p>对于媒体和新手来说，最重要的两种感觉是恐惧和贪婪。稳定获利的交易者们则没有这两种感觉。对于他们来说，最重要的两种感觉是不确定性(混乱)和紧迫性，他们利用这两种感觉来赚钱。每一棒以及每个市场的每一个片段，要么是趋势要么是交易区间。当交易者感觉确定时，市场是处于强趋势之中。当他感觉到紧迫感时，比如他想要在市场上涨时买进（或者在市场下跌时做空），但是非常希望出现回撤，那么市场就是处于一轮强趋势之中。他会至少在市价买进一个小型头寸，而不是等待回撤。</p>
+</blockquote>
+<p>在这种视角下，所谓“趋势”和“盘整”差别并不大。只要能确定后面的方向，算好盈亏比，盘整有时候可以提供更多利润。道法自然，无论是美国的 PA 理论，还是中国的缠论，说的都是一个事情：</p>
+<p>交易者要学会从概率系统升维到确定性系统，只做确定性的交易。如果把 Price Action 理解为类似“PinBar”的若干形态、Pattern，把缠论理解为分笔分段、画画中枢，可就真的辜负了这么多前辈的心血结晶了。</p>
+<h2 id="ChangeLog"><a href="#ChangeLog" class="headerlink" title="ChangeLog"></a>ChangeLog</h2><ul>
+<li><p>2018-11-12 初稿。</p>
+</li>
+<li><p>2018-11-13 加入 Al Brooks 的观点，补充 Price Action 内容。</p>
+</li>
+</ul>
 ]]></content>
     
     <summary type="html">
@@ -51,6 +107,10 @@
     
     
       <category term="知乎" scheme="http://kangjian.net/tags/%E7%9F%A5%E4%B9%8E/"/>
+    
+      <category term="Price Action" scheme="http://kangjian.net/tags/Price-Action/"/>
+    
+      <category term="Al Brooks" scheme="http://kangjian.net/tags/Al-Brooks/"/>
     
       <category term="缠论" scheme="http://kangjian.net/tags/%E7%BC%A0%E8%AE%BA/"/>
     
@@ -1306,62 +1366,6 @@
       <category term="L2" scheme="http://kangjian.net/tags/L2/"/>
     
       <category term="trading" scheme="http://kangjian.net/tags/trading/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>VPS升级 LNMP（Oneinstack版本）设置笔记，重点排除rewrite伪静态问题</title>
-    <link href="http://kangjian.net//1658/"/>
-    <id>http://kangjian.net//1658/</id>
-    <published>2016-08-22T22:44:44.000Z</published>
-    <updated>2017-05-09T01:05:02.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>这几天抽空把博客升级，用了Oneinstack的套件。大部分的时间用来排除blog的伪静态rewrite。<a href="http://kangjian.net/blog/775/" target="_blank">成功了才发现，之前早已经记录过这个问题。</a></p>
-<p>Oneinstack的官网上好像还没有记载。照录在这里。</p>
-<p>正常安装。编辑</p>
-<blockquote>
-<p>usr/local/nginx/conf/rewrite/wordpress.conf </p>
-</blockquote>
-<p>代码是这个：</p>
-<blockquote>
-<p>location / {</p>
-<p>if (-f $request_filename/index.html){</p>
-<p>rewrite (.*) $1/index.html break;<br>}</p>
-<p>if (-f $request_filename/index.php){</p>
-<p>rewrite (.*) $1/index.php;<br>}</p>
-<p>if (!-f $request_filename){</p>
-<p>rewrite (.*) <strong>/blog/</strong>index.php;<br>}</p>
-<p>}</p>
-</blockquote>
-<p>要特别注意上面代码的最后，加粗的部分，这里的“blog”的放Wordpress的目录名称。然后重启服务：</p>
-<blockquote>
-<p>service nginx restart </p>
-</blockquote>
-<p>搞定。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;这几天抽空把博客升级，用了Oneinstack的套件。大部分的时间用来排除blog的伪静态rewrite。&lt;a href=&quot;http://kangjian.net/blog/775/&quot; target=&quot;_blank&quot;&gt;成功了才发现，之前早已经记录过这个问题。&lt;/a&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="IT" scheme="http://kangjian.net/categories/IT/"/>
-    
-    
-      <category term="wordpress" scheme="http://kangjian.net/tags/wordpress/"/>
-    
-      <category term="lnmp" scheme="http://kangjian.net/tags/lnmp/"/>
-    
-      <category term="nginx" scheme="http://kangjian.net/tags/nginx/"/>
-    
-      <category term="vps" scheme="http://kangjian.net/tags/vps/"/>
-    
-      <category term="rewrite" scheme="http://kangjian.net/tags/rewrite/"/>
-    
-      <category term="伪静态" scheme="http://kangjian.net/tags/%E4%BC%AA%E9%9D%99%E6%80%81/"/>
-    
-      <category term="Oneinstack" scheme="http://kangjian.net/tags/Oneinstack/"/>
     
   </entry>
   

@@ -300,6 +300,181 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://kangjian.net/blog/1658/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="康健">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="http://kangjian.net/images/avatar.jpeg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="康健的网络日志">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/blog/1658/" itemprop="url">
+                  VPS升级 LNMP（Oneinstack版本）设置笔记，重点排除rewrite伪静态问题
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-08-23T06:44:44+08:00">
+                2016-08-23
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/blog/categories/IT/" itemprop="url" rel="index">
+                    <span itemprop="name">IT</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/blog/1658/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="/1658/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>这几天抽空把博客升级，用了Oneinstack的套件。大部分的时间用来排除blog的伪静态rewrite。<a href="http://kangjian.net/blog/775/" target="_blank">成功了才发现，之前早已经记录过这个问题。</a></p>
+<p>Oneinstack的官网上好像还没有记载。照录在这里。</p>
+<p>正常安装。编辑</p>
+<blockquote>
+<p>usr/local/nginx/conf/rewrite/wordpress.conf </p>
+</blockquote>
+<p>代码是这个：</p>
+<blockquote>
+<p>location / {</p>
+<p>if (-f $request_filename/index.html){</p>
+<p>rewrite (.*) $1/index.html break;<br>}</p>
+<p>if (-f $request_filename/index.php){</p>
+<p>rewrite (.*) $1/index.php;<br>}</p>
+<p>if (!-f $request_filename){</p>
+<p>rewrite (.*) <strong>/blog/</strong>index.php;<br>}</p>
+<p>}</p>
+</blockquote>
+<p>要特别注意上面代码的最后，加粗的部分，这里的“blog”的放Wordpress的目录名称。然后重启服务：</p>
+<blockquote>
+<p>service nginx restart </p>
+</blockquote>
+<p>搞定。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <link itemprop="mainEntityOfPage" href="http://kangjian.net/blog/1653/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1820,167 +1995,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://kangjian.net/blog/1689/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="康健">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="http://kangjian.net/images/avatar.jpeg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="康健的网络日志">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/blog/1689/" itemprop="url">
-                  CEO们最好的生产力工具是什么？
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2015-10-08T06:00:00+08:00">
-                2015-10-08
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/blog/categories/Card/" itemprop="url" rel="index">
-                    <span itemprop="name">Card</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/blog/1689/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count"
-                        data-disqus-identifier="/1689/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p><img class="alignnone size-full wp-image-1688" src="http://kangjian.net/images/2016/10/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7-2016-09-02-%E4%B8%8B%E5%8D%884.09.02.png" width="1236" height="588"></p>
-<p>本文是Quora上的题目。原题：<a href="https://www.quora.com/What-are-the-best-productivity-hacks-of-startup-CEOs" target="_blank" rel="external">What are the best productivity hacks of startup CEOs?</a>，链接在<a href="https://www.quora.com/What-are-the-best-productivity-hacks-of-startup-CEOs" target="_blank" rel="external">这里</a>。有两个答案很有意思。</p>
-<h2 id="Dustin-Moskovitz——“周三没会”"><a href="#Dustin-Moskovitz——“周三没会”" class="headerlink" title="Dustin Moskovitz——“周三没会”"></a>Dustin Moskovitz——“周三没会”</h2><p>我最在乎的一招是”周三没会”，从Facebook上学来的。这年头，每个人的日程表上要能有一天是干净的，那可太难得了。无论你是一个手艺人还是总经理，这都是在工作中持续保持主动的无价之宝。就我个人而言，每周的这一天基本都是在写代码。</p>
-<h2 id="Auren-Hoffman——专注，不要多线程，少干活。"><a href="#Auren-Hoffman——专注，不要多线程，少干活。" class="headerlink" title="Auren Hoffman——专注，不要多线程，少干活。"></a>Auren Hoffman——专注，不要多线程，少干活。</h2><h3 id="少干活。"><a href="#少干活。" class="headerlink" title="少干活。"></a>少干活。</h3><p>多数CEO最大的错误就是老想着去做特别多的事。真正的赢家是最少干活－－但是做的最好的那一个。当然了，这不仅仅适用于CEO们，每个人都一样。</p>
-<h3 id="不要多线程－－串联，不要并联"><a href="#不要多线程－－串联，不要并联" class="headerlink" title="不要多线程－－串联，不要并联"></a>不要多线程－－串联，不要并联</h3><p>做一件事的时候，要完全地专注于这件事。不要多线程。如果你发现自己开会的时候读邮件（或刷知乎），那八成你压根就不应该出现在这个会议上（当然也有可能是这个会议太烂了）。</p>
-<p>如果你正在忙一件事（例如阅读一个法律文本），集中精力分配时间在这上面（比如20分钟）。这块时间里面，别的事一概不干。如果能比计划的时间更早一些完成，你也可以做点什么奖励一下自己——当然，只能是你确实是提前完成的时候。</p>
-<h3 id="对绝大多数的事情说”不”"><a href="#对绝大多数的事情说”不”" class="headerlink" title="对绝大多数的事情说”不”"></a>对绝大多数的事情说”不”</h3><p>你是老大，眼前总会有很多看起来不错的机会。你越是成功人士，你面前的机会往往也就越有趣。不要踩进说”可以”的陷阱。考虑要不要出席一个邀请你的会议时，板着脸冷酷一点。同样地，聚会、论坛、演讲、内部汇报，全都一样。</p>
-<p>一个好的CEO应该善于对他眼前90％的潜在机会说”不”。没错，90％。那些潜在的机会多半都看着不错，很有意思。但事关你自己的时间，你需要冷酷一点。</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
   </section>
 
   
@@ -2030,7 +2044,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/blog/archives">
-                <span class="site-state-item-count">228</span>
+                <span class="site-state-item-count">229</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -2052,7 +2066,7 @@
             
             <div class="site-state-item site-state-tags">
               <a href="/blog/tags/index.html">
-                <span class="site-state-item-count">690</span>
+                <span class="site-state-item-count">691</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>

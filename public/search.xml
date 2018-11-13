@@ -1,14 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[知乎：30分钟级别3买失败原因探究？]]></title>
+    <url>%2Fblog%2F%2F1716%2F</url>
+    <content type="text"><![CDATA[原题目见 链接 看走势图： 600101，3F图，低点 6.60 向上分为 5 段走势，没有出现连续三段重叠。这意味着： 15F 级别没有中枢； 中枢级别小于 15F 级别——如果开 30s 图，或许会看到 3F 级别的中枢。 打开 15F 图，可以看到6月末以来的低点 6.45 之后的走势包涵一个六段中枢，ZG=7.23， ZD=6.86。如图： 高点 8.59 下来，在 7.5 的位置直接向下跳空缺口跌回 ZG ，这个 1H 级别中枢的三买构筑失败。这里没有任何小级别背驰，没有可操作的买点。 这个走势只有一个很差很勉强的买入机会：价格跌破 6.86 后，按照同级别分解的角度，有一个围绕上面所说的中枢的盘整背驰。 之所以说这个机会很差，是因为（1）同级别分解只适用于作为“辅助线”，不宜作为单独的操作依据；（2）DD=6.45，6.6 这个位置高于 DD，盘整背离本身并不具备操作空间。 以上算是对这段走势的一个描述。 以上内容只是现象，深层次的问题并不在这里，而在于“可以看作”四个字（“可以看作本级别中枢”）。 这里不宜不多说了，只说这些吧。]]></content>
+      <categories>
+        <category>Trading</category>
+      </categories>
+      <tags>
+        <tag>缠论</tag>
+        <tag>中枢</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[知乎：惊为人天的一句话]]></title>
     <url>%2Fblog%2F%2F1715%2F</url>
-    <content type="text"><![CDATA[原题目见 链接 过滤掉问题中的“定、状、补”，这是个很好的问题。 把书读厚，再读薄，最后读成一张纸、一句话，那就是读书的最好状态了。 说几句。 网上的讨论，似乎提到分笔、线段、中枢的更多。在我看来，缠论最可贵的地方在于对现今的“技术分析”概念的扬弃和升华：缠论通过“分类”，将逻辑学“排中律”引入了价格行为分析，从而确立了逻辑层面的确定性。进而，建立“确定性”的交易系统成为可能，并将传统的“技术分析”手段统统归为了“概率系统”的范畴。 所谓“不测而测”，本质上就是通过周延的分类方法，不遗漏，不重叠，将未来各种可能的走势一字排开。这个分类的过程，就是“不测”；后面的演绎，就是“而测”。 分类中的每一种可能都有可能随时被证伪，但分类一旦做完，后续的走势演进必然在分类树中沿分支下行。在其他分支不断被证伪的过程中，确定性的窗口会偶发性的打开。一旦确定性的窗口打开，入场机会也就到来了。从这个角度审视，传统意义上所谓“波段交易”、“趋势交易”，都可以在这个体系能找到合适的映射。通过缠论重新解构西方交易理论中的方法，可以过滤出这些“概率系统”中的确定性部分，同时，也可以用传统交易概念再次审视缠论，相互验证，互相启发。 这个过程无关“预测”。 “不测而测”的预测，不是猜，不是赌——准确的说，这个“预测”不是“表达”，而是“操作”。当完全分类衍生了短暂的确定性窗口，入场操作就是预测。这是基于确定性的预测，没有对错之分——这种“预测”就是事实本身，“预测”不可能偏离事实，“预测”也就不可能错误。 具体的交易场景不宜在这个回答展开。引用一句原文做结尾，也算回答上面的问题： 给出分段函数，就是给出最精确的预测，所有的预测都是当下给出的，这才是真正的预测。这种预测，不需要任何概率化的无聊玩意，也没有所谓预测成功的忽悠或兴奋。 ——这即是我的理解中，整个 108 课里最为提纲挈领的一句话。 ChangeLog2018-11-12 初稿]]></content>
+    <content type="text"><![CDATA[原题目见 链接 过滤掉问题中的“定、状、补”，这是个很好的问题。 把书读厚，再读薄，最后读成一张纸、一句话，那就是读书的最好状态了。 说几句。 网上的讨论，似乎提到分笔、线段、中枢的更多。在我看来，缠论最可贵的地方在于对现今的“技术分析”概念的扬弃和升华：缠论通过“分类”，将逻辑学“排中律”引入了价格行为分析，从而确立了逻辑层面的确定性。进而，建立“确定性”的交易系统成为可能，并将传统的“技术分析”手段统统归为了“概率系统”的范畴。 所谓“不测而测”，本质上就是通过周延的分类方法，不遗漏，不重叠，将未来各种可能的走势一字排开。这个分类的过程，就是“不测”；后面的演绎，就是“而测”。 分类中的每一种可能都有可能随时被证伪，但分类一旦做完，后续的走势演进必然在分类树中沿分支下行。在其他分支不断被证伪的过程中，确定性的窗口会偶发性的打开。一旦确定性的窗口打开，入场机会也就到来了。从这个角度审视，传统意义上所谓“波段交易”、“趋势交易”，都可以在这个体系能找到合适的映射。通过缠论重新解构西方交易理论中的方法，可以过滤出这些“概率系统”中的确定性部分，同时，也可以用传统交易概念再次审视缠论，相互验证，互相启发。 这个过程无关“预测”。 “不测而测”的预测，不是猜，不是赌——准确的说，这个“预测”不是“表达”，而是“操作”。当完全分类衍生了短暂的确定性窗口，入场操作就是预测。这是基于确定性的预测，没有对错之分——这种“预测”就是事实本身，“预测”不可能偏离事实，“预测”也就不可能错误。 具体的交易场景不宜在这个回答展开。引用一句原文做结尾，也算回答上面的问题： 给出分段函数，就是给出最精确的预测，所有的预测都是当下给出的，这才是真正的预测。这种预测，不需要任何概率化的无聊玩意，也没有所谓预测成功的忽悠或兴奋。 ——这即是我的理解中，整个 108 课里最为提纲挈领的一句话。 ++++ 关于这个问题，Price Action 的理论也有介绍。 Al Brooks 就曾在书中写道： 对于媒体和新手来说，最重要的两种感觉是恐惧和贪婪。稳定获利的交易者们则没有这两种感觉。对于他们来说，最重要的两种感觉是不确定性(混乱)和紧迫性，他们利用这两种感觉来赚钱。每一棒以及每个市场的每一个片段，要么是趋势要么是交易区间。当交易者感觉确定时，市场是处于强趋势之中。当他感觉到紧迫感时，比如他想要在市场上涨时买进（或者在市场下跌时做空），但是非常希望出现回撤，那么市场就是处于一轮强趋势之中。他会至少在市价买进一个小型头寸，而不是等待回撤。 在这种视角下，所谓“趋势”和“盘整”差别并不大。只要能确定后面的方向，算好盈亏比，盘整有时候可以提供更多利润。道法自然，无论是美国的 PA 理论，还是中国的缠论，说的都是一个事情： 交易者要学会从概率系统升维到确定性系统，只做确定性的交易。如果把 Price Action 理解为类似“PinBar”的若干形态、Pattern，把缠论理解为分笔分段、画画中枢，可就真的辜负了这么多前辈的心血结晶了。 ChangeLog 2018-11-12 初稿。 2018-11-13 加入 Al Brooks 的观点，补充 Price Action 内容。]]></content>
       <categories>
         <category>Trading</category>
       </categories>
       <tags>
         <tag>知乎</tag>
+        <tag>Price Action</tag>
+        <tag>Al Brooks</tag>
         <tag>缠论</tag>
         <tag>确定性</tag>
       </tags>
@@ -298,8 +312,8 @@
         <tag>wordpress</tag>
         <tag>lnmp</tag>
         <tag>nginx</tag>
-        <tag>vps</tag>
         <tag>rewrite</tag>
+        <tag>vps</tag>
         <tag>伪静态</tag>
         <tag>Oneinstack</tag>
       </tags>
@@ -330,8 +344,8 @@
       </categories>
       <tags>
         <tag>Al Brooks</tag>
-        <tag>反转</tag>
         <tag>交易者方程</tag>
+        <tag>反转</tag>
         <tag>尖峰</tag>
       </tags>
   </entry>
@@ -968,8 +982,8 @@
         <category>Banking</category>
       </categories>
       <tags>
-        <tag>授信</tag>
         <tag>贷款</tag>
+        <tag>授信</tag>
         <tag>沟通</tag>
         <tag>说服</tag>
         <tag>重组</tag>
@@ -983,8 +997,8 @@
         <category>Banking</category>
       </categories>
       <tags>
-        <tag>授信</tag>
         <tag>贷款</tag>
+        <tag>授信</tag>
         <tag>地铁</tag>
       </tags>
   </entry>
@@ -997,8 +1011,8 @@
       </categories>
       <tags>
         <tag>债务</tag>
-        <tag>知乎</tag>
         <tag>财务分析</tag>
+        <tag>知乎</tag>
         <tag>嘉能可</tag>
         <tag>资产负债表</tag>
       </tags>
@@ -1025,8 +1039,8 @@
       </categories>
       <tags>
         <tag>fitness</tag>
-        <tag>跑步</tag>
         <tag>减脂</tag>
+        <tag>跑步</tag>
         <tag>体重</tag>
       </tags>
   </entry>
@@ -1066,13 +1080,13 @@
         <category>Article</category>
       </categories>
       <tags>
-        <tag>财务分析</tag>
         <tag>EVA</tag>
         <tag>ROIC</tag>
         <tag>WACC</tag>
         <tag>利息</tag>
         <tag>加权平均资本成本</tag>
         <tag>经济增加值</tag>
+        <tag>财务分析</tag>
       </tags>
   </entry>
   <entry>
@@ -1099,9 +1113,9 @@
       </categories>
       <tags>
         <tag>债务</tag>
+        <tag>财务分析</tag>
         <tag>偿债能力</tag>
         <tag>知乎</tag>
-        <tag>财务分析</tag>
         <tag>财务安全</tag>
         <tag>资产负债率</tag>
       </tags>
@@ -1957,7 +1971,6 @@
         <category>IT</category>
       </categories>
       <tags>
-        <tag>DNS</tag>
         <tag>linode</tag>
         <tag>linux</tag>
         <tag>lnmp</tag>
@@ -1965,6 +1978,7 @@
         <tag>ubuntu</tag>
         <tag>vim</tag>
         <tag>vps</tag>
+        <tag>DNS</tag>
         <tag>www</tag>
         <tag>域名</tag>
         <tag>解析</tag>
@@ -1979,20 +1993,20 @@
       </categories>
       <tags>
         <tag>wordpress</tag>
+        <tag>ftp</tag>
         <tag>linode</tag>
         <tag>linux</tag>
         <tag>lnmp</tag>
-        <tag>nginx</tag>
-        <tag>ubuntu</tag>
-        <tag>vim</tag>
-        <tag>vps</tag>
-        <tag>ftp</tag>
         <tag>Lunarpages</tag>
         <tag>mysql</tag>
+        <tag>nginx</tag>
         <tag>php</tag>
         <tag>pureftpd</tag>
         <tag>rewrite</tag>
         <tag>ssh</tag>
+        <tag>ubuntu</tag>
+        <tag>vim</tag>
+        <tag>vps</tag>
         <tag>伪静态</tag>
         <tag>虚拟主机</tag>
       </tags>
@@ -2036,17 +2050,17 @@
         <tag>旧制度与大革命</tag>
         <tag>推拿</tag>
         <tag>毕飞宇</tag>
-        <tag>墓碑</tag>
-        <tag>杨继绳</tag>
         <tag>Amazon</tag>
         <tag>kindle</tag>
         <tag>Kindle DXG</tag>
         <tag>三井帝国在行动</tag>
         <tag>从理想主义到经验主义</tag>
         <tag>十九札</tag>
+        <tag>墓碑</tag>
         <tag>天朝的崩溃</tag>
         <tag>曾经德隆</tag>
         <tag>朱青生</tag>
+        <tag>杨继绳</tag>
         <tag>王世渝</tag>
         <tag>白益民</tag>
         <tag>茅海建</tag>
@@ -2064,8 +2078,8 @@
       </categories>
       <tags>
         <tag>墓碑</tag>
-        <tag>引洮工程</tag>
         <tag>杨继绳</tag>
+        <tag>引洮工程</tag>
         <tag>杨闻宇</tag>
         <tag>甘肃</tag>
       </tags>
@@ -2174,11 +2188,11 @@
       </categories>
       <tags>
         <tag>法律</tag>
+        <tag>贷款</tag>
         <tag>债务</tag>
         <tag>共同债务</tag>
         <tag>共同债务人</tag>
         <tag>授信</tag>
-        <tag>贷款</tag>
       </tags>
   </entry>
   <entry>
@@ -2246,8 +2260,8 @@
         <category>Banking</category>
       </categories>
       <tags>
-        <tag>贷款</tag>
         <tag>流动资金</tag>
+        <tag>贷款</tag>
         <tag>铺底流动资金</tag>
       </tags>
   </entry>
@@ -2297,8 +2311,8 @@
         <category>Card</category>
       </categories>
       <tags>
-        <tag>国际贸易</tag>
         <tag>性越多越安全：颠覆传统的反常经济学</tag>
+        <tag>国际贸易</tag>
       </tags>
   </entry>
   <entry>
@@ -2309,8 +2323,8 @@
         <category>Card</category>
       </categories>
       <tags>
-        <tag>性越多越安全：颠覆传统的反常经济学</tag>
         <tag>产权</tag>
+        <tag>性越多越安全：颠覆传统的反常经济学</tag>
         <tag>私有化</tag>
       </tags>
   </entry>
@@ -2397,8 +2411,8 @@
         <category>Card</category>
       </categories>
       <tags>
-        <tag>传言</tag>
         <tag>北京</tag>
+        <tag>传言</tag>
         <tag>官场</tag>
         <tag>白银资本</tag>
       </tags>
@@ -2511,9 +2525,9 @@
         <category>Paste</category>
       </categories>
       <tags>
+        <tag>下载</tag>
         <tag>大富翁</tag>
         <tag>游戏</tag>
-        <tag>下载</tag>
       </tags>
   </entry>
   <entry>
@@ -2708,8 +2722,8 @@
         <category>Daily</category>
       </categories>
       <tags>
-        <tag>周杰伦</tag>
         <tag>歌词</tag>
+        <tag>周杰伦</tag>
         <tag>蔡依林</tag>
       </tags>
   </entry>
@@ -2733,8 +2747,8 @@
       </categories>
       <tags>
         <tag>人民大学</tag>
-        <tag>歌词</tag>
         <tag>奥运</tag>
+        <tag>歌词</tag>
       </tags>
   </entry>
   <entry>
@@ -2904,8 +2918,8 @@
         <category>Daily</category>
       </categories>
       <tags>
-        <tag>贴图</tag>
         <tag>人民大学</tag>
+        <tag>贴图</tag>
         <tag>咖啡</tag>
       </tags>
   </entry>
@@ -2941,8 +2955,8 @@
         <category>Daily</category>
       </categories>
       <tags>
-        <tag>贴图</tag>
         <tag>人民大学</tag>
+        <tag>贴图</tag>
       </tags>
   </entry>
   <entry>
@@ -3121,8 +3135,8 @@
         <category>Debating</category>
       </categories>
       <tags>
-        <tag>贴图</tag>
         <tag>辩论</tag>
+        <tag>贴图</tag>
         <tag>共青团</tag>
       </tags>
   </entry>
@@ -3265,8 +3279,8 @@
         <category>Daily</category>
       </categories>
       <tags>
-        <tag>贴图</tag>
         <tag>人民大学</tag>
+        <tag>贴图</tag>
       </tags>
   </entry>
   <entry>
@@ -3324,8 +3338,8 @@
         <category>Daily</category>
       </categories>
       <tags>
-        <tag>学习</tag>
         <tag>法律史</tag>
+        <tag>学习</tag>
         <tag>论文</tag>
       </tags>
   </entry>
@@ -3338,8 +3352,8 @@
       </categories>
       <tags>
         <tag>历史</tag>
-        <tag>法律史</tag>
         <tag>法律</tag>
+        <tag>法律史</tag>
         <tag>笔记</tag>
       </tags>
   </entry>
@@ -3387,9 +3401,9 @@
         <category>Daily</category>
       </categories>
       <tags>
+        <tag>辩论</tag>
         <tag>CCTV</tag>
         <tag>贴图</tag>
-        <tag>辩论</tag>
         <tag>路一鸣</tag>
       </tags>
   </entry>
@@ -3413,9 +3427,9 @@
         <category>Article</category>
       </categories>
       <tags>
+        <tag>杨帆凯</tag>
         <tag>诗词</tag>
         <tag>辩论</tag>
-        <tag>杨帆凯</tag>
       </tags>
   </entry>
   <entry>
@@ -3426,8 +3440,8 @@
         <category>Article</category>
       </categories>
       <tags>
-        <tag>历史</tag>
         <tag>诗词</tag>
+        <tag>历史</tag>
         <tag>陆机</tag>
       </tags>
   </entry>
