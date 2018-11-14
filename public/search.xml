@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[知乎：30分钟级别3买失败原因探究？]]></title>
     <url>%2Fblog%2F%2F1716%2F</url>
-    <content type="text"><![CDATA[原题目见 链接 看走势图： 600101，3F图，低点 6.60 向上分为 5 段走势，没有出现连续三段重叠。这意味着： 15F 级别没有中枢； 中枢级别小于 15F 级别——如果开 30s 图，或许会看到 3F 级别的中枢。 打开 15F 图，可以看到6月末以来的低点 6.45 之后的走势包涵一个六段中枢，ZG=7.23， ZD=6.86。如图： 高点 8.59 下来，在 7.5 的位置直接向下跳空缺口跌回 ZG ，这个 1H 级别中枢的三买构筑失败。这里没有任何小级别背驰，没有可操作的买点。 这个走势只有一个很差很勉强的买入机会：价格跌破 6.86 后，按照同级别分解的角度，有一个围绕上面所说的中枢的盘整背驰。 之所以说这个机会很差，是因为（1）同级别分解只适用于作为“辅助线”，不宜作为单独的操作依据；（2）DD=6.45，6.6 这个位置高于 DD，盘整背离本身并不具备操作空间。 以上算是对这段走势的一个描述。 以上内容只是现象，深层次的问题并不在这里，而在于“可以看作”四个字（“可以看作本级别中枢”）。 这里不宜不多说了，只说这些吧。]]></content>
+    <content type="text"><![CDATA[原题目见 链接 看走势图： 600101，3F图，低点 6.60 向上分为 5 段走势，没有出现连续三段重叠。这意味着： 15F 级别没有中枢； 中枢级别小于 15F 级别——如果开 30s 图，或许会看到 3F 级别的中枢。 打开 15F 图，可以看到6月末以来的低点 6.45 之后的走势包含一个六段中枢，ZG=7.23， ZD=6.86。如图： 高点 8.59 下来，在 7.5 的位置直接向下跳空缺口跌回 ZG ，这个 1H 级别中枢的三买构筑失败。这里没有任何小级别背驰，没有可操作的买点。 这个走势只有一个很差很勉强的买入机会：价格跌破 6.86 后，按照同级别分解的角度，有一个围绕上面所说的中枢的盘整背驰。 之所以说这个机会很差，是因为（1）同级别分解只适用于作为“辅助线”，不宜作为单独的操作依据；（2）DD=6.45，6.6 这个位置高于 DD，盘整背离本身并不具备操作空间。 以上算是对这段走势的一个描述。 以上内容只是现象，深层次的问题并不在这里，而在于“可以看作”四个字（“可以看作本级别中枢”）。 这里不宜多说了，只说这些吧。]]></content>
       <categories>
         <category>Trading</category>
       </categories>
@@ -200,10 +200,10 @@
         <tag>以交易为生</tag>
         <tag>回撤</tag>
         <tag>技术分析</tag>
+        <tag>价格</tag>
         <tag>价值投资</tag>
         <tag>Pullback</tag>
         <tag>Alexander Elder</tag>
-        <tag>价格</tag>
       </tags>
   </entry>
   <entry>
@@ -312,8 +312,8 @@
         <tag>wordpress</tag>
         <tag>lnmp</tag>
         <tag>nginx</tag>
-        <tag>rewrite</tag>
         <tag>vps</tag>
+        <tag>rewrite</tag>
         <tag>伪静态</tag>
         <tag>Oneinstack</tag>
       </tags>
@@ -376,8 +376,8 @@
       <tags>
         <tag>交易</tag>
         <tag>Al Brooks</tag>
-        <tag>胜率</tag>
         <tag>趋势线</tag>
+        <tag>胜率</tag>
         <tag>交易者方程</tag>
         <tag>支撑位</tag>
         <tag>梁启超</tag>
@@ -595,8 +595,8 @@
         <tag>茅海建</tag>
         <tag>顾准</tag>
         <tag>读书</tag>
-        <tag>读书卡片</tag>
         <tag>读书笔记</tag>
+        <tag>读书卡片</tag>
         <tag>木心</tag>
         <tag>DEVONthink</tag>
         <tag>atimelogger</tag>
@@ -824,13 +824,13 @@
         <tag>心态</tag>
         <tag>交易系统</tag>
         <tag>收益率</tag>
+        <tag>资金管理</tag>
         <tag>交易圣经</tag>
         <tag>以交易为生</tag>
         <tag>恐惧</tag>
         <tag>投机智慧</tag>
         <tag>期货投资的命门</tag>
         <tag>贪婪</tag>
-        <tag>资金管理</tag>
         <tag>金融交易学</tag>
       </tags>
   </entry>
@@ -891,8 +891,8 @@
       <tags>
         <tag>交易</tag>
         <tag>一致性</tag>
-        <tag>资金管理</tag>
         <tag>止损</tag>
+        <tag>资金管理</tag>
       </tags>
   </entry>
   <entry>
@@ -1039,8 +1039,8 @@
       </categories>
       <tags>
         <tag>fitness</tag>
-        <tag>减脂</tag>
         <tag>跑步</tag>
+        <tag>减脂</tag>
         <tag>体重</tag>
       </tags>
   </entry>
@@ -1147,9 +1147,9 @@
       </categories>
       <tags>
         <tag>知识管理</tag>
+        <tag>读书笔记</tag>
         <tag>filemaker</tag>
         <tag>读书卡片</tag>
-        <tag>读书笔记</tag>
         <tag>filemaker go</tag>
         <tag>DEVONthink</tag>
         <tag>PIM</tag>
@@ -1215,8 +1215,8 @@
         <tag>木心</tag>
         <tag>陈丹青</tag>
         <tag>苏格拉底</tag>
-        <tag>知识</tag>
         <tag>艺术</tag>
+        <tag>知识</tag>
         <tag>日记</tag>
       </tags>
   </entry>
@@ -1443,9 +1443,9 @@
         <tag>十九札</tag>
         <tag>朱青生</tag>
         <tag>茅海建</tag>
+        <tag>读书笔记</tag>
         <tag>filemaker</tag>
         <tag>读书卡片</tag>
-        <tag>读书笔记</tag>
         <tag>iphone</tag>
         <tag>filemaker go</tag>
         <tag>ipad</tag>
@@ -1886,9 +1886,9 @@
         <category>Debating</category>
       </categories>
       <tags>
-        <tag>辩论</tag>
         <tag>人民大学</tag>
         <tag>法学院</tag>
+        <tag>辩论</tag>
         <tag>陈怀望</tag>
         <tag>余磊</tag>
         <tag>俄勒冈辩论</tag>
@@ -1911,8 +1911,8 @@
         <tag>Amazon</tag>
         <tag>kindle</tag>
         <tag>Kindle DXG</tag>
-        <tag>读书</tag>
         <tag>哥本中分</tag>
+        <tag>读书</tag>
         <tag>读书笔记</tag>
       </tags>
   </entry>
@@ -1927,9 +1927,9 @@
         <tag>知识管理</tag>
         <tag>pdf</tag>
         <tag>kindle</tag>
+        <tag>读书</tag>
         <tag>filemaker</tag>
         <tag>徐子渔</tag>
-        <tag>读书</tag>
         <tag>读书卡片</tag>
         <tag>阅读</tag>
       </tags>
@@ -1971,6 +1971,7 @@
         <category>IT</category>
       </categories>
       <tags>
+        <tag>DNS</tag>
         <tag>linode</tag>
         <tag>linux</tag>
         <tag>lnmp</tag>
@@ -1978,7 +1979,6 @@
         <tag>ubuntu</tag>
         <tag>vim</tag>
         <tag>vps</tag>
-        <tag>DNS</tag>
         <tag>www</tag>
         <tag>域名</tag>
         <tag>解析</tag>
@@ -1993,20 +1993,20 @@
       </categories>
       <tags>
         <tag>wordpress</tag>
-        <tag>ftp</tag>
         <tag>linode</tag>
         <tag>linux</tag>
         <tag>lnmp</tag>
+        <tag>nginx</tag>
+        <tag>ubuntu</tag>
+        <tag>vim</tag>
+        <tag>vps</tag>
+        <tag>ftp</tag>
         <tag>Lunarpages</tag>
         <tag>mysql</tag>
-        <tag>nginx</tag>
         <tag>php</tag>
         <tag>pureftpd</tag>
         <tag>rewrite</tag>
         <tag>ssh</tag>
-        <tag>ubuntu</tag>
-        <tag>vim</tag>
-        <tag>vps</tag>
         <tag>伪静态</tag>
         <tag>虚拟主机</tag>
       </tags>
@@ -2046,10 +2046,10 @@
       </categories>
       <tags>
         <tag>笔记</tag>
-        <tag>托克维尔</tag>
-        <tag>旧制度与大革命</tag>
         <tag>推拿</tag>
         <tag>毕飞宇</tag>
+        <tag>托克维尔</tag>
+        <tag>旧制度与大革命</tag>
         <tag>Amazon</tag>
         <tag>kindle</tag>
         <tag>Kindle DXG</tag>
@@ -2311,8 +2311,8 @@
         <category>Card</category>
       </categories>
       <tags>
-        <tag>性越多越安全：颠覆传统的反常经济学</tag>
         <tag>国际贸易</tag>
+        <tag>性越多越安全：颠覆传统的反常经济学</tag>
       </tags>
   </entry>
   <entry>
@@ -2323,8 +2323,8 @@
         <category>Card</category>
       </categories>
       <tags>
-        <tag>产权</tag>
         <tag>性越多越安全：颠覆传统的反常经济学</tag>
+        <tag>产权</tag>
         <tag>私有化</tag>
       </tags>
   </entry>
@@ -2979,8 +2979,8 @@
         <category>Paste</category>
       </categories>
       <tags>
-        <tag>诗词</tag>
         <tag>人民大学</tag>
+        <tag>诗词</tag>
       </tags>
   </entry>
   <entry>
@@ -3003,8 +3003,8 @@
         <category>Debating</category>
       </categories>
       <tags>
-        <tag>辩论</tag>
         <tag>人民大学</tag>
+        <tag>辩论</tag>
         <tag>二人制辩论赛</tag>
       </tags>
   </entry>
@@ -3051,8 +3051,8 @@
         <category>Debating</category>
       </categories>
       <tags>
-        <tag>辩论</tag>
         <tag>人民大学</tag>
+        <tag>辩论</tag>
       </tags>
   </entry>
   <entry>
@@ -3123,8 +3123,8 @@
         <category>Debating</category>
       </categories>
       <tags>
-        <tag>辩论</tag>
         <tag>人民大学</tag>
+        <tag>辩论</tag>
       </tags>
   </entry>
   <entry>
@@ -3207,8 +3207,8 @@
         <category>Debating</category>
       </categories>
       <tags>
-        <tag>辩论</tag>
         <tag>人民大学</tag>
+        <tag>辩论</tag>
         <tag>共青团</tag>
       </tags>
   </entry>
@@ -3267,8 +3267,8 @@
         <category>Debating</category>
       </categories>
       <tags>
-        <tag>辩论</tag>
         <tag>人民大学</tag>
+        <tag>辩论</tag>
       </tags>
   </entry>
   <entry>
