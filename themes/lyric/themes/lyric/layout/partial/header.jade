@@ -1,0 +1,35 @@
+//- Logo
+h1.banner
+  a.logo(href=url_for('.'))
+    = "Lyric.im"
+  span.hid
+    = " 关于产品、科技、区块链"
+  
+//- Navbar
+.nav-wrapper
+  ul.nav
+    each link, name in theme.menu
+      li.nav-link
+        if is_home() && name == "Home"
+          a.active(href=link title="Home")
+            != __(name)
+            
+        else if is_archive() && name == "Archives"
+          a.active(href=link target="_self" title=__(name))
+            != __(name)
+
+        else if (is_category() || page.layout == "categories") && name == "Categories"
+          a.active(href=link target="_self" title=__(name))
+            != __(name)
+            
+        else if (is_tag() || page.layout == "tags") && name == "Tags"
+          a.active(href=link target="_self" title=__(name))
+            != __(name)
+            
+        else if page.layout == "about" && name == "About"
+          a.active(href=link target="_self" title=__(name))
+            != __(name)
+            
+        else
+          a(href=link target="_self" title=__(name))
+            != __(name)

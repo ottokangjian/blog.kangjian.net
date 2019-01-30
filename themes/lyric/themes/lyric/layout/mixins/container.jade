@@ -1,0 +1,121 @@
+//- Home
+mixin home()
+  ul.home
+    - page.posts.each(function (item) {
+      li.post-item
+        article.post
+          h2.post-title
+            a.post-link(href=url_for(item.path) title=item.title)
+              != item.title
+          span.post-time
+            != full_date(item.date, 'll')
+          if item.excerpt
+            div.post-content
+              != item.excerpt
+            a.read-more(href=url_for(item.path) title="More")
+              != "阅读全文"
+          else
+            div.post-content
+              != item.content
+
+    - })
+
+//- Post
+mixin post()
+  article.post
+    h2.post-title
+      != page.title
+    span.post-time
+      != full_date(page.date, 'll')
+    if theme.sidebar && toc(page.content)
+      .post-sidebar#sidebar
+        h3.heading
+          != __('toc')
+        != toc(page.content, {list_number: false})
+    .post-content
+      != page.content
+
+//- awards
+mixin award()
+  .award-tips
+    .hr
+    .post-tips-title 如果喜欢我的文章，可以用 比特币 或者 以太坊 等数字货币赞赏我：
+    .post-tips-addrs
+      .addr-entry.eth
+        span 以太坊: 
+        span 
+          != theme.award.eth_addr
+        .qrcode
+          .qrcode-title 我的 以太坊 地址
+          img.qrcode-img(src=theme.award.eth_qrcode alt="My ETH address")
+      .addr-entry.btc 比特币: 
+        span 
+          != theme.award.btc_addr
+        .qrcode
+          .qrcode-title 我的 比特币 地址
+          img.qrcode-img(src=theme.award.btc_qrcode alt="My BTC address")
+      .addr-entry.wechat 微信赞赏: 
+        span 
+          != theme.award.wechat_addr
+        .qrcode
+          .qrcode-title 我的微信赞赏码
+          img.qrcode-img(src=theme.award.wechat_qrcode alt="My WeChat Payment QRCode")
+          
+
+//- Archive
+mixin archive()
+  .archive
+    - var year = 0;
+    - var change = false;
+    - page.posts.each(function (item) {
+      - var itemYear = date(item.date, 'YYYY') - 0;
+      - change = year !== itemYear;
+      - year = change ? itemYear : year;
+
+      if change
+        h2.year
+          != year
+      .post-item
+        .post-time
+          != full_date(item.date, 'MMM D')
+        a.post-link(href=url_for(item.path) title=item.title)
+          != item.title
+    - })
+
+//- Category
+mixin category()
+  .archive
+    h2.category
+      = page.category
+    each item in page.posts.toArray()
+      .post-item
+        .post-time.category
+          != full_date(item.date, 'll')
+        a.post-link(href=url_for(item.path) title=item.title)
+          != item.title
+
+//- Tag
+mixin tag()
+  .archive
+    h2.tag
+      = page.tag
+    each item in page.posts.toArray()
+      .post-item
+        .post-time.tag
+          != full_date(item.date, 'll')
+        a.post-link(href=url_for(item.path) title=item.title)
+          != item.title
+
+//- Page
+mixin page()
+  article.post
+    article.post-block
+      .post-content
+        != page.content
+
+//- About
+mixin about()
+  article.post
+    article.post-block
+      .post-content
+        != page.content
