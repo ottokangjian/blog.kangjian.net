@@ -200,10 +200,10 @@
         <tag>以交易为生</tag>
         <tag>回撤</tag>
         <tag>技术分析</tag>
+        <tag>价格</tag>
         <tag>价值投资</tag>
         <tag>Pullback</tag>
         <tag>Alexander Elder</tag>
-        <tag>价格</tag>
       </tags>
   </entry>
   <entry>
@@ -312,8 +312,8 @@
         <tag>wordpress</tag>
         <tag>lnmp</tag>
         <tag>nginx</tag>
-        <tag>rewrite</tag>
         <tag>vps</tag>
+        <tag>rewrite</tag>
         <tag>伪静态</tag>
         <tag>Oneinstack</tag>
       </tags>
@@ -344,8 +344,8 @@
       </categories>
       <tags>
         <tag>Al Brooks</tag>
-        <tag>反转</tag>
         <tag>交易者方程</tag>
+        <tag>反转</tag>
         <tag>尖峰</tag>
       </tags>
   </entry>
@@ -489,8 +489,8 @@
       </categories>
       <tags>
         <tag>交易</tag>
-        <tag>交易系统</tag>
         <tag>心态</tag>
+        <tag>交易系统</tag>
         <tag>趋势交易</tag>
         <tag>入场</tag>
         <tag>盈亏比</tag>
@@ -506,8 +506,8 @@
       </categories>
       <tags>
         <tag>交易</tag>
-        <tag>交易系统</tag>
         <tag>心态</tag>
+        <tag>交易系统</tag>
         <tag>交易员</tag>
         <tag>Al Brooks</tag>
       </tags>
@@ -520,8 +520,8 @@
         <category>Trading</category>
       </categories>
       <tags>
-        <tag>资金管理</tag>
         <tag>心态</tag>
+        <tag>资金管理</tag>
         <tag>不对称性</tag>
       </tags>
   </entry>
@@ -631,8 +631,8 @@
       <tags>
         <tag>授信</tag>
         <tag>iphone</tag>
-        <tag>分期</tag>
         <tag>分期付款</tag>
+        <tag>分期</tag>
         <tag>水货</tag>
         <tag>融资</tag>
         <tag>行货</tag>
@@ -713,8 +713,8 @@
       </categories>
       <tags>
         <tag>交易</tag>
-        <tag>交易系统</tag>
         <tag>心态</tag>
+        <tag>交易系统</tag>
         <tag>Charles Ellis</tag>
         <tag>冷爱比热爱更重要</tag>
         <tag>投资艺术</tag>
@@ -782,8 +782,8 @@
       </categories>
       <tags>
         <tag>交易</tag>
-        <tag>交易系统</tag>
         <tag>心态</tag>
+        <tag>交易系统</tag>
         <tag>佛法</tag>
         <tag>无为法</tag>
         <tag>有为法</tag>
@@ -821,9 +821,9 @@
       </categories>
       <tags>
         <tag>知乎</tag>
+        <tag>心态</tag>
         <tag>资金管理</tag>
         <tag>交易系统</tag>
-        <tag>心态</tag>
         <tag>收益率</tag>
         <tag>交易圣经</tag>
         <tag>以交易为生</tag>
@@ -875,8 +875,8 @@
       <tags>
         <tag>交易</tag>
         <tag>一致性</tag>
-        <tag>交易系统</tag>
         <tag>心态</tag>
+        <tag>交易系统</tag>
         <tag>收益率</tag>
         <tag>目标</tag>
       </tags>
@@ -1341,8 +1341,8 @@
         <tag>文学回忆录</tag>
         <tag>木心</tag>
         <tag>陈丹青</tag>
-        <tag>美术</tag>
         <tag>苏格拉底</tag>
+        <tag>美术</tag>
         <tag>宗教</tag>
         <tag>耶稣</tag>
       </tags>
@@ -1359,10 +1359,10 @@
         <tag>文学回忆录</tag>
         <tag>木心</tag>
         <tag>陈丹青</tag>
-        <tag>苏格拉底</tag>
         <tag>基督教</tag>
         <tag>新约</tag>
         <tag>旧约</tag>
+        <tag>苏格拉底</tag>
       </tags>
   </entry>
   <entry>
@@ -1379,13 +1379,13 @@
         <tag>文学回忆录</tag>
         <tag>木心</tag>
         <tag>陈丹青</tag>
+        <tag>苏格拉底</tag>
         <tag>乔达摩</tag>
         <tag>司马迁</tag>
         <tag>希特勒</tag>
         <tag>李聃</tag>
         <tag>美术</tag>
         <tag>老子</tag>
-        <tag>苏格拉底</tag>
       </tags>
   </entry>
   <entry>
@@ -1971,6 +1971,7 @@
         <category>IT</category>
       </categories>
       <tags>
+        <tag>DNS</tag>
         <tag>linode</tag>
         <tag>linux</tag>
         <tag>lnmp</tag>
@@ -1978,7 +1979,6 @@
         <tag>ubuntu</tag>
         <tag>vim</tag>
         <tag>vps</tag>
-        <tag>DNS</tag>
         <tag>www</tag>
         <tag>域名</tag>
         <tag>解析</tag>
@@ -1993,20 +1993,20 @@
       </categories>
       <tags>
         <tag>wordpress</tag>
-        <tag>ftp</tag>
         <tag>linode</tag>
         <tag>linux</tag>
         <tag>lnmp</tag>
+        <tag>nginx</tag>
+        <tag>ubuntu</tag>
+        <tag>vim</tag>
+        <tag>vps</tag>
+        <tag>ftp</tag>
         <tag>Lunarpages</tag>
         <tag>mysql</tag>
-        <tag>nginx</tag>
         <tag>php</tag>
         <tag>pureftpd</tag>
         <tag>rewrite</tag>
         <tag>ssh</tag>
-        <tag>ubuntu</tag>
-        <tag>vim</tag>
-        <tag>vps</tag>
         <tag>伪静态</tag>
         <tag>虚拟主机</tag>
       </tags>
@@ -3063,8 +3063,8 @@
         <category>Daily</category>
       </categories>
       <tags>
-        <tag>足球</tag>
         <tag>北京国安</tag>
+        <tag>足球</tag>
       </tags>
   </entry>
   <entry>
@@ -3075,9 +3075,9 @@
         <category>Article</category>
       </categories>
       <tags>
+        <tag>足球</tag>
         <tag>切尔西</tag>
         <tag>穆里尼奥</tag>
-        <tag>足球</tag>
       </tags>
   </entry>
   <entry>
@@ -3325,8 +3325,8 @@
         <category>Paste</category>
       </categories>
       <tags>
-        <tag>贴图</tag>
         <tag>毕业</tag>
+        <tag>贴图</tag>
         <tag>再见北理工</tag>
       </tags>
   </entry>
@@ -3338,8 +3338,8 @@
         <category>Daily</category>
       </categories>
       <tags>
-        <tag>法律史</tag>
         <tag>学习</tag>
+        <tag>法律史</tag>
         <tag>论文</tag>
       </tags>
   </entry>
@@ -3352,8 +3352,8 @@
       </categories>
       <tags>
         <tag>历史</tag>
-        <tag>法律</tag>
         <tag>法律史</tag>
+        <tag>法律</tag>
         <tag>笔记</tag>
       </tags>
   </entry>
@@ -3402,8 +3402,8 @@
       </categories>
       <tags>
         <tag>辩论</tag>
-        <tag>CCTV</tag>
         <tag>贴图</tag>
+        <tag>CCTV</tag>
         <tag>路一鸣</tag>
       </tags>
   </entry>
@@ -3427,8 +3427,8 @@
         <category>Article</category>
       </categories>
       <tags>
-        <tag>杨帆凯</tag>
         <tag>诗词</tag>
+        <tag>杨帆凯</tag>
         <tag>辩论</tag>
       </tags>
   </entry>
@@ -3440,8 +3440,8 @@
         <category>Article</category>
       </categories>
       <tags>
-        <tag>诗词</tag>
         <tag>历史</tag>
+        <tag>诗词</tag>
         <tag>陆机</tag>
       </tags>
   </entry>
