@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[知乎：为何期货交易一年只有一两次或两三次交易机会？]]></title>
+    <url>%2Fblog%2F%2F1717%2F</url>
+    <content type="text"><![CDATA[原题目见 链接 这是一个交易的话题，题目下的答案却远远不止“交易”。读了各个的答案，启发很多。 下面试着从“缠论”的维度，说几句自己的理解。 接触交易之初，师父就曾经提到过很多次，一年大概只有一两次大机会，三五次小机会，再多就不算机会了。 那时候做日线，只会掰手指，死记硬背，于是就记住了“一年大概 250 个左右的交易日，一两次大机会，能做的机会不超过五个，想多做就多看几个独立的品种”。 这么多年一直是“知其然，不知其所以然”。直到 2019 年第三遍通读 108 颗原文。 “K 线”是最基础的交易指标，是对确定周期价格运动的概括。 日线级别的交易，每日一个 K 线。 最少 3 天，可形成一个日线顶底分型。 两个顶底分型之间，最少间隔 1 个独立 K 线。（此处暂不分辨新旧定义） 最少一周左右，4 - 5 个交易日的时间，日线形成一笔。（4 天或 5 天看怎么划分笔的界限） 由于有大量的合并和延伸，实际走势中，日线一笔一般多于 4 - 5 天这个下限，姑且拍个脑袋，9 - 13 天居多吧，当然甚至还会更多。 继续拍脑袋，按 5 笔构成一个线段估算，大概是 45 - 65 个交易日构成日线一段。 次级别走势一般至少是同级别一段。 用最简单的结构虚拟，5 个日线线段构成一个日线走势，大概是 225 - 325 个交易日构成日线一段走势。 这一个走势的起点到终点，就是一个个 1 - 2 年一次的大行情。 按标准的一二三买卖点，大概就是“一年只有一两次或两三次交易机会”了。 上面的叙述有不严谨的地方，次级别走势与同级别联立定义的部分是缺乏论证的。考虑到商品期货每天的交易时间横向不一致，纵向不确定，没有引入次级别来说明，只是大概拍拍脑袋。 进一步多说几句，这个问题的本质上是个“交易周期”问题。250 个左右 K 线构成一个完整周期： 日线级别，大概一年是一个交易周期。 小时/两小时级别，大概一个季度是一个交易周期。 十五分钟/三十分钟级别，大概一个月是一个交易周期。 三分钟/五分钟级别，大概一周是一个交易周期。 三十秒/一分钟级别，大概一天是一个交易周期。 这其中，每个交易周期大概是 250 个 K 线，其中蕴含了 1 - 2 个，最多不超过 3 - 5 个交易机会。用缠论对走势的定义看，含义是一致的。 这个判断不一定对——比如程序化交易、高频交易的底层逻辑不是建立在价格走势上，就完全不适用——但其中最大的意义，在于限制交易频率，避免“剁手式”交易。毕竟各门各派都不主张无依据的频繁交易。 以上纯属定性分析，很多环节是拍脑袋估算，数字部分看看就好，不必深究。]]></content>
+      <categories>
+        <category>Trading</category>
+      </categories>
+      <tags>
+        <tag>缠论</tag>
+        <tag>交易级别</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[知乎：30分钟级别3买失败原因探究？]]></title>
     <url>%2Fblog%2F%2F1716%2F</url>
     <content type="text"><![CDATA[原题目见 链接 看走势图： 600101，3F图，低点 6.60 向上分为 5 段走势，没有出现连续三段重叠。这意味着： 15F 级别没有中枢； 中枢级别小于 15F 级别——如果开 30s 图，或许会看到 3F 级别的中枢。 打开 15F 图，可以看到6月末以来的低点 6.45 之后的走势包含一个六段中枢，ZG=7.23， ZD=6.86。如图： 高点 8.59 下来，在 7.5 的位置直接向下跳空缺口跌回 ZG ，这个 1H 级别中枢的三买构筑失败。这里没有任何小级别背驰，没有可操作的买点。 这个走势只有一个很差很勉强的买入机会：价格跌破 6.86 后，按照同级别分解的角度，有一个围绕上面所说的中枢的盘整背驰。 之所以说这个机会很差，是因为（1）同级别分解只适用于作为“辅助线”，不宜作为单独的操作依据；（2）DD=6.45，6.6 这个位置高于 DD，盘整背离本身并不具备操作空间。 以上算是对这段走势的一个描述。 以上内容只是现象，深层次的问题并不在这里，而在于“可以看作”四个字（“可以看作本级别中枢”）。 这里不宜多说了，只说这些吧。]]></content>
@@ -197,8 +209,8 @@
       <tags>
         <tag>Price Action</tag>
         <tag>交易</tag>
-        <tag>以交易为生</tag>
         <tag>回撤</tag>
+        <tag>以交易为生</tag>
         <tag>技术分析</tag>
         <tag>价格</tag>
         <tag>价值投资</tag>
@@ -214,8 +226,8 @@
         <category>Fitness</category>
       </categories>
       <tags>
-        <tag>心率</tag>
         <tag>跑步</tag>
+        <tag>心率</tag>
         <tag>Fitness</tag>
         <tag>配速</tag>
         <tag>核心肌肉</tag>
@@ -312,8 +324,8 @@
         <tag>wordpress</tag>
         <tag>lnmp</tag>
         <tag>nginx</tag>
-        <tag>vps</tag>
         <tag>rewrite</tag>
+        <tag>vps</tag>
         <tag>伪静态</tag>
         <tag>Oneinstack</tag>
       </tags>
@@ -344,8 +356,8 @@
       </categories>
       <tags>
         <tag>Al Brooks</tag>
-        <tag>交易者方程</tag>
         <tag>反转</tag>
+        <tag>交易者方程</tag>
         <tag>尖峰</tag>
       </tags>
   </entry>
@@ -1039,9 +1051,9 @@
       </categories>
       <tags>
         <tag>fitness</tag>
-        <tag>跑步</tag>
         <tag>减脂</tag>
         <tag>体重</tag>
+        <tag>跑步</tag>
       </tags>
   </entry>
   <entry>
@@ -1098,10 +1110,10 @@
       </categories>
       <tags>
         <tag>fitness</tag>
+        <tag>跑步</tag>
         <tag>maf180</tag>
         <tag>心率</tag>
         <tag>步频</tag>
-        <tag>跑步</tag>
       </tags>
   </entry>
   <entry>
@@ -1215,8 +1227,8 @@
         <tag>木心</tag>
         <tag>陈丹青</tag>
         <tag>苏格拉底</tag>
-        <tag>艺术</tag>
         <tag>知识</tag>
+        <tag>艺术</tag>
         <tag>日记</tag>
       </tags>
   </entry>
@@ -1231,13 +1243,13 @@
         <tag>文学回忆录</tag>
         <tag>木心</tag>
         <tag>陈丹青</tag>
-        <tag>哲学</tag>
-        <tag>诗歌</tag>
         <tag>上海</tag>
         <tag>俄国</tag>
         <tag>农民</tag>
+        <tag>哲学</tag>
         <tag>极权</tag>
         <tag>海涅</tag>
+        <tag>诗歌</tag>
         <tag>郭沫若</tag>
         <tag>革命</tag>
       </tags>
@@ -1301,11 +1313,11 @@
         <tag>文学回忆录</tag>
         <tag>木心</tag>
         <tag>陈丹青</tag>
-        <tag>儒家</tag>
         <tag>哲学</tag>
+        <tag>诗歌</tag>
+        <tag>儒家</tag>
         <tag>孔丘</tag>
         <tag>孔子</tag>
-        <tag>诗歌</tag>
         <tag>陶渊明</tag>
         <tag>陶潜</tag>
       </tags>
@@ -1578,8 +1590,8 @@
       <tags>
         <tag>毛泽东</tag>
         <tag>大饥荒</tag>
-        <tag>大跃进</tag>
         <tag>农业中的力学问题</tag>
+        <tag>大跃进</tag>
         <tag>钱学森</tag>
       </tags>
   </entry>
@@ -1594,8 +1606,8 @@
         <tag>周恩来</tag>
         <tag>毛泽东</tag>
         <tag>大饥荒</tag>
-        <tag>人民日报</tag>
         <tag>大跃进</tag>
+        <tag>人民日报</tag>
         <tag>彭真</tag>
       </tags>
   </entry>
@@ -1971,7 +1983,6 @@
         <category>IT</category>
       </categories>
       <tags>
-        <tag>DNS</tag>
         <tag>linode</tag>
         <tag>linux</tag>
         <tag>lnmp</tag>
@@ -1979,6 +1990,7 @@
         <tag>ubuntu</tag>
         <tag>vim</tag>
         <tag>vps</tag>
+        <tag>DNS</tag>
         <tag>www</tag>
         <tag>域名</tag>
         <tag>解析</tag>
@@ -1993,20 +2005,20 @@
       </categories>
       <tags>
         <tag>wordpress</tag>
+        <tag>ftp</tag>
         <tag>linode</tag>
         <tag>linux</tag>
         <tag>lnmp</tag>
-        <tag>nginx</tag>
-        <tag>ubuntu</tag>
-        <tag>vim</tag>
-        <tag>vps</tag>
-        <tag>ftp</tag>
         <tag>Lunarpages</tag>
         <tag>mysql</tag>
+        <tag>nginx</tag>
         <tag>php</tag>
         <tag>pureftpd</tag>
         <tag>rewrite</tag>
         <tag>ssh</tag>
+        <tag>ubuntu</tag>
+        <tag>vim</tag>
+        <tag>vps</tag>
         <tag>伪静态</tag>
         <tag>虚拟主机</tag>
       </tags>
@@ -2046,10 +2058,10 @@
       </categories>
       <tags>
         <tag>笔记</tag>
-        <tag>推拿</tag>
-        <tag>毕飞宇</tag>
         <tag>托克维尔</tag>
         <tag>旧制度与大革命</tag>
+        <tag>推拿</tag>
+        <tag>毕飞宇</tag>
         <tag>墓碑</tag>
         <tag>杨继绳</tag>
         <tag>Amazon</tag>
@@ -2722,8 +2734,8 @@
         <category>Daily</category>
       </categories>
       <tags>
-        <tag>歌词</tag>
         <tag>周杰伦</tag>
+        <tag>歌词</tag>
         <tag>蔡依林</tag>
       </tags>
   </entry>
@@ -2747,8 +2759,8 @@
       </categories>
       <tags>
         <tag>人民大学</tag>
-        <tag>奥运</tag>
         <tag>歌词</tag>
+        <tag>奥运</tag>
       </tags>
   </entry>
   <entry>
@@ -2918,8 +2930,8 @@
         <category>Daily</category>
       </categories>
       <tags>
-        <tag>人民大学</tag>
         <tag>贴图</tag>
+        <tag>人民大学</tag>
         <tag>咖啡</tag>
       </tags>
   </entry>
@@ -2955,8 +2967,8 @@
         <category>Daily</category>
       </categories>
       <tags>
-        <tag>人民大学</tag>
         <tag>贴图</tag>
+        <tag>人民大学</tag>
       </tags>
   </entry>
   <entry>
@@ -3063,8 +3075,8 @@
         <category>Daily</category>
       </categories>
       <tags>
-        <tag>北京国安</tag>
         <tag>足球</tag>
+        <tag>北京国安</tag>
       </tags>
   </entry>
   <entry>
@@ -3075,9 +3087,9 @@
         <category>Article</category>
       </categories>
       <tags>
-        <tag>足球</tag>
         <tag>切尔西</tag>
         <tag>穆里尼奥</tag>
+        <tag>足球</tag>
       </tags>
   </entry>
   <entry>
@@ -3279,8 +3291,8 @@
         <category>Daily</category>
       </categories>
       <tags>
-        <tag>人民大学</tag>
         <tag>贴图</tag>
+        <tag>人民大学</tag>
       </tags>
   </entry>
   <entry>
@@ -3325,8 +3337,8 @@
         <category>Paste</category>
       </categories>
       <tags>
-        <tag>毕业</tag>
         <tag>贴图</tag>
+        <tag>毕业</tag>
         <tag>再见北理工</tag>
       </tags>
   </entry>
@@ -3402,8 +3414,8 @@
       </categories>
       <tags>
         <tag>辩论</tag>
-        <tag>贴图</tag>
         <tag>CCTV</tag>
+        <tag>贴图</tag>
         <tag>路一鸣</tag>
       </tags>
   </entry>
