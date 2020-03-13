@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="http://kangjian.net/"/>
-  <updated>2020-03-13T11:16:38.261Z</updated>
+  <updated>2020-03-13T11:19:12.938Z</updated>
   <id>http://kangjian.net/</id>
   
   <author>
@@ -16,11 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>解决 beorg 无法使用中文搜索的问题</title>
+    <title>解决 beorg 无法使用中文搜索 org-mode 文件的问题</title>
     <link href="http://kangjian.net//1718/"/>
     <id>http://kangjian.net//1718/</id>
     <published>2020-03-13T10:06:19.000Z</published>
-    <updated>2020-03-13T11:16:38.261Z</updated>
+    <updated>2020-03-13T11:19:12.938Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://kangjian.net/images/2020/2020-03-13-beorg-logo.png" alt=""></p>
 <p>在移动端使用 org-mode，beorg 和 orgzly 分别是 iOS 和 Android 系统的最佳选择。特别是 beorg，可以充分发挥 org-mode 在事务管理的用处。</p>
@@ -974,13 +974,13 @@
     
       <category term="技术分析" scheme="http://kangjian.net/tags/%E6%8A%80%E6%9C%AF%E5%88%86%E6%9E%90/"/>
     
+      <category term="价格" scheme="http://kangjian.net/tags/%E4%BB%B7%E6%A0%BC/"/>
+    
       <category term="价值投资" scheme="http://kangjian.net/tags/%E4%BB%B7%E5%80%BC%E6%8A%95%E8%B5%84/"/>
     
       <category term="Pullback" scheme="http://kangjian.net/tags/Pullback/"/>
     
       <category term="Alexander Elder" scheme="http://kangjian.net/tags/Alexander-Elder/"/>
-    
-      <category term="价格" scheme="http://kangjian.net/tags/%E4%BB%B7%E6%A0%BC/"/>
     
   </entry>
   

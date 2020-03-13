@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[解决 beorg 无法使用中文搜索的问题]]></title>
+    <title><![CDATA[解决 beorg 无法使用中文搜索 org-mode 文件的问题]]></title>
     <url>%2Fblog%2F%2F1718%2F</url>
     <content type="text"><![CDATA[在移动端使用 org-mode，beorg 和 orgzly 分别是 iOS 和 Android 系统的最佳选择。特别是 beorg，可以充分发挥 org-mode 在事务管理的用处。 唯一的遗憾是，beorg 无法进行中文搜索。以中文作为关键字，检索不出任何结果。 解决方法如下： 第一步，在 org-mode 的文件夹中新建 init.org 文件，文件内容是—— 1234* Init#+BEGIN_SRC scheme(set! filter-min-chars 2)#+END_SRC 第二步，关闭 beorg 进程，重新打开 beorg。也可以不关闭软件，在 REPL 界面下输入以下代码重新加载—— 1(load &apos;init) 此时，使用 f filename n keyword 的语法即可在专门文件中进行中文搜索。问题解决。 开发者介绍，问题源自搜索条件。beorg 内部设置，搜索的最低条件是 3 个字符，而这个设置对中文没有生效，反而使中文文本无法产生搜索结果。解决问题的方法是强制设置“最少 2 字符”的搜索条件，通过 init.org 加载。]]></content>
       <categories>
@@ -226,10 +226,10 @@
         <tag>以交易为生</tag>
         <tag>回撤</tag>
         <tag>技术分析</tag>
+        <tag>价格</tag>
         <tag>价值投资</tag>
         <tag>Pullback</tag>
         <tag>Alexander Elder</tag>
-        <tag>价格</tag>
       </tags>
   </entry>
   <entry>
@@ -354,8 +354,8 @@
       <tags>
         <tag>交易</tag>
         <tag>交易系统</tag>
-        <tag>Al Brooks</tag>
         <tag>入场</tag>
+        <tag>Al Brooks</tag>
         <tag>期货</tag>
         <tag>区间</tag>
         <tag>突破</tag>
@@ -370,8 +370,8 @@
       </categories>
       <tags>
         <tag>Al Brooks</tag>
-        <tag>反转</tag>
         <tag>交易者方程</tag>
+        <tag>反转</tag>
         <tag>尖峰</tag>
       </tags>
   </entry>
@@ -401,9 +401,9 @@
       </categories>
       <tags>
         <tag>交易</tag>
-        <tag>Al Brooks</tag>
         <tag>胜率</tag>
         <tag>趋势线</tag>
+        <tag>Al Brooks</tag>
         <tag>交易者方程</tag>
         <tag>支撑位</tag>
         <tag>梁启超</tag>
@@ -515,8 +515,8 @@
       </categories>
       <tags>
         <tag>交易</tag>
-        <tag>心态</tag>
         <tag>交易系统</tag>
+        <tag>心态</tag>
         <tag>趋势交易</tag>
         <tag>入场</tag>
         <tag>盈亏比</tag>
@@ -532,8 +532,8 @@
       </categories>
       <tags>
         <tag>交易</tag>
-        <tag>心态</tag>
         <tag>交易系统</tag>
+        <tag>心态</tag>
         <tag>交易员</tag>
         <tag>Al Brooks</tag>
       </tags>
@@ -546,8 +546,8 @@
         <category>Trading</category>
       </categories>
       <tags>
-        <tag>心态</tag>
         <tag>资金管理</tag>
+        <tag>心态</tag>
         <tag>不对称性</tag>
       </tags>
   </entry>
@@ -621,8 +621,8 @@
         <tag>茅海建</tag>
         <tag>顾准</tag>
         <tag>读书</tag>
-        <tag>读书笔记</tag>
         <tag>读书卡片</tag>
+        <tag>读书笔记</tag>
         <tag>木心</tag>
         <tag>DEVONthink</tag>
         <tag>atimelogger</tag>
@@ -707,8 +707,8 @@
       </categories>
       <tags>
         <tag>止损</tag>
-        <tag>交易系统</tag>
         <tag>Van Tharp</tag>
+        <tag>交易系统</tag>
         <tag>livermore</tag>
         <tag>亏损</tag>
         <tag>利润</tag>
@@ -739,8 +739,8 @@
       </categories>
       <tags>
         <tag>交易</tag>
-        <tag>心态</tag>
         <tag>交易系统</tag>
+        <tag>心态</tag>
         <tag>Charles Ellis</tag>
         <tag>冷爱比热爱更重要</tag>
         <tag>投资艺术</tag>
@@ -808,8 +808,8 @@
       </categories>
       <tags>
         <tag>交易</tag>
-        <tag>心态</tag>
         <tag>交易系统</tag>
+        <tag>心态</tag>
         <tag>佛法</tag>
         <tag>无为法</tag>
         <tag>有为法</tag>
@@ -847,14 +847,14 @@
       </categories>
       <tags>
         <tag>知乎</tag>
-        <tag>心态</tag>
         <tag>资金管理</tag>
         <tag>交易系统</tag>
-        <tag>收益率</tag>
+        <tag>心态</tag>
         <tag>交易圣经</tag>
         <tag>以交易为生</tag>
         <tag>恐惧</tag>
         <tag>投机智慧</tag>
+        <tag>收益率</tag>
         <tag>期货投资的命门</tag>
         <tag>贪婪</tag>
         <tag>金融交易学</tag>
@@ -869,9 +869,9 @@
       </categories>
       <tags>
         <tag>交易</tag>
-        <tag>交易系统</tag>
         <tag>SQN指数</tag>
         <tag>Van Tharp</tag>
+        <tag>交易系统</tag>
         <tag>圣杯</tag>
         <tag>标准差</tag>
         <tag>风险回报比</tag>
@@ -901,8 +901,8 @@
       <tags>
         <tag>交易</tag>
         <tag>一致性</tag>
-        <tag>心态</tag>
         <tag>交易系统</tag>
+        <tag>心态</tag>
         <tag>收益率</tag>
         <tag>目标</tag>
       </tags>
@@ -1173,9 +1173,9 @@
       </categories>
       <tags>
         <tag>知识管理</tag>
-        <tag>读书笔记</tag>
         <tag>filemaker</tag>
         <tag>读书卡片</tag>
+        <tag>读书笔记</tag>
         <tag>filemaker go</tag>
         <tag>DEVONthink</tag>
         <tag>PIM</tag>
@@ -1367,10 +1367,10 @@
         <tag>文学回忆录</tag>
         <tag>木心</tag>
         <tag>陈丹青</tag>
-        <tag>美术</tag>
-        <tag>苏格拉底</tag>
         <tag>宗教</tag>
+        <tag>美术</tag>
         <tag>耶稣</tag>
+        <tag>苏格拉底</tag>
       </tags>
   </entry>
   <entry>
@@ -1405,13 +1405,13 @@
         <tag>文学回忆录</tag>
         <tag>木心</tag>
         <tag>陈丹青</tag>
+        <tag>美术</tag>
+        <tag>苏格拉底</tag>
         <tag>乔达摩</tag>
         <tag>司马迁</tag>
         <tag>希特勒</tag>
         <tag>李聃</tag>
-        <tag>美术</tag>
         <tag>老子</tag>
-        <tag>苏格拉底</tag>
       </tags>
   </entry>
   <entry>
@@ -1469,9 +1469,9 @@
         <tag>十九札</tag>
         <tag>朱青生</tag>
         <tag>茅海建</tag>
-        <tag>读书笔记</tag>
         <tag>filemaker</tag>
         <tag>读书卡片</tag>
+        <tag>读书笔记</tag>
         <tag>iphone</tag>
         <tag>filemaker go</tag>
         <tag>ipad</tag>
@@ -1604,8 +1604,8 @@
       <tags>
         <tag>毛泽东</tag>
         <tag>大饥荒</tag>
-        <tag>大跃进</tag>
         <tag>农业中的力学问题</tag>
+        <tag>大跃进</tag>
         <tag>钱学森</tag>
       </tags>
   </entry>
@@ -1620,8 +1620,8 @@
         <tag>周恩来</tag>
         <tag>毛泽东</tag>
         <tag>大饥荒</tag>
-        <tag>人民日报</tag>
         <tag>大跃进</tag>
+        <tag>人民日报</tag>
         <tag>彭真</tag>
       </tags>
   </entry>
@@ -1937,8 +1937,8 @@
         <tag>Amazon</tag>
         <tag>kindle</tag>
         <tag>Kindle DXG</tag>
-        <tag>哥本中分</tag>
         <tag>读书</tag>
+        <tag>哥本中分</tag>
         <tag>读书笔记</tag>
       </tags>
   </entry>
@@ -1953,9 +1953,9 @@
         <tag>知识管理</tag>
         <tag>pdf</tag>
         <tag>kindle</tag>
-        <tag>读书</tag>
         <tag>filemaker</tag>
         <tag>徐子渔</tag>
+        <tag>读书</tag>
         <tag>读书卡片</tag>
         <tag>阅读</tag>
       </tags>
@@ -2074,8 +2074,6 @@
         <tag>笔记</tag>
         <tag>推拿</tag>
         <tag>毕飞宇</tag>
-        <tag>托克维尔</tag>
-        <tag>旧制度与大革命</tag>
         <tag>墓碑</tag>
         <tag>杨继绳</tag>
         <tag>Amazon</tag>
@@ -2085,6 +2083,8 @@
         <tag>从理想主义到经验主义</tag>
         <tag>十九札</tag>
         <tag>天朝的崩溃</tag>
+        <tag>托克维尔</tag>
+        <tag>旧制度与大革命</tag>
         <tag>曾经德隆</tag>
         <tag>朱青生</tag>
         <tag>王世渝</tag>
@@ -2882,9 +2882,9 @@
         <category>Daily</category>
       </categories>
       <tags>
-        <tag>软件</tag>
         <tag>Evernote</tag>
         <tag>知识管理</tag>
+        <tag>软件</tag>
       </tags>
   </entry>
   <entry>
@@ -2907,9 +2907,9 @@
         <category>Daily</category>
       </categories>
       <tags>
-        <tag>软件</tag>
         <tag>Evernote</tag>
         <tag>知识管理</tag>
+        <tag>软件</tag>
       </tags>
   </entry>
   <entry>
@@ -2944,8 +2944,8 @@
         <category>Daily</category>
       </categories>
       <tags>
-        <tag>人民大学</tag>
         <tag>贴图</tag>
+        <tag>人民大学</tag>
         <tag>咖啡</tag>
       </tags>
   </entry>
@@ -2981,8 +2981,8 @@
         <category>Daily</category>
       </categories>
       <tags>
-        <tag>人民大学</tag>
         <tag>贴图</tag>
+        <tag>人民大学</tag>
       </tags>
   </entry>
   <entry>
@@ -3089,8 +3089,8 @@
         <category>Daily</category>
       </categories>
       <tags>
-        <tag>北京国安</tag>
         <tag>足球</tag>
+        <tag>北京国安</tag>
       </tags>
   </entry>
   <entry>
@@ -3101,9 +3101,9 @@
         <category>Article</category>
       </categories>
       <tags>
-        <tag>足球</tag>
         <tag>切尔西</tag>
         <tag>穆里尼奥</tag>
+        <tag>足球</tag>
       </tags>
   </entry>
   <entry>
@@ -3305,8 +3305,8 @@
         <category>Daily</category>
       </categories>
       <tags>
-        <tag>人民大学</tag>
         <tag>贴图</tag>
+        <tag>人民大学</tag>
       </tags>
   </entry>
   <entry>
@@ -3453,8 +3453,8 @@
         <category>Article</category>
       </categories>
       <tags>
-        <tag>诗词</tag>
         <tag>杨帆凯</tag>
+        <tag>诗词</tag>
         <tag>辩论</tag>
       </tags>
   </entry>
@@ -3466,8 +3466,8 @@
         <category>Article</category>
       </categories>
       <tags>
-        <tag>历史</tag>
         <tag>诗词</tag>
+        <tag>历史</tag>
         <tag>陆机</tag>
       </tags>
   </entry>
